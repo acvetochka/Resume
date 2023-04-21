@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 /* main content styles */
@@ -17,21 +17,23 @@ body {
     padding: 50px 90px;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 .lang {
     text-align: right;
     margin-bottom: 50px;
 }
+
 .lang-link {
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 
 }
 
 /* about styles */
 .about {
-    width: 500px;
+    /* width: 500px; */
     margin-bottom: 40px;
-    }
+}
 
 .about-position {
     font-style: normal;
@@ -58,12 +60,14 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 400px;
+    /* width: 400px; */
 }
 
 /* projects styles */
-.projects, .work, .education  {
-    margin-bottom:  50px; 
+.projects,
+.work,
+.education {
+    margin-bottom: 50px;
 }
 
 .title {
@@ -76,7 +80,7 @@ body {
     margin-bottom: 10px;
 }
 
-.projects-list{
+.projects-list {
     padding: 0;
     margin-left: 15px;
 
@@ -90,7 +94,8 @@ body {
     color: #000000;
 }
 
-.project, .project-link {
+.project,
+.project-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -115,9 +120,11 @@ body {
 .work {
     margin-right: 100px;
 }
+
 .company-container {
     width: 550px;
 }
+
 .work-position {
     font-style: normal;
     font-weight: 700;
@@ -193,10 +200,11 @@ body {
 .sidebar {
     background-color: #1E2939;
     color: white;
+    margin-left: 0;
     /* padding-top: 40px; */
     width: 370px;
     border-top-left-radius: 25%;
-   }
+}
 
 .photo {
     width: 370px;
@@ -207,14 +215,14 @@ body {
 .sidebar-title {
     color: #FFF;
     font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
 }
 
-.contacts, 
-.tech-skills, 
+.contacts,
+.tech-skills,
 .soft-skills,
 .languages {
     margin-left: 40px;
@@ -243,7 +251,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #A8A8A8;
-    
+
 }
 
 .tech-skills-list,
