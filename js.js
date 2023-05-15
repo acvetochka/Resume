@@ -1414,7 +1414,20 @@
 // alphabetPosition("The narwhal bacons at midnight.");
 // //  "20 8 5 14 1 18 23 8 1 12 2 1 3 15 14 19 1 20 13 9 4 14 9 7 8 20"
 
-(() => {
-  let x = (y = 10);
-})();
-console.log(typeof y);
+// (() => {
+//   let x = (y = 10);
+// })();
+// console.log(typeof y);
+
+const formData = new FormData();
+// formData.append("key1", "value1");
+// formData.append("key2", "value2");
+
+// Display the keys
+for (const key of formData.keys()) {
+  console.log(key);
+}
+
+let x = [1, 2, 3];
+x.push(...[4, 5]);
+console.log(x);
