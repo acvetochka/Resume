@@ -3,6 +3,31 @@ body {
     background-color: #F5F7FA;
 }
 
+
+/* Скидання базових властивостей для посилань (a або клас .link */
+/* a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Скидання базових властивостей у списків (ul або клас .list) */
+ul {
+    /* list-style: none; */
+    padding: 0;
+    margin: 0;
+}
+
 /* main styles */
 .main {
     display: flex;
@@ -14,62 +39,67 @@ body {
 /* main content styles */
 .main-content {
     background-color: #FFF;
-    padding: 50px 90px;
+    padding: 0;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 0 50px;
+    margin-bottom: 30px;
 }
 
 .lang {
     text-align: right;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 .lang-link {
     text-decoration: none;
-    color: #000000;
+    color: inherit;
+}
 
+.lang-link:hover,
+.lang-link:focus {
+    font-weight: 700;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
 /* about styles */
 .about {
-    /* width: 500px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-bottom: 40px;
+    background: linear-gradient(90deg, rgb(137 151 204) 0%, rgba(89, 125, 164, 1) 35%, rgb(48 88 131) 100%);
 }
 
 .about-position {
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 22px;
     line-height: 17px;
-    color: #000000;
+    color: #fff;
     margin-bottom: 20px;
     margin-top: 0;
+    text-shadow: 0 0 2px #000000;
 }
 
 .about-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    color: #000000;
+    color: #fff;
     margin-bottom: 25px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
 .about-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
-    /* width: 400px; */
+    color: #fff;
+
 }
 
 /* projects styles */
-.projects,
-.work,
-.education {
-    margin-bottom: 50px;
-}
-
 .title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -77,83 +107,150 @@ body {
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    top: 35px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #595959;
+
+    /* z-index: 2; */
 }
 
 .projects-list {
     padding: 0;
-    margin-left: 15px;
+    margin-left: 20px;
+    list-style: none;
+    position: relative;
 
+}
+
+.projects-list::after {
+    position: absolute;
+    top: -10px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    color: gray;
+}
+
+.projects-list::before {
+    content: '';
+    width: 1px;
+    background: gray;
+    position: absolute;
+    height: calc(100% - 10px);
+    left: -20px;
+    top: 5px;
 }
 
 .project-item {
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #000000;
+    margin-bottom: 10px;
+    position: relative;
 }
 
-.project,
-.project-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.project-item::before {
+    content: '';
+    width: 10px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background: white;
+    position: absolute;
+    height: 10px;
+    left: -25px;
+    top: 5px;
+}
+
+.project {
+    font-weight: 700;
     color: #595959;
 }
 
 .project-link {
-    margin-left: 10px;
+    font-size: 16px;
+    color: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-link:hover {
+    color: rgb(48 88 131);
+    text-shadow: 0 0 1px rgb(48 88 131);
+    text-decoration: none;
 }
 
 .project-bracket {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #000000;
 }
 
 /* work styles */
-
-.work {
-    margin-right: 100px;
+.company-list {
+    list-style: none;
+    position: relative;
+    margin-left: 20px;
 }
 
-.company-container {
-    width: 550px;
+.company-list::before {
+    content: '';
+    width: 1px;
+    background: gray;
+    position: absolute;
+    height: calc(100% - 10px);
+    left: -20px;
+    top: 5px;
+}
+
+.company-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.company-item:last-child {
+    margin-bottom: 0;
+}
+
+.company-item::before {
+    content: '';
+    width: 10px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background: white;
+    position: absolute;
+    height: 10px;
+    left: -25px;
+    top: 5px;
 }
 
 .work-position {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #737373;
     margin-bottom: 10px;
 }
 
 .company {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
-    color: #FB6D3A;
+    margin-bottom: 10px;
 }
 
 .period {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #737373;
     margin-bottom: 10px;
 }
 
 .line {
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #000000;
@@ -178,12 +275,46 @@ body {
     margin: auto;
 }
 
+.education-list {
+    list-style: none;
+    position: relative;
+    margin-left: 20px;
+}
+
+.education-list::before {
+    content: '';
+    width: 1px;
+    background: gray;
+    position: absolute;
+    height: calc(100% - 10px);
+    left: -20px;
+    top: 5px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.education-item::before {
+    content: '';
+    width: 10px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background: white;
+    position: absolute;
+    height: 10px;
+    left: -25px;
+    top: 5px;
+}
+
 .education-uni {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #737373;
     margin: 0 0 10px 0;
 }
 
@@ -192,24 +323,26 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    color: #000000;
+    color: #737373;
     margin: 0 0 10px 0;
 }
 
 /* sidebars styles */
 .sidebar {
-    background-color: #1E2939;
+    background-color: #595c61;
     color: white;
+    padding: 40px;
+    padding-right: 0;
     margin-left: 0;
-    /* padding-top: 40px; */
-    width: 370px;
-    border-top-left-radius: 25%;
+    width: 400px;
 }
 
 .photo {
-    width: 370px;
-    margin-bottom: 50px;
-    border-radius: 25% 0 25% 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .sidebar-title {
@@ -218,26 +351,33 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sidebar-title::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 1px;
+    background: white;
 }
 
 .contacts,
 .tech-skills,
 .soft-skills,
 .languages {
-    margin-left: 40px;
+    padding-left: 10px;
 }
 
-.contacts {
-    margin-bottom: 50px;
-}
-
-.tech-skills {
-    margin-bottom: 45px;
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-bottom: 40px;
 }
 
 .contact-type {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -246,12 +386,16 @@ body {
 }
 
 .contact-link {
-    font-style: normal;
-    font-weight: 400;
+    display: block;
     font-size: 14px;
     line-height: 24px;
-    color: #A8A8A8;
+    color: white;
+    text-decoration: none;
+}
 
+.contact-link:hover,
+.contact-link:focus {
+    font-weight: 700;
 }
 
 .tech-skills-list,
@@ -262,17 +406,9 @@ body {
     margin-left: 18px;
 }
 
-.tech-skills-item,
-.soft-skills-item,
-.languages-item {
-    color: #FB6D3A;
-}
-
 .tech-skills-text,
 .soft-skills-text,
 .languages-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #FFF;
