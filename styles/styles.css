@@ -67,8 +67,8 @@ ul {
 
 /* about styles */
 .about {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-bottom: 40px;
     background: linear-gradient(90deg, rgb(137 151 204) 0%, rgba(89, 125, 164, 1) 35%, rgb(48 88 131) 100%);
 }
