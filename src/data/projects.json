@@ -21,8 +21,8 @@
   },
   {
     "title": "Goose Track",
-    "src": "https://acvetochka.github.io/Phonebook/",
-    "github": "https://nazarmural.github.io/goose-track-project/",
+    "src": "https://nazarmural.github.io/goose-track-project/",
+    "github": "https://github.com/acvetochka/goose-track-project",
     "technologies": [
       "React JS",
       "Redux Toolkit",
