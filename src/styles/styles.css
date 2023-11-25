@@ -29,7 +29,7 @@ ul {
 }
 
 /* main styles */
-.main {
+main {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
