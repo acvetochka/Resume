@@ -1,0 +1,22 @@
+[
+  {
+    "title": "English",
+    "level": "Pre-Intermediate",
+    "cefr": "A2"
+  },
+  {
+    "title": "German",
+    "level": "Intermediate",
+    "cefr": "B1"
+  },
+  {
+    "title": "Ukrainian",
+    "level": "Native",
+    "cefr": "C2"
+  },
+  {
+    "title": "Russian",
+    "level": "Proficiency",
+    "cefr": "C2"
+  }
+]
