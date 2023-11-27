@@ -1,0 +1,36 @@
+[
+  {
+    "src": "tel:+4915141896120",
+    "text": "+49(151)418-96-120",
+    "target": "_self"
+  },
+  {
+    "src": "mailto:acvetochka@gmail.com",
+    "text": "acvetochka@gmail.com",
+    "target": "_self"
+  },
+  {
+    "src": "https://t.me/acvetochka",
+    "text": "Telegram",
+    "target": "_blank",
+    "rel": "noopener noreferrer nofollow"
+  },
+  {
+    "src": "https://wa.me/30961270693",
+    "text": "WhatsApp",
+    "target": "_blank",
+    "rel": "noopener noreferrer nofollow"
+  },
+  {
+    "src": "https://www.linkedin.com/in/alona-kuznietsova/",
+    "text": "LinkedIn",
+    "target": "_blank",
+    "rel": "noopener noreferrer nofollow"
+  },
+  {
+    "src": "https://github.com/acvetochka",
+    "text": "GitHub",
+    "target": "_blank",
+    "rel": "noopener noreferrer nofollow"
+  }
+]

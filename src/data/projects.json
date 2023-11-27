@@ -2,7 +2,7 @@
   {
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
-    "github": "https://github.com/acvetochka/car-renta",
+    "github": "https://github.com/acvetochka/car-rental",
     "technologies": ["React JS", " Redux Toolkit", " Axios"],
     "description": [
       "React-App",
