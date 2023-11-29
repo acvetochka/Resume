@@ -1,0 +1,33 @@
+.about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, rgb(137 151 204) 0%, rgba(89, 125, 164, 1) 35%, rgb(48 88 131) 100%);
+}
+
+.about-position {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-shadow: 0 0 2px #000000;
+}
+
+.about-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+.about-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-align: justify;
+
+}

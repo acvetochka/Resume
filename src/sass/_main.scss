@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+
+/* Скидання базових властивостей для посилань (a або клас .link */
+/* a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Скидання базових властивостей у списків (ul або клас .list) */
+ul {
+    /* list-style: none; */
+    padding: 0;
+    margin: 0;
+}
+
+/* main styles */
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+}
+
+/* main content styles */
+.main-content {
+    background-color: #FFF;
+    padding: 0;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+
+.lang {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.lang-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lang-link:hover,
+.lang-link:focus {
+    font-weight: 700;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    top: 35px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #595959;
+}

@@ -1,14 +1,7 @@
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
 }
-
-
-/* Скидання базових властивостей для посилань (a або клас .link */
-/* a {
-    text-decoration: none;
-    color: inherit;
-} */
 
 h1,
 h2,
@@ -21,15 +14,14 @@ p {
     padding: 0;
 }
 
-/* Скидання базових властивостей у списків (ul або клас .list) */
 ul {
-    /* list-style: none; */
     padding: 0;
     margin: 0;
 }
 
+*/
 /* main styles */
-main {
+/* main {
     display: flex;
     flex-direction: row-reverse;
     max-width: 1200px;
@@ -42,19 +34,22 @@ main {
     }
 
 }
+*/
 /* main content styles */
-.main-content {
+/* .main-content {
     background-color: #FFF;
     padding: 0;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.section {
+*/
+/* .section {
     padding: 0 50px;
     margin-bottom: 30px;
 }
 
-.lang {
+*/
+/* .lang {
     text-align: right;
     margin-bottom: 10px;
     color: #fff;
@@ -71,8 +66,9 @@ main {
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
 }
 
+*/
 /* about styles */
-.about {
+/* .about {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 40px;
@@ -106,35 +102,15 @@ main {
 
 }
 
+*/
 /* projects styles */
-.title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 20px;
-    position: relative;
-}
 
-.title::before {
-    position: absolute;
-    top: 35px;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background: #595959;
-
-    /* z-index: 2; */
-}
-
+/* 
 .projects-list {
     padding: 0;
     margin-left: 20px;
     list-style: none;
     position: relative;
-
 }
 
 .projects-list::after {
@@ -180,13 +156,10 @@ main {
     font-weight: 700;
     color: #595959;
     display: flex;
-        align-items: center;
+    align-items: center;
         gap: 10px;
 }
 
-/* .project-link-group {
-
-} */
 .project-link {
     font-size: 16px;
     color: inherit;
@@ -203,19 +176,9 @@ main {
 .project-text {
     text-align: justify;
     margin-bottom: 5px;
-}
-
-/* .project-icon {
-
-}
-
-.project-icon {
-    fill: currentColor;
 } */
 
-.github-icon {
-    /* max-width: 100%;
-    max-height: 100%; */
+/* .github-icon {
     width: 20px;
     height: 20px;
     transform: scale(1);
@@ -227,14 +190,14 @@ main {
     transform: scale(1.2);
 }
 .project-bracket {
-    /* font-size: 16px;
-                                                            line-height: 24px; */
+    line-height: 24px;
         color: #737373;
         font-weight: 700;
 }
 
+*/
 /* work styles */
-.company-list {
+/* .company-list {
     list-style: none;
     position: relative;
     margin-left: 20px;
@@ -313,8 +276,9 @@ main {
     text-align: justify;
 }
 
+*/
 /* education styles*/
-.education {
+/* .education {
     margin: auto;
 }
 
@@ -370,8 +334,9 @@ main {
     margin: 0 0 10px 0;
 }
 
+*/
 /* sidebars styles */
-.sidebar {
+/* .sidebar {
     background-color: #595c61;
     color: white;
     padding: 40px;
@@ -466,3 +431,5 @@ main {
     line-height: 24px;
     color: #FFF;
 }
+
+*/
