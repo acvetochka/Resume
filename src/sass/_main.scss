@@ -30,23 +30,25 @@ ul {
 
 /* main styles */
 main {
-    display: flex;
-    flex-direction: row-reverse;
+    // display: flex;
+        // flex-direction: row-reverse;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.main-container {
+    display: flex;
+}
 @media screen and (max-width: 768px) {
-    main {
-        flex-direction: column-reverse;
+    .main-container {
+            flex-direction: column;
     }
 
 }
-
 /* main content styles */
 .main-content {
     background-color: #FFF;
-    padding: 0;
+    padding: 40px 0;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
