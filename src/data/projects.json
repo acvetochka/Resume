@@ -1,5 +1,15 @@
 [
   {
+    "title": "SmileBar",
+    "src": "https://smilebarlviv.com/",
+    "github": "https://github.com/SoftRyzen-internship/smile_bar",
+    "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
+    "description": [
+      "Commercial team project by SoftRyzen. Role: Developer",
+      "Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
+    ]
+  },
+  {
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
