@@ -1,10 +1,9 @@
 .sidebar {
     background-color: #595c61;
     color: white;
-    padding: 40px;
-    padding-right: 0;
+    padding: 40px 0 30px 30px;
     margin-left: 0;
-    width: 500px;
+    min-width: 320px;
 }
 
 @media screen and (max-width: 768px) {
