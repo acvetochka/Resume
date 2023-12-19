@@ -1,0 +1,88 @@
+[
+  {
+    "title": "SmileBar",
+    "src": "https://smilebarlviv.com/",
+    "github": "https://github.com/SoftRyzen-internship/smile_bar",
+    "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
+    "description": [
+      "Kommerzielles Teamprojekt von SoftRyzen. Rolle: Entwickler",
+      "Responsive, plattformübergreifende Website für ein professionelles Studio für Zahnreinigung in Lwiw. Es verwendet das Sanity-Verwaltungspanel und einen Telegram-Chatbot."
+    ]
+  },
+  {
+    "title": "Car Rental",
+    "src": "https://acvetochka.github.io/car-rental",
+    "github": "https://github.com/acvetochka/car-rental",
+    "technologies": ["React JS", " Redux Toolkit", " Axios"],
+    "description": [
+      "React-App",
+      "Autovermietungswebsite. Auf der Website wurde die Möglichkeit zur Filterung von Autos und dem Hinzufügen zu den Favoriten umgesetzt. Das Projekt verwendete Emotion-Styles."
+    ]
+  },
+  {
+    "title": "Carp Travel",
+    "src": "https://carp-travel-xi.vercel.app",
+    "github": "https://github.com/acvetochka/carp-travel",
+    "technologies": ["React JS", " Next.js", " Vercel"],
+    "description": [
+      "React-App mit Next.js",
+      "Die Website dient als Visitenkarte für aktive Erholung in den Karpaten. Merkmale: responsives Design, Integration von Swiper. Das Projekt verwendete Tailwind CSS und React Hook Form."
+    ]
+  },
+  {
+    "title": "Goose Track",
+    "src": "https://nazarmural.github.io/goose-track-project/",
+    "github": "https://github.com/acvetochka/goose-track-project",
+    "technologies": [
+      "React JS",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "description": [
+      "Teamprojekt. Rolle: Frontend Team Lead, Scrum Master, Entwickler.",
+      "Anwendungsmanagement für den Veranstaltungskalender! Das Projekt verfügt über Google-Autorisierung und ist stilisiert mit Emotion-Styles."
+    ]
+  },
+  {
+    "title": "Phonebook",
+    "src": "https://acvetochka.github.io/Phonebook/",
+    "github": "https://github.com/acvetochka/Phonebook",
+    "technologies": ["React JS", "Redux Toolkit", "Axios"],
+    "description": [
+      "React-App",
+      "Anwendung zur Speicherung von Kontakten mit Autorisierung. Das Projekt verwendete Emotion-Styles."
+    ]
+  },
+  {
+    "title": "Booksheft",
+    "src": "https://nazarmural.github.io/project-bookshelf/",
+    "github": "https://github.com/NazarMural/project-bookshelf",
+    "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
+    "description": [
+      "Teamproject. Rolle: Entwickler. ",
+      "Plattform zum Suchen und Kaufen von Büchern. Website mit responsivem Layout. App-Komponente mit öffentlichen und privaten Routen sowie Logik für die Authentifizierungsseite."
+    ]
+  },
+  {
+    "title": "Mimino",
+    "src": "https://acvetochka.github.io/mimino/",
+    "github": "https://github.com/acvetochka/mimino/",
+    "technologies": ["HTML", "SASS", "JS", "Parcel"],
+    "description": [
+      "Teamprojekt. Rolle: Team Lead, Entwickler.",
+      "Website des Hotel- und Restaurantkomplexes. Eine adaptive Layout- und adaptive Grafik wurden umgesetzt. Das Projekt wurde auf GitHub erstellt, auf Build-Fehler überprüft und die Leistung der Live-Seite überwacht."
+    ]
+  },
+  {
+    "title": "WebStudio",
+    "src": "https://acvetochka.github.io/WebStudio/",
+    "github": "https://github.com/acvetochka/WebStudio/",
+    "technologies": ["HTML5", "SASS", "BEM", "JS"],
+    "description": [
+      "Einzelprojekt",
+      "Visitenkarten-Website. Im Projekt wurden ein adaptives Layout und adaptive Grafiken implementiert."
+    ]
+  }
+]

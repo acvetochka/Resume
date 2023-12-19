@@ -2,6 +2,8 @@
   {
     "name": "Alona Kuznietsova",
     "position": "Junior Frontend Developer",
-    "description": "I am a Front-End developer. I focus on HTML, CSS, JavaScript, React and am constantly expanding my knowledge in this area. I have experience with SASS preprocessor, BEM methodology, Tailwind CSS and Emotion-styles. I can create adaptive layout and use adaptive graphics in projects. I have experience working as a Team leader and as a Scrum Master in a team project. I can search for and use information from various sources. I am able to quickly learn new activities, easily master the work in new computer programs. I have an analytical mindset. I have experience in remote work."
+    "description": "I am a Frontend developer, focusing on HTML, CSS, JavaScript, and React, and I am constantly expanding my knowledge in this area. I have experience with the SASS preprocessor, BEM methodology, Tailwind CSS, and Emotion-styles. I can create adaptive layouts and use adaptive graphics in projects. Additionally, I have experience working as a Team Leader and as a Scrum Master in a team project. I am proficient in searching for and using information from various sources. I am able to quickly learn new activities and easily adapt to working with new computer programs. I possess an analytical mindset and have experience in remote work.",
+    "link": "./de.html",
+    "lang": "DE"
   }
 ]

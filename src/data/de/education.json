@@ -1,0 +1,22 @@
+[
+  {
+    "uni": "Odessa Nationale Akademie für Kommunikation",
+    "date": "September 2006 - Juny 2010",
+    "location": "Odessa, Ukraine",
+    "spec": "Telekommunikation Ingenieur",
+    "degree": "Master Abschluss"
+  },
+  {
+    "uni": "IT School GoIT",
+    "date": "November 2022 - Oktober 2023",
+    "location": "Kiew, Ukraine",
+    "spec": "Fullstack Developer"
+  },
+  {
+    "uni": "Europäische Universität",
+    "date": "September 2020 - Dezember 2021",
+    "location": "Kiew, Ukraine",
+    "spec": "Jura",
+    "degree": "Master Abschluss"
+  }
+]

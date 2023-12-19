@@ -1,4 +1,5 @@
 .about {
+    position: relative;
     display: flex;
         gap: 50px;
     padding-top: 40px;
@@ -27,7 +28,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo {
+    .photo-wrapper {
         display: none;
     }
 }
