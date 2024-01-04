@@ -2,13 +2,15 @@
     margin: auto;
 }
 
-.education-list {
+.education-list,
+.addition-list {
     list-style: none;
     position: relative;
     margin-left: 20px;
 }
 
-.education-list::before {
+.education-list::before,
+.addition-list::before {
     content: '';
     width: 1px;
     background: gray;
