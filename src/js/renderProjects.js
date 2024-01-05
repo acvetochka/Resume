@@ -60,39 +60,11 @@ function renderProjects() {
   const firstProjects = projects.slice(0, 3);
   const additionProjects = projects.slice(3);
 
-  // const markupFirstProjects =
   render(firstProjects, projectList);
   renderButton();
   render(additionProjects, moreProjectList);
-
-  // console.log(button);
-  // const markup = projects
-  //   .map(({ title, src, github, technologies, description }) => {
-  //     return `
-  //         <li class="project-item">
-  //           <div class="project">
-  //             <a href=${github} target="_blank" class="project-link">
-  //              <svg width="20" height="20" class="github-icon">
-  //               <use width="20" height="20" href="${gitIcon}#icon-github" />
-  //              </svg>
-  //             </a>
-  //             <a href=${src} target="_blank" class="project-link">${title}</a>
-  //           </div>
-  //           ${description
-  //             .map(item => `<p class="project-text">${item}</p>`)
-  //             .join('')}
-  //           <p class="project-bracket"> Technologies: ${technologies
-  //             .map(item => `${item}`)
-  //             .join(', ')}  </p>
-  //         </li>`;
-  //   })
-  //   .join('');
-  // // projectList.innerHTML = markup;
-  // projectList.insertAdjacentHTML('beforeend', markup);
 }
 
 renderProjects();
 
-// <div class="project-link-group"></div>
-// <img class="project-icon" alt="github icon" src=${gitIcon} width="20" height="20"/>
-// <div width="20" height="20"></div>
+
