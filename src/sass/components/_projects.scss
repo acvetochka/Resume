@@ -1,4 +1,5 @@
-.projects-list {
+.projects-list,
+.more-projects-list {
     padding: 0;
     margin-left: 20px;
     list-style: none;
@@ -6,7 +7,27 @@
 
 }
 
-.projects-list::after {
+.more-projects-list {
+    display: none;
+}
+
+.button-more {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;
+
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+        color: rgb(48 88 131);
+    }
+}
+
+
+.projects-list::after,
+.more-projects-list::after {
     position: absolute;
     top: -10px;
     content: '';
@@ -15,7 +36,8 @@
     color: gray;
 }
 
-.projects-list::before {
+.projects-list::before,
+.more-projects-list::before {
     content: '';
     width: 1px;
     background: gray;
