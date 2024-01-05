@@ -1,19 +1,20 @@
 // import eduEn from '../data/education.json';
 // import eduDe from '../data/de/education.json';
-import addition from '../data/de/addition.json';
+import addDe from '../data/de/addition.json';
+import addEn from '../data/addition.json';
 
 const additionList = document.querySelector('.addition-list');
 const currentURL = window.location.href;
-// let edu = eduEn;
+let add = addEn;
 
 function renderAddition() {
-  // if (currentURL.includes('de.html')) {
-  //   edu = eduDe;
-  // } else {
-  //   edu = eduEn;
-  // }
+  if (currentURL.includes('de.html')) {
+    add = addDe;
+  } else {
+    add = addEn;
+  }
 
-  const markup = addition
+  const markup = add
     .map(({ name, location, date, degree }) => {
       const deg = degree => {
         if (degree) {
