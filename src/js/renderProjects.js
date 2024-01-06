@@ -33,22 +33,43 @@ function render(arr, projects) {
   projects.innerHTML = markup;
 }
 
+
+
 function renderButton() {
   const buttonSeeMore = () => {
-    return `<li><button class="button-more">See more</button></li>`;
+    return `<li><button class="button-more">See more projects</button></li>`;
   };
 
   projectList.insertAdjacentHTML('beforeend', buttonSeeMore());
 
   const button = document.querySelector('.button-more');
+  // const buttonHidden = document.querySelector('.button-hidden');
 
   button.addEventListener('click', handleClick);
 
-  function handleClick(e) {
+  function handleClick() {
     button.style.display = 'none';
     moreProjectList.style.display = 'block';
+    // buttonHidden.style.display = 'block';
   }
 }
+
+// function renderButtonHidden() {
+//   const buttonHidden = () => {
+//     return `<li><button class="button-hidden">Hidden</button></li>`;
+//   };
+
+//   moreProjectList.insertAdjacentHTML('afterend', buttonHidden());
+//   const button = document.querySelector('.button-hidden');
+
+//   button.addEventListener('click', handleClick);
+
+//   function handleClick() {
+//     // button.style.display = 'none';
+//     moreProjectList.style.display = 'none';
+//     button.style.display = 'none';
+//   }
+// }
 
 function renderProjects() {
   if (currentURL.includes('de.html')) {
@@ -61,6 +82,7 @@ function renderProjects() {
   const additionProjects = projects.slice(3);
 
   render(firstProjects, projectList);
+  // renderButtonHidden();
   renderButton();
   render(additionProjects, moreProjectList);
 }
