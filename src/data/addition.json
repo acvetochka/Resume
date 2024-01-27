@@ -1,5 +1,11 @@
 [
   {
+    "name": "Google Digital Marketing and e-Commerce",
+    "location": "Coursera",
+    "date": "01/2024 - today",
+    "degree": "Digital Marketing and e-Commerce"
+  },
+  {
     "name": "German course for work - B2",
     "location": "Inlingua Memmingen, Memmingen (Germany)",
     "date": "12/2023 - today",
@@ -8,7 +14,8 @@
   {
     "name": "Google IT-Support",
     "location": "Coursera",
-    "date": "12/2023 - today"
+    "date": "12/2023 - 01/2024",
+    "degree": "Professional Certificate IT Support"
   },
   {
     "name": "German integration course",
