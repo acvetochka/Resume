@@ -6,6 +6,7 @@
   "JavaScript",
   "TypeScript",
   "REST API",
+  "JSON/Yaml",
   "Axios",
   "WebPack",
   "Parcel",
@@ -13,5 +14,7 @@
   "Next.js",
   "Node.js",
   "MongoDB",
-  "Express.js"
+  "Express.js",
+  "Markdown",
+  "Swagger"
 ]
