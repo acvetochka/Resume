@@ -2,6 +2,8 @@
 
 This repository contains a website with my resume. The website is created to showcase my skills, experience, and education as a web developer.
 
+The summary is written in two languages ​​- English and German
+
 ## Preview
 
 You can view the website by following this link: [Resume Link](https://acvetochka.github.io/Resume/)
