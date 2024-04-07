@@ -1,5 +1,3 @@
-// import eduEn from '../data/education.json';
-// import eduDe from '../data/de/education.json';
 import addDe from '../data/de/addition.json';
 import addEn from '../data/addition.json';
 
