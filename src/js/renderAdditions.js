@@ -23,9 +23,9 @@ function renderAddition() {
       };
 
       return `<li class="education-item">
-            <h4 class="education-uni">${name}</h4>
+            <h4 class="education-course">${name}</h4>
             <p class="period">${date}<span class="line"> | </span>${location}</p>
-            <p class="education-spec">
+            <p class="education-add-spec">
         ${deg(degree)}</p>
           </li>`;
     })

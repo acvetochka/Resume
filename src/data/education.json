@@ -1,22 +1,23 @@
 [
   {
     "uni": "Odesa National Academy of Telecommunications O.S. Popov",
-    "date": "September 2006 - Juny 2010",
+    "date": "10/2006 - 06/2010",
     "location": "Odessa, Ukraine",
     "spec": "Telecommunication engineer",
-    "degree": "Master's degree"
+    "degree": "Master of Telecommunication"
   },
   {
     "uni": "IT School GoIT",
-    "date": "November 2022 - October 2023",
+    "date": "11/2022 - 10/2023",
     "location": "Kyiv, Ukraine",
-    "spec": "Fullstack Developer"
+    "spec": "Fullstack Developer",
+    "degree": "Fullstack Developer"
   },
   {
     "uni": "European University",
-    "date": "September 2020 - December 2021",
+    "date": "09/2020 - 12/2021",
     "location": "Kyiv, Ukraine",
     "spec": "Law ",
-    "degree": "Master's degree"
+    "degree": "Master of Law"
   }
 ]

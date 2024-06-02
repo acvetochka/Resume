@@ -40,6 +40,15 @@
 
 .education-uni {
     font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737373;
+    margin: 0 0 10px 0;
+}
+
+.education-spec, .education-course {
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -47,11 +56,14 @@
     margin: 0 0 10px 0;
 }
 
-.education-spec {
-    font-style: normal;
+.course {
     font-weight: 700;
+}
+
+.education-add-spec {
+    font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #737373;
-    margin: 0 0 10px 0;
+
 }

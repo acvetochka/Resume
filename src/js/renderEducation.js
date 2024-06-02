@@ -23,14 +23,14 @@ function renderEducation() {
       };
 
       return `<li class="education-item">
-            <h4 class="education-uni">${uni}</h4>
-            <p class="period">${date}<span class="line"> | </span>${location}</p>
-            <p class="education-spec">${spec}
-        ${deg(degree)}</p>
-          </li>`;
+      <p class="education-spec">${degree}
+      <h4 class="education-uni">${uni}</h4>
+      <p class="period">${date}<span class="line"> | </span>${location}</p>
+      </li>`;
     })
     .join('');
-
+    
+    // ${deg(degree)}</p>
   eduList.innerHTML = markup;
 }
 
