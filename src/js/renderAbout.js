@@ -13,8 +13,6 @@ function renderAbout() {
     aboutData = about;
   }
 
-  console.log(currentURL);
-
   const markup = aboutData
     .map(
       ({ name, position, description, link, lang }) => `
