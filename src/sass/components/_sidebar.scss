@@ -1,6 +1,8 @@
 .sidebar {
     background-color: #595c61;
+    background-color: #c6c5c5;
     color: white;
+    color: #323b4c;
     padding: 40px 0 30px 30px;
     margin-left: 0;
     min-width: 320px;
@@ -16,6 +18,7 @@
 
 .sidebar-title {
     color: #FFF;
+    color: #323b4c;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -31,27 +34,34 @@
     width: 100%;
     height: 1px;
     background: white;
+    background: #323b4c;
 }
 
 .contacts,
 .tech-skills,
 .soft-skills,
-.languages {
+.languages,
+.sidebar .education {
     padding-left: 10px;
-}
-
-.contacts,
-.tech-skills,
-.soft-skills,
-.languages {
     margin-bottom: 40px;
 }
+
+.tech-skills {
+    overflow-x: hidden;
+}
+
+// .contacts,
+// .tech-skills,
+// .soft-skills,
+// .languages {
+// }
 
 .contact-type {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    color: #FFF;
+    // color: #FFF;
+    color: #323b4c;
     margin-right: 8px;
 }
 
@@ -63,7 +73,8 @@
     display: block;
     font-size: 14px;
     line-height: 24px;
-    color: white;
+    // color: white;
+    color: #323b4c;
     text-decoration: none;
     color: inherit;
 }
@@ -75,17 +86,48 @@
 
 .tech-skills-list,
 .soft-skills-list,
-.languages-list {
-    color: #FFF;
+.languages-list,
+.education-list-sidebar,
+.addition-list-sidebar {
+    // color: #FFF;
+    color: #323b4c;
     padding: 0px;
     margin-left: 18px;
     padding-right: 18px;
 }
 
+.tech-skills-list {
+    width: 400px;
+    // overflow: hidden;
+}
+
+.tech-skills-list li {
+    width: 40%;
+    float: left;
+}
+
 .tech-skills-text,
 .soft-skills-text,
-.languages-text {
+.languages-text,
+.education-item {
     font-size: 14px;
     line-height: 24px;
-    color: #FFF;
+    // color: #FFF;
+    color: #323b4c;
+}
+
+a {
+    color: inherit;
+    transition: color .25s cubic-bezier(.4, 0, .2, 1), text-shadow .25s cubic-bezier(.4, 0, .2, 1), text-decoration .25s cubic-bezier(.4, 0, .2, 1);
+}
+a:hover {
+    color: #305883;
+    text-shadow: 0 0 1px #305883;
+    text-decoration: none;
+}
+
+.education-course {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
 }

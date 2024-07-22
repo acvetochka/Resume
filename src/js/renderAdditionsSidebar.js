@@ -1,11 +1,11 @@
 import addDe from '../data/de/addition.json';
 import addEn from '../data/addition.json';
 
-const additionList = document.querySelector('.addition-list');
+const additionList = document.querySelector('.addition-list-sidebar');
 const currentURL = window.location.href;
 let add = addEn;
 
-function renderAddition() {
+function renderAdditionSidebar() {
   if (currentURL.includes('de.html')) {
     add = addDe;
   } else {
@@ -13,7 +13,7 @@ function renderAddition() {
   }
 
   const markup = add
-    .map(({ name, location, period, degree }) => {
+    .map(({ name, location, href, date, period, degree }) => {
       const deg = degree => {
         if (degree) {
           return 'Abschluss: ' + degree;
@@ -23,10 +23,8 @@ function renderAddition() {
       };
 
       return `<li class="education-item">
-            <h4 class="education-course">${name}</h4>
-            <p class="period">${period}<span class="line"> | </span>${location}</p>
-            <p class="education-add-spec">
-        ${deg(degree)}</p>
+      <span>
+            <a href=${href} class="education-course">${degree}</a> - ${date}</span>
           </li>`;
     })
     .join('');
@@ -34,4 +32,4 @@ function renderAddition() {
   additionList.innerHTML = markup;
 }
 
-renderAddition();
+renderAdditionSidebar();

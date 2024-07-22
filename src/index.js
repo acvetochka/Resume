@@ -6,3 +6,5 @@ import './js/renderSkills';
 import './js/renderLanguages';
 import './js/renderContacts';
 import './js/renderAdditions';
+import './js/renderAdditionsSidebar';
+import './js/renderEducationSidebar';

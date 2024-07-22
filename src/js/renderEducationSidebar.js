@@ -1,7 +1,7 @@
 import eduEn from '../data/education.json';
 import eduDe from '../data/de/education.json';
 
-const eduList = document.querySelector('.education-list');
+const eduList = document.querySelector('.education-list-sidebar');
 const currentURL = window.location.href;
 let edu = eduEn;
 
