@@ -57,13 +57,26 @@ main {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 467px) {
+    .section {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 468px) and (max-width: 768px) {
+.section {
+    padding: 0 40px;
+}
+}
+
 .lang {
     text-align: right;
     margin-bottom: 10px;
     color: #fff;
     position: absolute;
         top: 20px;
-        right: 50px;
+        // right: 50px;
+        right: 0;
 }
 
 .lang-link {

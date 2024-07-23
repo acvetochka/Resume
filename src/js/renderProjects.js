@@ -33,6 +33,8 @@ function render(arr, projects) {
   projects.innerHTML = markup;
 }
 
+render(projects, projectList)
+
 
 
 function renderButton() {
@@ -71,22 +73,23 @@ function renderButton() {
 //   }
 // }
 
-function renderProjects() {
-  if (currentURL.includes('de.html')) {
-    projects = projectsDe;
-  } else {
-    projects = projectsEn;
-  }
+// function renderProjects() {
+//   if (currentURL.includes('de.html')) {
+//     projects = projectsDe;
+//   } else {
+//     projects = projectsEn;
+//   }
 
-  const firstProjects = projects.slice(0, 3);
-  const additionProjects = projects.slice(3);
+//   // const firstProjects = projects.slice(0, 3);
+//   // const additionProjects = projects.slice(3);
 
-  render(firstProjects, projectList);
-  // renderButtonHidden();
-  renderButton();
-  render(additionProjects, moreProjectList);
-}
+//   // render(firstProjects, projectList);
+//   // // renderButtonHidden();
+//   // renderButton();
+//   // render(additionProjects, moreProjectList);
+//   render(projects, projectList)
+// }
 
-renderProjects();
+// renderProjects();
 
 

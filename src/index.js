@@ -1,10 +1,10 @@
 import './js/renderAbout';
 import './js/renderProjects';
 import './js/renderWorkExperience';
-import './js/renderEducation';
+// import './js/renderEducation';
 import './js/renderSkills';
 import './js/renderLanguages';
 import './js/renderContacts';
-import './js/renderAdditions';
+// import './js/renderAdditions';
 import './js/renderAdditionsSidebar';
 import './js/renderEducationSidebar';

@@ -13,18 +13,18 @@ function renderAdditionSidebar() {
   }
 
   const markup = add
-    .map(({ name, location, href, date, period, degree }) => {
-      const deg = degree => {
-        if (degree) {
-          return 'Abschluss: ' + degree;
-        } else {
-          return '';
-        }
-      };
+    .map(({  href, date, degree }) => {
+      // const deg = degree => {
+      //   if (degree) {
+      //     return 'Abschluss: ' + degree;
+      //   } else {
+      //     return '';
+      //   }
+      // };
 
       return `<li class="education-item">
       <span>
-            <a href=${href} class="education-course">${degree}</a> - ${date}</span>
+            <a href=${href} rel="noopener noreferrer nofollow" target="_blank" class="education-course">${degree}</a> - ${date}</span>
           </li>`;
     })
     .join('');

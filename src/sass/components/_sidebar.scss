@@ -1,40 +1,47 @@
 .sidebar {
-    background-color: #595c61;
-    background-color: #c6c5c5;
-    color: white;
-    color: #323b4c;
-    padding: 40px 0 30px 30px;
-    margin-left: 0;
-    min-width: 320px;
+  background-color: #595c61;
+  background-color: #c6c5c5;
+  color: white;
+  color: #323b4c;
+  padding: 40px 0 30px 50px;
+  margin-left: 0;
+  min-width: 350px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 467px) {
+  .sidebar {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 468px) and (max-width: 768px) {
     .sidebar {
         width: 100%;
+        padding: 40px;
     }
-
+    
 }
 
-
 .sidebar-title {
-    color: #FFF;
-    color: #323b4c;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    margin-bottom: 20px;
-    position: relative;
+  color: #fff;
+  color: #323b4c;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .sidebar-title::before {
-    content: '';
-    position: absolute;
-    top: 35px;
-    width: 100%;
-    height: 1px;
-    background: white;
-    background: #323b4c;
+  content: '';
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 1px;
+  background: white;
+  background: #323b4c;
 }
 
 .contacts,
@@ -42,12 +49,22 @@
 .soft-skills,
 .languages,
 .sidebar .education {
-    padding-left: 10px;
-    margin-bottom: 40px;
+//   padding-left: 10px;
+  margin-bottom: 40px;
 }
 
+// @media screen and (max-width: 768px) {
+//   .contacts,
+//   .tech-skills,
+//   .soft-skills,
+//   .languages,
+//   .sidebar .education {
+//     padding-left: 0;
+//   }
+// }
+
 .tech-skills {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 // .contacts,
@@ -57,31 +74,31 @@
 // }
 
 .contact-type {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    // color: #FFF;
-    color: #323b4c;
-    margin-right: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  // color: #FFF;
+  color: #323b4c;
+  margin-right: 8px;
 }
 
 .contacts-list {
-    list-style: none;
+  list-style: none;
 }
 
 .contact-link {
-    display: block;
-    font-size: 14px;
-    line-height: 24px;
-    // color: white;
-    color: #323b4c;
-    text-decoration: none;
-    color: inherit;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  // color: white;
+  color: #323b4c;
+  text-decoration: none;
+  color: inherit;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .tech-skills-list,
@@ -89,45 +106,47 @@
 .languages-list,
 .education-list-sidebar,
 .addition-list-sidebar {
-    // color: #FFF;
-    color: #323b4c;
-    padding: 0px;
-    margin-left: 18px;
-    padding-right: 18px;
+  // color: #FFF;
+  color: #323b4c;
+  padding: 0px;
+  margin-left: 18px;
+  padding-right: 18px;
 }
 
 .tech-skills-list {
-    width: 400px;
-    // overflow: hidden;
+  width: 400px;
+  // overflow: hidden;
 }
 
 .tech-skills-list li {
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
 }
 
 .tech-skills-text,
 .soft-skills-text,
 .languages-text,
 .education-item {
-    font-size: 14px;
-    line-height: 24px;
-    // color: #FFF;
-    color: #323b4c;
+  font-size: 14px;
+  line-height: 24px;
+  // color: #FFF;
+  color: #323b4c;
 }
 
 a {
-    color: inherit;
-    transition: color .25s cubic-bezier(.4, 0, .2, 1), text-shadow .25s cubic-bezier(.4, 0, .2, 1), text-decoration .25s cubic-bezier(.4, 0, .2, 1);
+  color: inherit;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    text-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    text-decoration 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 a:hover {
-    color: #305883;
-    text-shadow: 0 0 1px #305883;
-    text-decoration: none;
+  color: #305883;
+  text-shadow: 0 0 1px #305883;
+  text-decoration: none;
 }
 
 .education-course {
-    font-weight: 700;
-    text-decoration: underline;
-    cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
 }
