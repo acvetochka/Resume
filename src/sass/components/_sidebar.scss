@@ -44,7 +44,7 @@
   background: #323b4c;
 }
 
-.contacts,
+// .contacts,
 .tech-skills,
 .soft-skills,
 .languages,
@@ -72,34 +72,6 @@
 // .soft-skills,
 // .languages {
 // }
-
-.contact-type {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  // color: #FFF;
-  color: #323b4c;
-  margin-right: 8px;
-}
-
-.contacts-list {
-  list-style: none;
-}
-
-.contact-link {
-  display: block;
-  font-size: 14px;
-  line-height: 24px;
-  // color: white;
-  color: #323b4c;
-  text-decoration: none;
-  color: inherit;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  font-weight: 700;
-}
 
 .tech-skills-list,
 .soft-skills-list,

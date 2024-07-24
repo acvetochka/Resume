@@ -1,36 +1,48 @@
 [
   {
-    "src": "tel:+4915141896120",
+    "name": "phone",
+    "href": "tel:+4915141896120",
     "text": "+49(151)418-96-120",
-    "target": "_self"
+    "target": "_self",
+    "src": "../img/email.svg"
   },
   {
-    "src": "mailto:acvetochka@gmail.com",
+    "name": "email",
+    "href": "mailto:acvetochka@gmail.com",
     "text": "acvetochka@gmail.com",
-    "target": "_self"
+    "target": "_self",
+    "src": "../img/email.svg"
   },
   {
-    "src": "https://t.me/acvetochka",
+    "name": "phone",
+    "href": "https://t.me/acvetochka",
     "text": "Telegram",
     "target": "_blank",
-    "rel": "noopener noreferrer nofollow"
+    "rel": "noopener noreferrer nofollow",
+    "src": "../img/email.svg"
   },
   {
-    "src": "https://wa.me/30961270693",
+    "name": "whatsapp",
+    "href": "https://wa.me/30961270693",
     "text": "WhatsApp",
     "target": "_blank",
-    "rel": "noopener noreferrer nofollow"
+    "rel": "noopener noreferrer nofollow",
+    "src": "../img/email.svg"
   },
   {
-    "src": "https://www.linkedin.com/in/alona-kuznietsova/",
+    "name": "linkedin",
+    "href": "https://www.linkedin.com/in/alona-kuznietsova/",
     "text": "LinkedIn",
     "target": "_blank",
-    "rel": "noopener noreferrer nofollow"
+    "rel": "noopener noreferrer nofollow",
+    "src": "../img/email.svg"
   },
   {
-    "src": "https://github.com/acvetochka",
+    "name": "github",
+    "href": "https://github.com/acvetochka",
     "text": "GitHub",
     "target": "_blank",
-    "rel": "noopener noreferrer nofollow"
+    "rel": "noopener noreferrer nofollow",
+    "src": "../img/email.svg"
   }
 ]

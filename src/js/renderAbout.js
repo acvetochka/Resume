@@ -3,6 +3,7 @@ import aboutDe from '../data/de/about.json';
 import photo from '../img/alona-kuznietsova.jpg';
 
 const aboutSection = document.querySelector('.about');
+const aboutContainer = document.querySelector('.about-container')
 const currentURL = window.location.href;
 let aboutData = about;
 
@@ -29,11 +30,10 @@ function renderAbout() {
         <p class="about-description">${description}</p>
        </div>
        </div>
-       <hr/>
         `
     )
     .join('');
-  aboutSection.innerHTML = markup;
+  aboutContainer.innerHTML = markup;
 }
 
 renderAbout();
