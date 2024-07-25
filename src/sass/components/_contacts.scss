@@ -23,10 +23,17 @@
     line-height: 24px;
     color: white;
     // color: #323b4c;
-    // text-decoration: none;
+    text-decoration: none;
     // color: inherit;
     // transition: color 0.5s ease-in-out;
     transition: color .25s cubic-bezier(.4, 0, .2, 1), text-shadow .25s cubic-bezier(.4, 0, .2, 1), text-decoration .25s cubic-bezier(.4, 0, .2, 1);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    // svg {
+    //   fill: #ffffff;
+    // }
   }
   
   .contact-link:hover,
@@ -38,5 +45,5 @@
     text-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     text-decoration 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
-
   }
+
