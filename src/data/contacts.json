@@ -14,17 +14,9 @@
     "src": "../img/email.svg"
   },
   {
-    "name": "phone",
-    "href": "https://t.me/acvetochka",
-    "text": "Telegram",
-    "target": "_blank",
-    "rel": "noopener noreferrer nofollow",
-    "src": "../img/email.svg"
-  },
-  {
     "name": "whatsapp",
     "href": "https://wa.me/30961270693",
-    "text": "WhatsApp",
+    "text": "+380(96)127-06-93",
     "target": "_blank",
     "rel": "noopener noreferrer nofollow",
     "src": "../img/email.svg"

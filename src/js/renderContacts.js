@@ -1,5 +1,5 @@
 // import contacts from '../data/contacts.json';
-import {contacts} from '../data/contacts.js';
+import contacts from '../data/contacts.json';
 import icons from '../img/icons.svg';
 
 const contactsList = document.querySelector('.contacts-list');
