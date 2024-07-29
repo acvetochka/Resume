@@ -11,6 +11,7 @@
 @media screen and (max-width: 467px) {
   .sidebar {
     width: 100%;
+    min-width: 200px;
     padding: 20px;
   }
 }
@@ -19,8 +20,7 @@
     .sidebar {
         width: 100%;
         padding: 40px;
-    }
-    
+    }    
 }
 
 .sidebar-title {

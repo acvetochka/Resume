@@ -1,8 +1,11 @@
 .contacts-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 10px;
+    row-gap: 10px;
 }
+
 
 .contact-type {
     font-weight: 700;
@@ -15,6 +18,13 @@
   
   .contacts-list {
     list-style: none;
+
+  }
+
+  .contact-item {
+    width: 33%;
+    display: flex;
+    justify-content: center;
   }
   
   .contact-link {
@@ -58,3 +68,16 @@
     }
   }
 
+
+  
+@media screen and(max-width: 767px) {
+  .contacts-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-item {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

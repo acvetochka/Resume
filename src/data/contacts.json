@@ -30,6 +30,13 @@
     "src": "../img/email.svg"
   },
   {
+    "name": "location",
+    "href": "https://maps.app.goo.gl/Rs829S1gaSCQ58WX7",
+    "text": "Erkheim, Germany",
+    "rel":"noopener noreferrer nofollow",
+    "src": "../img/email.svg"
+  },
+  {
     "name": "github",
     "href": "https://github.com/acvetochka",
     "text": "GitHub",

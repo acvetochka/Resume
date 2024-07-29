@@ -1,11 +1,8 @@
-// import contacts from '../data/contacts.json';
 import contacts from '../data/contacts.json';
 import icons from '../img/icons.svg';
 
 const contactsList = document.querySelector('.contacts-list');
 
-
-let src = "";
 
 function renderContacts() {
 
@@ -26,5 +23,4 @@ function renderContacts() {
   contactsList.innerHTML = markup;
 }
 
-//<img src='../img/${name}.svg'/>
 renderContacts();
