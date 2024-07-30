@@ -22,9 +22,15 @@ function renderAdditionSidebar() {
       //   }
       // };
 
+      let link = `<a href=${href} rel="noopener noreferrer nofollow" target="_blank" class="education-course">${degree}</a> - `
+
+      if(href === ""){
+        link = `<p class="education-course">${degree}</p>`
+      }
       return `<li class="education-item">
-      <span>
-            <a href=${href} rel="noopener noreferrer nofollow" target="_blank" class="education-course">${degree}</a> - ${date}</span>
+          <span>
+            ${link}
+             ${date}</span>
           </li>`;
     })
     .join('');
