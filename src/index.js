@@ -8,3 +8,5 @@ import './js/renderContacts';
 // import './js/renderAdditions';
 import './js/renderAdditionsSidebar';
 import './js/renderEducationSidebar';
+import './js/downloadPdf';
+import './js/openPdf';
