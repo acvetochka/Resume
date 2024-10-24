@@ -81,13 +81,16 @@
 .project-link {
     font-size: 16px;
     color: inherit;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration 500ms cubic-bezier(0.4, 0, 0.2, 1), transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
 }
 
 .project-link:hover {
     color: rgb(48 88 131);
     text-shadow: 0 0 1px rgb(48 88 131);
+    transform: scale(1.1);
+    // scale: 1.1;
     text-decoration: none;
 }
 
