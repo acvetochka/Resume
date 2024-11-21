@@ -22,5 +22,30 @@
       "Analyse der Ergebnisse der Arbeit der Sicherheitsabteilungen in den Regionen",
       "Erstellung von Kriminalitätsberichten und analytischen Zertifikaten für das Ministerium für Infrastruktur der Ukraine"
     ]
+  },
+  {
+    "position": "Bürokauffrau",
+    "date": "Januar 2008 - April 2013",
+    "company": "Inter TV Kanal",
+    "place": "Kiew, Ukraine",
+    "duties": ["Dokumentenmanagement"]
+  },
+  {
+    "position": "Dispatcherin",
+    "date": "September 2007 - Januar 2008",
+    "company": "Inter TV Kanal",
+    "place": "Kiew, Ukraine",
+    "duties": ["Eingehende und interne Anrufe empfangen und umleiten"]
+  },
+  {
+    "position": "Verkäuferin Postfiliale",
+    "date": "September 2006 - September 2007",
+    "company": "Ukrposhta",
+    "place": "Kiew, Ukraine",
+    "duties": [
+      "Verarbeitung von ein- und ausgehenden Postsendungen und Geldüberweisungen",
+      "Ausgabe von Renten und Geldleistungen",
+      "Implementierung von Briefmarken, Gütern und Zeitschriften"
+    ]
   }
 ]

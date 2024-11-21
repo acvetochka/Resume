@@ -28,6 +28,7 @@ function renderWorkExperience() {
     )
     .join('');
   companyList.innerHTML = markup;
+  
 }
 
 renderWorkExperience();
