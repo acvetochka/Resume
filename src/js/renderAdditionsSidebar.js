@@ -27,12 +27,14 @@ function renderAdditionSidebar() {
       if(href === ""){
         link = `<span class="education-course">${degree}</span>`
       }
+      if (date) {   
+        return `<li class="education-item">
+        <span>
+          ${link}
+          - ${date}</span>
+        </li>`;}
 
-      return `<li class="education-item">
-          <span>
-            ${link}
-            - ${date}</span>
-          </li>`;
+   
     })
     .join('');
 
