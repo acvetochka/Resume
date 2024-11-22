@@ -8,6 +8,13 @@ const moreProjectList = document.querySelector('.more-projects-list');
 const currentURL = window.location.href;
 let projects = projectsEn;
 
+if (currentURL.includes('de.html')) {
+  projects = projectsDe;
+} 
+else {
+  projects = projectsEn;
+}
+
 function render(arr, projects) {
   const markup = arr
     .map(({ title, src, github, technologies, description }) => {
