@@ -1,0 +1,85 @@
+.further-list {
+  list-style: none;
+  position: relative;
+  margin-left: 20px;
+}
+
+.further-list::before {
+  content: '';
+  width: 1px;
+  background: gray;
+  position: absolute;
+  height: calc(100% - 10px);
+  left: -20px;
+  top: 5px;
+}
+
+.further-item {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.further-item:last-child {
+  margin-bottom: 0;
+}
+
+.further-item::before {
+  content: '';
+  width: 10px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  background: white;
+  position: absolute;
+  height: 10px;
+  left: -25px;
+  top: 5px;
+}
+
+.name_container {
+  display: flex;
+  gap: 10px;
+}
+
+.further-position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #737373;
+  margin-bottom: 10px;
+}
+
+.company {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.period {
+  font-size: 14px;
+  // line-height: 15px;
+  color: #737373;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style-type: disc;
+  text-align: justify;
+}

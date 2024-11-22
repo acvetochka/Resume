@@ -1,6 +1,8 @@
 import './js/renderAbout';
 import './js/renderProjects';
 import './js/renderWorkExperience';
+import './js/renderFurtherEducation';
+import './js/renderInternship';
 // import './js/renderEducation';
 import './js/renderSkills';
 import './js/renderLanguages';
