@@ -18,16 +18,16 @@ function renderFurtherEducation() {
       ({ name, period, location }) => `<li class="further-item">
             <div class="name_container"><h3 class="further-position">${name}</span>
             </h3>
-            <span class="line">|</span>
             <p class="company">${location}</p>
             </div>
             <p class="period">${period}</p>
-
-          </li>`
-    )
-    .join('');
-  furtherList.innerHTML = markup;
-  
+            
+            </li>`
+          )
+          .join('');
+          furtherList.innerHTML = markup;
+          
+          // <span class="line">|</span>
 }
 
 {/* <ul class="further-list">
