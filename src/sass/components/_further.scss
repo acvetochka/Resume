@@ -15,8 +15,10 @@
 }
 
 .further-item {
-  position: relative;
+  // padding-bottom: 5px;
   margin-bottom: 10px;
+  position: relative;
+  border-bottom: 1px dotted lightgray;
 
   @media screen and (min-width: 1200px) {
     display: flex;

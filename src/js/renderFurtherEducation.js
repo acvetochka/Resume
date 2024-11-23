@@ -8,8 +8,7 @@ let further = furtherEn;
 function renderFurtherEducation() {
   if (currentURL.includes('de.html')) {
     further = furtherDe;
-  } 
-  else {
+  } else {
     further = furtherEn;
   }
 
@@ -23,17 +22,18 @@ function renderFurtherEducation() {
             <p class="period">${period}</p>
             
             </li>`
-          )
-          .join('');
-          furtherList.innerHTML = markup;
-          
-          // <span class="line">|</span>
+    )
+    .join('');
+  furtherList.innerHTML = markup;
 }
 
-{/* <ul class="further-list">
+// <span class="line">|</span>
+{
+  /* <ul class="further-list">
 ${duties
   .map(duty => `<li class="further-list-item">${duty}</li>`)
   .join('')}
-</ul> */}
+</ul> */
+}
 
 renderFurtherEducation();
