@@ -22,5 +22,30 @@
       "Analysis of the results of the work of the security departments in the regions",
       "Preparation of crime reports and analytical certificates to the Ministry of Infrastructure of Ukraine"
     ]
+  },
+  {
+    "position": "Office Clerk",
+    "date": "January 2008 - April 2013",
+    "company": "Inter TV Channel",
+    "place": "Kyiv, Ukraine",
+    "duties": ["Document management"]
+  },
+  {
+    "position": "Dispatcher",
+    "date": "September 2007 - January 2008",
+    "company": "Inter TV Channel",
+    "place": "Kyiv, Ukraine",
+    "duties": ["Receiving and forwarding incoming and internal calls"]
+  },
+  {
+    "position": "Postal Service Operator",
+    "date": "September 2006 - September 2007",
+    "company": "Ukrposhta",
+    "place": "Kyiv, Ukraine",
+    "duties": [
+      "Processing incoming and outgoing mail and money transfers",
+      "Distributing pensions and financial aid",
+      "Selling stamps, goods, and magazines"
+    ]
   }
 ]

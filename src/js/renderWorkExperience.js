@@ -15,9 +15,10 @@ function renderWorkExperience() {
   const markup = work
     .map(
       ({ position, date, company, place, duties }) => `<li class="company-item">
-            <h3 class="work-position">${position}
+            <div class="position-container"><h3 class="work-position">${position}
             </h3>
             <p class="period">${date}</p>
+            </div>
             <p class="company">${company}<span class="line"> | </span>${place}</p>
             <ul class="work-list">
             ${duties
@@ -28,7 +29,6 @@ function renderWorkExperience() {
     )
     .join('');
   companyList.innerHTML = markup;
-  
 }
 
 renderWorkExperience();
