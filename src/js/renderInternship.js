@@ -15,13 +15,14 @@ function renderWorkExperience() {
   const markup = internship
     .map(
       ({ position, date, company, place, duties }) => `<li class="internship-item">
-            <h3 class="internship-position">${position}
+           <div class="position-container"><h3 class="internship-position">${position}
             </h3>
             <p class="period">${date}</p>
+            </div> 
             <p class="company">${company}<span class="line"> | </span>${place}</p>
-            <ul class="internship-list">
+            <ul class="work-list">
             ${duties
-              .map(duty => `<li class="internship-list-item">${duty}</li>`)
+              .map(duty => `<li class="work-list-item">${duty}</li>`)
               .join('')}
             </ul>
           </li>`

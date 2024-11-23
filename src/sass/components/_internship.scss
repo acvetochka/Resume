@@ -1,73 +1,81 @@
 .internship-list {
-    list-style: none;
-    position: relative;
-    margin-left: 20px;
+  list-style: none;
+  position: relative;
+  margin-left: 20px;
 }
 
 .internship-list::before {
-    content: '';
-    width: 1px;
-    background: gray;
-    position: absolute;
-    height: calc(100% - 10px);
-    left: -20px;
-    top: 5px;
+  content: '';
+  width: 1px;
+  background: gray;
+  position: absolute;
+  height: calc(100% - 10px);
+  left: -20px;
+  top: 5px;
 }
 
 .internship-item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     position: relative;
-    margin-bottom: 20px;
+    border-bottom: 1px dotted lightgray;
 }
 
 .internship-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .internship-item::before {
-    content: '';
-    width: 10px;
-    border-radius: 50px;
-    border: 1px solid gray;
-    background: white;
-    position: absolute;
-    height: 10px;
-    left: -25px;
-    top: 5px;
+  content: '';
+  width: 10px;
+  border-radius: 50px;
+  border: 1px solid gray;
+  background: white;
+  position: absolute;
+  height: 10px;
+  left: -25px;
+  top: 5px;
 }
 
 .internship-position {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #737373;
-    margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #737373;
+  margin-bottom: 10px;
 }
 
 .company {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
-.period {
-    font-size: 14px;
-    // line-height: 15px;
-    color: #737373;
-    margin-bottom: 10px;
+.internship-item .period {
+  font-size: 14px;
+  // line-height: 15px;
+  color: #737373;
+  margin-bottom: 10px;
+  @media screen and (min-width: 1200px) {
+    // width: 30%;
+    text-align: end;
+    text-wrap: nowrap;
+    // flex-wrap: nowrap;
+  }
 }
 
 .line {
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
 }
 
-.internship-list {
+.work-list {
     padding: 0;
     margin-left: 15px;
 }
 
-.internship-list-item {
+.work-list-item {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
