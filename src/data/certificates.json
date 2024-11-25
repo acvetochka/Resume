@@ -18,5 +18,53 @@
   {
     "name": "German integration course",
     "date": "08/2023"
+  },
+  {
+    "name": "Google IT-Support",
+    "location": "Coursera",
+    "period": "December 2023 - January 2024",
+    "degree": "Professional Certificate IT Support",
+    "href": "https://www.coursera.org/account/accomplishments/specialization/Z8AUC5ZXETPF",
+    "date": "01/2024"
+  },
+  {
+    "name": "IBM Data Science",
+    "location": "Coursera",
+    "period": "July 2024 - today",
+    "degree": "IBM Data Science",
+    "href": "",
+    "date": ""
+  },
+  {
+    "name": "Google IT Automation mit Python",
+    "location": "Coursera",
+    "period": "June 2024 - October 2024",
+    "degree": "Google IT Automation mit Python",
+    "href": "https://www.coursera.org/account/accomplishments/professional-cert/DAFC49K71IWT",
+    "date": "10/2024"
+  },
+  {
+    "name": "IBM Data Science",
+    "location": "Coursera",
+    "period": "Juli 2024 - heute",
+    "degree": "IBM Data Science",
+    "href": "",
+    "date": ""
+  },
+  {
+    "name": "Google IT Automation mit Python",
+    "location": "Coursera",
+    "period": "Juni 2024 - Oktober 2024",
+    "degree": "Google IT Automation mit Python",
+    "href": "https://www.coursera.org/account/accomplishments/professional-cert/DAFC49K71IWT",
+    "date": "10/2024"
+  },
+  {
+    "name": "Google IT-Support",
+    "location": "Coursera",
+    "period": "Dezember 2023 - Januar 2024",
+    "degree": "Google IT-Support",
+    "href": "https://www.coursera.org/account/accomplishments/specialization/Z8AUC5ZXETPF",
+    "date": "01/2024"
   }
 ]

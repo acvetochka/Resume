@@ -1,22 +1,5 @@
 [
   {
-    "name": "IBM Data Science",
-    "location": "Coursera",
-    "period": "July 2024 - today",
-    "degree": "IBM Data Science",
-    "href": "",
-    "date": ""
-  },
-  {
-    "name": "Google IT Automation mit Python",
-    "location": "Coursera",
-    "period": "June 2024 - October 2024",
-    "degree": "Google IT Automation mit Python",
-    "href": "https://www.coursera.org/account/accomplishments/professional-cert/DAFC49K71IWT",
-    "date": "10/2024"
-  },
-
-  {
     "name": "German course for work - B2",
     "location": "Inlingua Memmingen, Memmingen (Germany)",
     "period": "December 2023 - July 2024",
@@ -25,12 +8,29 @@
     "date": "07/2024"
   },
   {
-    "name": "DevOps and Kubernetes",
+    "name": "VueJS Start",
+    "location": "ITVDN",
+    "period": "May 2024 - June 2024",
+    "degree": "VueJS",
+    "href": "https://testprovider.com/ru/search-certificate/tp03262156",
+    "date": "06/2024"
+  },
+  {
+    "name": "Course \"Basics DevOps and Kubernetes\"",
     "location": "Prometheus",
     "period": "March 2024 - May 2024",
     "degree": "Basics of DevOps und Kubernetes",
     "href": "https://certs.prometheus.org.ua/downloads/ca1a768be03f488fabceb66fa91e2c5c/Certificate.pdf",
     "date": "05/2024"
+  },
+  {
+    "name": "TypeScript Course",
+    "location": "ITVDN",
+    "period": "February 2024 - March 2024",
+    "degree": "TypeScript",
+    "href": "https://testprovider.com/ru/search-certificate/tp71981169",
+    "date": "03/2024"
+
   },
   {
     "name": "Google Digital Marketing and e-Commerce",
@@ -39,14 +39,6 @@
     "degree": "Digital Marketing and e-Commerce",
     "href": "https://www.coursera.org/account/accomplishments/professional-cert/VUH3LRL3AADW",
     "date": "03/2024"
-  },
-  {
-    "name": "Google IT-Support",
-    "location": "Coursera",
-    "period": "December 2023 - January 2024",
-    "degree": "Professional Certificate IT Support",
-    "href": "https://www.coursera.org/account/accomplishments/specialization/Z8AUC5ZXETPF",
-    "date": "01/2024"
   },
   {
     "name": "English Intermadiate Course",
