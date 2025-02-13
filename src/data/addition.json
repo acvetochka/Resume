@@ -1,5 +1,13 @@
 [
   {
+    "name": "IBM Data Science",
+    "location": "Coursera",
+    "period": "July 2024 - February 2025",
+    "degree": "IBM Data Science",
+    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
+    "date": "02/2025"
+  },
+  {
     "name": "German course for work - B2",
     "location": "Inlingua Memmingen, Memmingen (Germany)",
     "period": "December 2023 - July 2024",
@@ -30,7 +38,6 @@
     "degree": "TypeScript",
     "href": "https://testprovider.com/ru/search-certificate/tp71981169",
     "date": "03/2024"
-
   },
   {
     "name": "Google Digital Marketing and e-Commerce",
