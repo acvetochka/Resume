@@ -6,6 +6,7 @@
   "GIT/Github",
   "JavaScript",
   "TypeScript",
+  "Python",
   "REST API",
   "JSON/Yaml",
   "Axios",
@@ -19,5 +20,6 @@
   "MongoDB",
   "Express.js",
   "Markdown",
-  "Swagger"
+  "Swagger",
+  "SQL"
 ]
