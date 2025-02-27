@@ -1,4 +1,13 @@
-[
+[ 
+  {
+    "title": "Portfolio",
+    "src": "https://kuznietsova.org",
+    "github": "",
+    "technologies": ["Next.js", " Vercel"],
+    "description": [ "Persönliche Portfolio-Website. Enthält persönliche Informationen, Fähigkeiten, Berufserfahrung, Zertifikate und Projekte.",
+     "Bietet eine schnelle Navigation und ein responsives Design für eine komfortable Anzeige auf allen Geräten."]
+
+  },
   {
     "title": "SmileBar",
     "src": "https://smilebarlviv.com/",
