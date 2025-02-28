@@ -3,7 +3,7 @@
     "title": "Portfolio",
     "src": "https://kuznietsova.org",
     "github": "",
-    "technologies": ["Next.js", " Vercel"],
+    "technologies": ["Next.js", "TypeScript", " Vercel"],
     "description": ["Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
     "Provides fast navigation and a responsive design for a seamless viewing experience on any device."]
   },
