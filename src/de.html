@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <!-- <link rel="manifest" href="img/site.webmanifest"> -->
+    <link rel="stylesheet" href="sass/index.scss" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6KVGR3GVQW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles/styles.css"> -->
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <!-- <link rel="manifest" href="img/site.webmanifest"> -->
-  <link rel="stylesheet" href="sass/index.scss">
-  <title>Lebenslauf</title>
+      gtag('config', 'G-6KVGR3GVQW');
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DPP3G8L7FY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-</head>
+      gtag('config', 'G-DPP3G8L7FY');
+    </script>
+    <title>Lebenslauf</title>
+  </head>
 
-<body>
-  <main class="main">
-    <section class="section about">
-      <div class="about-container"></div>
-      <hr/>
-      <ul class="contacts-list"></ul>
-      <!-- <div class="lang">
+  <body>
+    <main class="main">
+      <section class="section about">
+        <div class="about-container"></div>
+        <hr />
+        <ul class="contacts-list"></ul>
+        <!-- <div class="lang">
         <a href="./index-ua.html" class="lang-link">UA</a> |
         <a href="./index-ua.html" class="lang-link">DE</a>
         </div> -->
-    </section>
-    <div class="main-container">
-      <include src="./partials-de/sidebar.html"></include>
-      <include src="./partials-de/main.html"></include>
-    </div>
-  </main>
-  <script src="index.js" type="module"></script>
-
-
-</body>
-
+      </section>
+      <div class="main-container">
+        <include src="./partials-de/sidebar.html"></include>
+        <include src="./partials-de/main.html"></include>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>

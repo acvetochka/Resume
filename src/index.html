@@ -1,49 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="google-site-verification" content="rv35jxy2OumtiE6GKbEWcpEefg4bDFxzeDYBEzJGeU0" /> -->
+    <meta
+      name="google-site-verification"
+      content="WZtkRv4an8RM-55CXpBlYDuTamogaIAUecYIwLe_gHs"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <!-- <link rel="manifest" href="img/site.webmanifest"> -->
+    <link rel="stylesheet" href="sass/index.scss" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6KVGR3GVQW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta name="google-site-verification" content="rv35jxy2OumtiE6GKbEWcpEefg4bDFxzeDYBEzJGeU0" /> -->
-  <meta name="google-site-verification" content="WZtkRv4an8RM-55CXpBlYDuTamogaIAUecYIwLe_gHs" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles/styles.css"> -->
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <!-- <link rel="manifest" href="img/site.webmanifest"> -->
-  <link rel="stylesheet" href="sass/index.scss">
-  <title>Resume</title>
+      gtag('config', 'G-6KVGR3GVQW');
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DPP3G8L7FY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-</head>
+      gtag('config', 'G-DPP3G8L7FY');
+    </script>
+    <title>Resume</title>
+  </head>
 
-<body>
-  <main class="main">
-    <section class="section about">
-      <!-- <button id="downloadPDF">Download PDF</button>
+  <body>
+    <main class="main">
+      <section class="section about">
+        <!-- <button id="downloadPDF">Download PDF</button>
       <a href="#" id="openPdfLink">Open PDF in a new window</a> -->
-      <div class="about-container"></div>
-      <hr/>
-      <ul class="contacts-list"></ul>
-      <!-- <a href="https://maps.app.goo.gl/Rs829S1gaSCQ58WX7" rel="noopener noreferrer nofollow" target="_blank" class="contact-link">
+        <div class="about-container"></div>
+        <hr />
+        <ul class="contacts-list"></ul>
+        <!-- <a href="https://maps.app.goo.gl/Rs829S1gaSCQ58WX7" rel="noopener noreferrer nofollow" target="_blank" class="contact-link">
         <svg width="20" height="20" class="location-icon">
           <use width="20" height="20" href="./img/icons.svg#icon-location" />
         </svg>
         <span>Erkheim, Germany</span>
       </a> -->
-    </section>
-    <div class="main-container">
-      <include src="./partials/sidebar.html"></include>
-      <include src="./partials/main.html"></include>
+      </section>
+      <div class="main-container">
+        <include src="./partials/sidebar.html"></include>
+        <include src="./partials/main.html"></include>
       </div>
-  </main>
-  <script src="index.js" type="module"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js" type="module"></script>
-
-
-</body>
-
+    </main>
+    <script src="index.js" type="module"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"
+      type="module"
+    ></script>
+  </body>
 </html>
