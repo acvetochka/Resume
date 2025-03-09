@@ -2,14 +2,14 @@
   {
     "title": "Portfolio",
     "src": "https://kuznietsova.org",
-    "github": "",
+    "github": "https://github.com/acvetochka/portfolio",
     "technologies": ["Next.js", "TypeScript", " Vercel"],
     "description": ["Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
     "Provides fast navigation and a responsive design for a seamless viewing experience on any device."]
   },
   {
     "title": "SmileBar",
-    "src": "https://smilebarlviv.com/",
+    "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
     "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
     "description": [
