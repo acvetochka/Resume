@@ -14,14 +14,6 @@ function renderCertificates() {
 
   const markup = add
     .map(({ name, date }) => {
-      // const deg = degree => {
-      //   if (degree) {
-      //     return 'Abschluss: ' + degree;
-      //   } else {
-      //     return '';
-      //   }
-      // };
-
       return `<li class="education-item">
             <h4 class="education-uni">${name}</h4>
           </li>`;
