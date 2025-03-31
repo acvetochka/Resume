@@ -23,9 +23,7 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     justify-content: space-between;
-    
   }
-
 }
 
 .further-item:last-child {
@@ -72,23 +70,25 @@
   // line-height: 15px;
   color: #737373;
   margin-bottom: 10px;
+
+  // @media screen and (min-width: 768) {
+  // }
+  
   @media screen and (min-width: 1200px) {
-      width: 30%;
+    text-align: end;
+    width: 30%;
   }
 }
 
 .line {
-    // display: none;
+  // display: none;
 
-    @media screen and (min-width: 1000px) {
-        display: inline;
-        font-size: 12px;
-        line-height: 15px;
-        color: #000000;
-    }
-
-
-
+  @media screen and (min-width: 1000px) {
+    display: inline;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
 }
 
 // .work-list {

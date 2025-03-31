@@ -5,7 +5,8 @@
     "github": "https://github.com/acvetochka/portfolio",
     "technologies": ["Next.js", "TypeScript", " Vercel"],
     "description": ["Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
-    "Provides fast navigation and a responsive design for a seamless viewing experience on any device."]
+    "Provides fast navigation and a responsive design for a seamless viewing experience on any device."],
+    "date": ["October 2024 - today"]
   },
   {
     "title": "SmileBar",
@@ -15,7 +16,8 @@
     "description": [
       "Commercial team project by SoftRyzen. Role: Developer",
       "Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
-    ]
+    ],
+    "date": ["November - December 2023"]
   },
   {
     "title": "Car Rental",
@@ -25,7 +27,8 @@
     "description": [
       "React-App",
       "Car-rental website. On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
-    ]
+    ],
+    "date": ["October - November 2023", "February 2024"]
   },
   {
     "title": "Carp Travel",
@@ -35,7 +38,8 @@
     "description": [
       "React-App on the Next.js",
       "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
-    ]
+    ],
+    "date": ["September - October 2023"]
   },
   {
     "title": "Goose Track",
@@ -51,7 +55,8 @@
     "description": [
       "Team-project. Role: Frontend Team Lead, Scrum Master, Developer.",
       "Event calendar management application! The project has Google-authorization. Stylized using Emotion-styled"
-    ]
+    ],
+    "date": ["September - October 2023"]
   },
   {
     "title": "Phonebook",
@@ -61,7 +66,8 @@
     "description": [
       "React-App",
       "Application for storing contacts with authorization. The project used Emotion-styled."
-    ]
+    ],
+    "date": ["July - September 2023", "today"]
   },
   {
     "title": "Booksheft",
@@ -71,7 +77,8 @@
     "description": [
       "Team-project. Role: Developer. ",
       "A platform for searching and buying books. Website with a responsive layout. App component with Public and Private routes, AuthPage page logic."
-    ]
+    ],
+    "date": ["May 2023"]
   },
   {
     "title": "Mimino",
@@ -81,7 +88,8 @@
     "description": [
       "Team-project. Role: Team-lead, developer.",
       "Website of the hotel and restaurant complex. Adaptive layout and adaptive graphics were implemented. Build project on github, check for build errors and live page performance."
-    ]
+    ],
+    "date": ["January - February 2023"]
   },
   {
     "title": "WebStudio",
@@ -91,6 +99,7 @@
     "description": [
       "Individual project ",
       "Business card site. Adaptive layout and adaptive graphics are implemented in the project."
-    ]
+    ],
+    "date": ["November - December 2022", "April 2023", "Juny 2024"]
   }
 ]

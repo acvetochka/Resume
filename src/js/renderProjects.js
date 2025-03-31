@@ -10,16 +10,16 @@ let projects = projectsEn;
 
 if (currentURL.includes('de.html')) {
   projects = projectsDe;
-} 
-else {
+} else {
   projects = projectsEn;
 }
 
 function render(arr, projects) {
   const markup = arr
-    .map(({ title, src, github, technologies, description }) => {
+    .map(({ title, src, github, technologies, description, date }) => {
       return `
           <li class="project-item">
+            <div class="project-name-wrapper">
             <div class="project">
               <a href=${github} target="_blank" class="project-link">
                <svg width="20" height="20" class="github-icon">
@@ -27,6 +27,10 @@ function render(arr, projects) {
                </svg>
               </a>
               <a href=${src} target="_blank" class="project-link">${title}</a>
+            </div>
+            <div class="project-date">
+            ${date.map(item => `<p >${item}</p>`).join("")}
+            </div>
             </div>
             ${description
               .map(item => `<p class="project-text">${item}</p>`)
@@ -40,9 +44,7 @@ function render(arr, projects) {
   projects.innerHTML = markup;
 }
 
-render(projects, projectList)
-
-
+render(projects, projectList);
 
 function renderButton() {
   const buttonSeeMore = () => {
@@ -98,5 +100,3 @@ function renderButton() {
 // }
 
 // renderProjects();
-
-

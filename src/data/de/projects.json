@@ -5,7 +5,8 @@
     "github": "https://github.com/acvetochka/portfolio",
     "technologies": ["Next.js", "TypeScript", " Vercel"],
     "description": [ "Persönliche Portfolio-Website. Enthält persönliche Informationen, Fähigkeiten, Berufserfahrung, Zertifikate und Projekte.",
-     "Bietet eine schnelle Navigation und ein responsives Design für eine komfortable Anzeige auf allen Geräten."]
+     "Bietet eine schnelle Navigation und ein responsives Design für eine komfortable Anzeige auf allen Geräten."],
+     "date": ["Oktober 2024 - heute"]
 
   },
   {
@@ -16,7 +17,8 @@
     "description": [
       "Kommerzielles Teamprojekt von SoftRyzen. Rolle: Entwickler",
       "Responsive, plattformübergreifende Website für ein professionelles Studio für Zahnreinigung in Lwiw. Es verwendet das Sanity-Verwaltungspanel und einen Telegram-Chatbot."
-    ]
+    ],
+    "date": ["November - Dezember 2023"]
   },
   {
     "title": "Car Rental",
@@ -26,7 +28,8 @@
     "description": [
       "React-App",
       "Autovermietungswebsite. Auf der Website wurde die Möglichkeit zur Filterung von Autos und dem Hinzufügen zu den Favoriten umgesetzt. Das Projekt verwendete Emotion-Styles."
-    ]
+    ],
+    "date": ["Oktober - November 2023", "Februar 2024"]
   },
   {
     "title": "Carp Travel",
@@ -36,7 +39,8 @@
     "description": [
       "React-App mit Next.js",
       "Die Website dient als Visitenkarte für aktive Erholung in den Karpaten. Merkmale: responsives Design, Integration von Swiper. Das Projekt verwendete Tailwind CSS und React Hook Form."
-    ]
+    ],
+    "date": ["September - Oktober 2023"]
   },
   {
     "title": "Goose Track",
@@ -52,7 +56,8 @@
     "description": [
       "Teamprojekt. Rolle: Frontend Team Lead, Scrum Master, Entwickler.",
       "Anwendungsmanagement für den Veranstaltungskalender! Das Projekt verfügt über Google-Autorisierung und ist stilisiert mit Emotion-Styles."
-    ]
+    ],
+    "date": ["September - Oktober 2023"]
   },
   {
     "title": "Phonebook",
@@ -62,7 +67,8 @@
     "description": [
       "React-App",
       "Anwendung zur Speicherung von Kontakten mit Autorisierung. Das Projekt verwendete Emotion-Styles."
-    ]
+    ],
+    "date": ["Juli - September 2023", "heute"]
   },
   {
     "title": "Booksheft",
@@ -72,7 +78,8 @@
     "description": [
       "Teamproject. Rolle: Entwickler. ",
       "Plattform zum Suchen und Kaufen von Büchern. Website mit responsivem Layout. App-Komponente mit öffentlichen und privaten Routen sowie Logik für die Authentifizierungsseite."
-    ]
+    ],
+    "date": ["Mai 2023"]
   },
   {
     "title": "Mimino",
@@ -82,7 +89,8 @@
     "description": [
       "Teamprojekt. Rolle: Team Lead, Entwickler.",
       "Website des Hotel- und Restaurantkomplexes. Eine adaptive Layout- und adaptive Grafik wurden umgesetzt. Das Projekt wurde auf GitHub erstellt, auf Build-Fehler überprüft und die Leistung der Live-Seite überwacht."
-    ]
+    ],
+    "date": ["Januar - Februar 2023"]
   },
   {
     "title": "WebStudio",
@@ -92,6 +100,7 @@
     "description": [
       "Einzelprojekt",
       "Visitenkarten-Website. Im Projekt wurden ein adaptives Layout und adaptive Grafiken implementiert."
-    ]
+    ],
+    "date": ["November - Dezember 2022", "April 2023", "Juni 2024"]
   }
 ]
