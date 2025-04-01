@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to server 🚀
         run: |
           ssh root@178.62.208.241 << 'EOF'
-            cd /path/to/your/site
+            cd /var/www/resume
             git pull origin main
             parcel build src/*.html --no-optimize
             pm2 restart resume-site
