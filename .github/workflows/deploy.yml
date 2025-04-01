@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Build and deploy 
 
 on:
   push:
@@ -16,8 +16,22 @@ jobs:
           npm ci
           npm run build
 
-      - name: Deploy 🚀
+      - name: Deploy to GH Pages🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: dist
+        
+      - name: Set up SSH keys for server deployment
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+  
+      - name: Deploy to server 🚀
+        run: |
+          ssh root@178.62.208.241 << 'EOF'
+            cd /path/to/your/site
+            git pull origin main
+            parcel build src/*.html --no-optimize
+            pm2 restart resume-site
+          EOF
