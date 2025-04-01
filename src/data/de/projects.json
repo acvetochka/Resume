@@ -1,22 +1,52 @@
-[ 
+[
   {
     "title": "Portfolio",
     "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
-    "technologies": ["Next.js", "TypeScript", " Vercel"],
-    "description": [ "Persönliche Portfolio-Website. Enthält persönliche Informationen, Fähigkeiten, Berufserfahrung, Zertifikate und Projekte.",
-     "Bietet eine schnelle Navigation und ein responsives Design für eine komfortable Anzeige auf allen Geräten."],
-     "date": ["Oktober 2024 - heute"]
-
+    "technologies": ["Next JS", "React JS", "TypeScript", " Vercel"],
+    "description": [
+      "- Entwicklung einer persönlichen Website zur Präsentation professioneller Fähigkeiten, Projekte und Kontaktinformationen.​",
+      "- Erstellung einer responsiven und interaktiven Benutzeroberfläche mit Next.js und React",
+      "- Implementierung serverseitiger Funktionen zur Verarbeitung von Kontaktformularen und dynamischen Inhalten",
+      "- Integration von Animationen und Styling mittels Styled-components Bibliotheke",
+      "- Sicherstellung der Cross-Browser-Kompatibilität und Optimierung der Performance",
+      "- Bereitstellung und Wartung der Website auf einem persönlichen Server",
+      "Erfolge: Erzielung einer perfekten Punktzahl von 100 in allen Lighthouse-Kategorien."
+    ],
+    "date": ["Oktober 2024 - heute"]
+  },
+  {
+    "title": "Tetris",
+    "src": "https://acvetochka.github.io/tetris/",
+    "github": "https://github.com/acvetochka/tetris",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": [
+      "- Entwicklung eines webbasierten Tetris-Spiels mit Implementierung der Kernmechaniken wie Blockbewegung, Kollisionsprüfung, Linienlöschung und einem dynamischen Punktesystem",
+      "- Nachweis starker algorithmischer und problemlösungsorientierter Fähigkeiten durch effiziente Code-Strukturen und DOM-Manipulation",
+      "- Integrierter Sound-Support mit der Möglichkeit, die Audioausgabe zu deaktivieren",
+      "- Speicherung der Highscores im Local Storage"
+    ],
+    "date": ["Februar - März 2024"]
   },
   {
     "title": "SmileBar",
     "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
-    "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
+    "technologies": [
+      "Next JS",
+      "React JS",
+      "Tailwind CSS",
+      " Sanity",
+      "Telegram bot API"
+    ],
     "description": [
       "Kommerzielles Teamprojekt von SoftRyzen. Rolle: Entwickler",
-      "Responsive, plattformübergreifende Website für ein professionelles Studio für Zahnreinigung in Lwiw. Es verwendet das Sanity-Verwaltungspanel und einen Telegram-Chatbot."
+      "Mitarbeit bei der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw.​",
+      "Verantwortlichkeiten:",
+      "- Entwicklung der Abschnitte \"Vorteile\" und \"FAQ\" mit Tab-Funktionalität​",
+      "- Gestaltung visueller Elemente, einschließlich Hintergründe und Animationen",
+      "- Konfiguration von Stilen in der tailwind.config-Datei",
+      "- Zusammenarbeit mit dem Team zur Lösung von Cross-Browser-Problemen und Optimierung des Interfaces."
     ],
     "date": ["November - Dezember 2023"]
   },
@@ -24,10 +54,18 @@
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
-    "technologies": ["React JS", " Redux Toolkit", " Axios"],
+    "technologies": [
+      "React JS",
+      " Redux Toolkit",
+      " Axios",
+      "Emotion Styles",
+      "Framer Motion"
+    ],
     "description": [
-      "React-App",
-      "Autovermietungswebsite. Auf der Website wurde die Möglichkeit zur Filterung von Autos und dem Hinzufügen zu den Favoriten umgesetzt. Das Projekt verwendete Emotion-Styles."
+      "- Entwicklung einer Autovermietungs-Website mit benutzerfreundlicher Such- und Buchungsfunktion.​",
+      "- Implementierung von Filtern nach Marke, Preis und Kilometerstand zur Erleichterung der Fahrzeugsuche",
+      "- Entwicklung der Funktion zum Hinzufügen von Fahrzeugen zu Favoriten für zukünftige Buchungen",
+      "- Sicherstellung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten"
     ],
     "date": ["Oktober - November 2023", "Februar 2024"]
   },
@@ -35,10 +73,19 @@
     "title": "Carp Travel",
     "src": "https://carp-travel-xi.vercel.app",
     "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": ["React JS", " Next.js", " Vercel"],
+    "technologies": [
+      "React JS",
+      " Next JS",
+      " Tailwind CSS",
+      "Swiper",
+      " Vercel"
+    ],
     "description": [
-      "React-App mit Next.js",
-      "Die Website dient als Visitenkarte für aktive Erholung in den Karpaten. Merkmale: responsives Design, Integration von Swiper. Das Projekt verwendete Tailwind CSS und React Hook Form."
+      "- Entwicklung einer Landingpage für ein Unternehmen, das aktive Erholung in den Karpaten anbietet mit Next.js und React.",
+      "- Erstellung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten",
+      "- Integration von Slidern und Karussells mithilfe der Swiper-Bibliothek",
+      "- Verwendung von Tailwind CSS für schnelle und effiziente Komponenten-Stylisierung",
+      "- Bereitstellung und Wartung der Website auf der Vercel-Plattform."
     ],
     "date": ["September - Oktober 2023"]
   },
@@ -55,7 +102,12 @@
     ],
     "description": [
       "Teamprojekt. Rolle: Frontend Team Lead, Scrum Master, Entwickler.",
-      "Anwendungsmanagement für den Veranstaltungskalender! Das Projekt verfügt über Google-Autorisierung und ist stilisiert mit Emotion-Styles."
+      "Entwicklung eines Veranstaltungskalender-Managementsystems mit Google-Authentifizierungsunterstützung.",
+      "Verantwortlichkeiten:",
+      "- Konfiguration der Projektstruktur​",
+      "- Erstellung von Markup und Funktionalität für den Monatskalender",
+      "- Als Scrum Master: Einrichtung und Verwaltung des Trello-Boards, Teilnahme an Meetings nach Agile-Methodik",
+      "- Als Frontend-Teamleiter: Durchführung von Code-Reviews für 9 Frontend-Teammitglieder."
     ],
     "date": ["September - Oktober 2023"]
   },
@@ -63,10 +115,25 @@
     "title": "Phonebook",
     "src": "https://acvetochka.github.io/Phonebook/",
     "github": "https://github.com/acvetochka/Phonebook",
-    "technologies": ["React JS", "Redux Toolkit", "Axios"],
+    "technologies": [
+      "React JS",
+      "Redux Toolkit",
+      "Axios",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST API",
+      "DigitalOcean"
+    ],
     "description": [
-      "React-App",
-      "Anwendung zur Speicherung von Kontakten mit Autorisierung. Das Projekt verwendete Emotion-Styles."
+      "FullStack App",
+      "Entwicklung einer voll funktionsfähigen Webanwendung zur Speicherung und Verwaltung von Telefonkontakten mit Benutzer-Authentifizierung.",
+      "Verantwortlichkeiten:",
+      "- Entwicklung des Frontends mit React zur Erstellung einer intuitiven Benutzeroberfläche",
+      "- Erstellung des Backends mit Node.js zur Verarbeitung von Anfragen und Datenspeicherung",
+      "- Bereitstellung des Backends auf einem DigitalOcean-Server zur Sicherstellung der Verfügbarkeit und Stabilität",
+      "- Implementierung von Funktionen zum Hinzufügen, Löschen und Filtern von Kontakten nach Namen",
+      "- Sicherstellung eines responsiven Designs für die korrekte Darstellung auf verschiedenen Geräten."
     ],
     "date": ["Juli - September 2023", "heute"]
   },
@@ -77,7 +144,12 @@
     "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
     "description": [
       "Teamproject. Rolle: Entwickler. ",
-      "Plattform zum Suchen und Kaufen von Büchern. Website mit responsivem Layout. App-Komponente mit öffentlichen und privaten Routen sowie Logik für die Authentifizierungsseite."
+      "Entwicklung einer Plattform zur Suche und zum Kauf von Büchern mit modernem, responsivem Design.",
+      "Verantwortlichkeiten:",
+      "- Entwicklung und Integration von Komponenten: Kategorie-Bücher, API-Anfragen, Loader, Footer und TeamModal",
+      "- Zusammenarbeit mit dem Team über Trello zur Verfolgung von Aufgaben und Fortschritten",
+      "- Teilnahme an Meetings zur Diskussion und Lösung technischer Fragen",
+      "- Aktive Unterstützung bei Code-Reviews anderer Teammitglieder"
     ],
     "date": ["Mai 2023"]
   },

@@ -3,19 +3,45 @@
     "title": "Portfolio",
     "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
-    "technologies": ["Next.js", "TypeScript", " Vercel"],
-    "description": ["Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
-    "Provides fast navigation and a responsive design for a seamless viewing experience on any device."],
+    "technologies": ["Next JS", "React JS", "TypeScript", "Styled Components", " Vercel"],
+    "description": [
+      "Developed a personal website to showcase professional skills, projects, and contact information.",
+      "Responsibilities:",
+      "- Created a responsive and interactive user interface using Next.js and React",
+      "- Implemented server-side functions to handle contact forms and dynamic content",
+      "- Integrated animations and styling with Styled-components libraries",
+      "- Ensured cross-browser compatibility and optimized performance",
+      "- Deployed and maintained the website on a personal server",
+      "Achievements: Achieved a perfect score of 100 across all Lighthouse parameters"
+    ],
     "date": ["October 2024 - today"]
+  },
+  {
+    "title": "Tetris",
+    "src": "https://acvetochka.github.io/tetris/",
+    "github": "https://github.com/acvetochka/tetris",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": [
+      "- Developed a web-based Tetris game implementing core gameplay mechanics such as block movement, collision detection, line clearing, and dynamic scoring.",
+      "- Integrated sound support with an option to mute audio.",
+      "- Saved high scores using local storage.",
+      "- Demonstrated strong algorithmic and problem-solving skills through efficient code structure and DOM manipulation."
+    ],
+    "date": ["Februar - März 2024"]
   },
   {
     "title": "SmileBar",
     "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
-    "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
+    "technologies": ["Next JS", "React JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
     "description": [
       "Commercial team project by SoftRyzen. Role: Developer",
-      "Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
+      "Participated in the development of a website for a professional teeth whitening studio in Lviv.​",
+      "Responsibilities:",
+      "- Developed the \"Advantages\" and \"FAQ\" sections with tab functionality​",
+      "- Designed visual elements, including backgrounds and animations",
+      "- Configured styles in the tailwind.config file",
+      "- Collaborated with the team to resolve cross-browser issues and optimize the interface"
     ],
     "date": ["November - December 2023"]
   },
@@ -23,10 +49,12 @@
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
-    "technologies": ["React JS", " Redux Toolkit", " Axios"],
+    "technologies": ["React JS", " Redux Toolkit", " Axios", "Framer Motion", "Emotion Styles"],
     "description": [
-      "React-App",
-      "Car-rental website. On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
+      "- Developed a car rental service website offering convenient search and booking functionalities",
+      "- Implemented filters by brand, price, and mileage to facilitate car searches",
+      "- Developed functionality for adding cars to favorites for future booking",
+      "- Ensured responsive design for optimal display across various devices"
     ],
     "date": ["October - November 2023", "February 2024"]
   },
@@ -34,10 +62,19 @@
     "title": "Carp Travel",
     "src": "https://carp-travel-xi.vercel.app",
     "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": ["React JS", " Next.js", " Vercel"],
+    "technologies": [
+      "React JS",
+      " Next JS",
+      " Tailwind CSS",
+      "Swiper",
+      "Vercel"
+    ],
     "description": [
-      "React-App on the Next.js",
-      "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
+      "- Developed a landing page for a company offering active recreation in the Carpathians using Next.js and React.​",
+      "- Created a responsive design for optimal display across various devices",
+      "- Integrated sliders and carousels using the Swiper library",
+      "- Utilized Tailwind CSS for rapid and efficient component styling",
+      "- Deployed and maintained the website on the Vercel platform."
     ],
     "date": ["September - October 2023"]
   },
@@ -54,7 +91,12 @@
     ],
     "description": [
       "Team-project. Role: Frontend Team Lead, Scrum Master, Developer.",
-      "Event calendar management application! The project has Google-authorization. Stylized using Emotion-styled"
+      "Developed an event schedule management system with Google authentication support.",
+      "Responsibilities:",
+      "- Configured project structure.​",
+      "- Created markup and functionality for the monthly calendar.​",
+      "- As Scrum Master: set up and managed Trello board, participated in Agile methodology meetings.​",
+      "- As Frontend Team Lead: conducted code reviews for 9 frontend team members."
     ],
     "date": ["September - October 2023"]
   },
@@ -62,10 +104,25 @@
     "title": "Phonebook",
     "src": "https://acvetochka.github.io/Phonebook/",
     "github": "https://github.com/acvetochka/Phonebook",
-    "technologies": ["React JS", "Redux Toolkit", "Axios"],
+    "technologies": [
+      "React JS",
+      "Redux Toolkit",
+      "Axios",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST API",
+      "DigitalOcean"
+    ],
     "description": [
-      "React-App",
-      "Application for storing contacts with authorization. The project used Emotion-styled."
+      "FullStack App",
+      "Developed a full-featured web application for storing and managing phone contacts with user authentication",
+      "Responsibilities:",
+      "- Developed the frontend using React to create an intuitive user interface.",
+      "- Created the backend with Node.js to handle requests and data storage",
+      "- Deployed the backend on a DigitalOcean server to ensure availability and stability",
+      "- Implemented functionality for adding, deleting, and filtering contacts by name",
+      "- Ensured a responsive design for proper display on various devices."
     ],
     "date": ["July - September 2023", "today"]
   },
@@ -76,7 +133,12 @@
     "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
     "description": [
       "Team-project. Role: Developer. ",
-      "A platform for searching and buying books. Website with a responsive layout. App component with Public and Private routes, AuthPage page logic."
+      "Developed a platform for searching and purchasing books with a modern, responsive design.",
+      "Responsibilities:",
+      "- Development and integration of components: Category-Books, API requests, Loader, Footer, and TeamModal.",
+      "- Collaborated with the team using Trello to track tasks and progress",
+      "- Participated in meetings to discuss and resolve technical issues (Agile)",
+      "- Actively assisted in code reviews of other team members"
     ],
     "date": ["May 2023"]
   },
