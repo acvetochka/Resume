@@ -37,6 +37,6 @@ jobs:
           ssh root@178.62.208.241 << 'EOF'
             cd /var/www/resume
             git pull origin main
-            parcel build src/*.html --no-optimize
+            npx parcel build src/*.html --no-optimize
             pm2 restart resume-site
           EOF
