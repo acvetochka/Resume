@@ -16,10 +16,12 @@
   "Redux", 
   "Redux Toolkit",
   "Next.js",
+  "Vue.js",
   "Node.js",
   "MongoDB",
   "Express.js",
   "Markdown",
   "Swagger",
-  "SQL"
+  "SQL",
+  "DigitalOcean"
 ]
