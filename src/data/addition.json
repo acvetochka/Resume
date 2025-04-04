@@ -1,19 +1,20 @@
 [
   {
-    "name": "IBM Data Science",
-    "location": "Coursera",
-    "period": "July 2024 - February 2025",
-    "degree": "IBM Data Science",
-    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
-    "date": "02/2025"
+    "name": "FullStack Developer Course",
+    "location": "IT School GoIT, Kyiv (Ukraine)",
+    "period": "November 2022 - October 2023",
+    "degree": "FullStack Developer",
+    "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544730567/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
+    "href": "https://online.fliphtml5.com/ajgpd/eflf/",
+    "date": "08/2023"
   },
   {
-    "name": "German course for work - B2",
-    "location": "Inlingua Memmingen, Memmingen (Germany)",
-    "period": "December 2023 - July 2024",
-    "degree": "Telc DTB B2",
-    "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
-    "date": "07/2024"
+    "name": "TypeScript Course",
+    "location": "ITVDN",
+    "period": "February 2024 - March 2024",
+    "degree": "TypeScript",
+    "href": "https://testprovider.com/ru/search-certificate/tp71981169",
+    "date": "03/2024"
   },
   {
     "name": "VueJS Start",
@@ -32,12 +33,20 @@
     "date": "05/2024"
   },
   {
-    "name": "TypeScript Course",
-    "location": "ITVDN",
-    "period": "February 2024 - March 2024",
-    "degree": "TypeScript",
-    "href": "https://testprovider.com/ru/search-certificate/tp71981169",
-    "date": "03/2024"
+    "name": "IBM Data Science",
+    "location": "Coursera",
+    "period": "July 2024 - February 2025",
+    "degree": "IBM Data Science",
+    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
+    "date": "02/2025"
+  },
+  {
+    "name": "German course for work - B2",
+    "location": "Inlingua Memmingen, Memmingen (Germany)",
+    "period": "December 2023 - July 2024",
+    "degree": "Telc DTB B2",
+    "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
+    "date": "07/2024"
   },
   {
     "name": "English Intermadiate Course",
@@ -46,14 +55,5 @@
     "degree": "English B1",
     "href": "https://online.fliphtml5.com/ajgpd/vsal/",
     "date": "12/2023"
-  },
-  {
-    "name": "FullStack Developer Course",
-    "location": "IT School GoIT, Kyiv (Ukraine)",
-    "period": "November 2022 - October 2023",
-    "degree": "FullStack Developer",
-    "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544730567/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
-    "href": "https://online.fliphtml5.com/ajgpd/eflf/",
-    "date": "08/2023"
   }
 ]

@@ -1,20 +1,21 @@
 
 [ 
   {
-    "name": "IBM Data Science",
-    "location": "Coursera",
-    "period": "Juli 2024 - Februar 2025",
-    "degree": "IBM Data Science",
-    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
-    "date": "02/2025"
+    "name": "FullStack Developer Kurs",
+    "location": "IT Schule GoIT, Kiew (Ukraine)",
+    "period": "November 2022 - Oktober 2023",
+    "degree": "FullStack Developer",
+    "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544730567/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
+    "href": "https://online.fliphtml5.com/ajgpd/eflf/",
+    "date": "08/2023"
   },
   {
-    "name": "Berufssprachkurs - B2",
-    "location": "Inlingua Memmingen, Memmingen",
-    "period": "Dezember 2023 - Juli 2024",
-    "degree": "Telc DTB B2",
-    "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
-    "date": "07/2024"
+    "name": "TypeScript Kurs",
+    "location": "ITVDN",
+    "period": "Februar 2024 - März 2024",
+    "degree": "TypeScript",
+    "href": "https://testprovider.com/ru/search-certificate/tp71981169",
+    "date": "03/2024"
   },
   {
     "name": "VueJS Start",
@@ -33,21 +34,20 @@
     "date": "05/2024"
   },
   {
-    "name": "TypeScript Kurs",
-    "location": "ITVDN",
-    "period": "Februar 2024 - März 2024",
-    "degree": "TypeScript",
-    "href": "https://testprovider.com/ru/search-certificate/tp71981169",
-    "date": "03/2024"
-
+    "name": "IBM Data Science",
+    "location": "Coursera",
+    "period": "Juli 2024 - Februar 2025",
+    "degree": "IBM Data Science",
+    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
+    "date": "02/2025"
   },
   {
-    "name": "Google Digital Marketing and e-Commerce",
-    "location": "Coursera",
-    "period": "Januar 2024 - März 2024",
-    "degree": "Google Digital Marketing and e-Commerce",
-    "href": "https://www.coursera.org/account/accomplishments/professional-cert/VUH3LRL3AADW",
-    "date": "03/2024"
+    "name": "Berufssprachkurs - B2",
+    "location": "Inlingua Memmingen, Memmingen",
+    "period": "Dezember 2023 - Juli 2024",
+    "degree": "Telc DTB B2",
+    "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
+    "date": "07/2024"
   },
   {
     "name": "Englisch B1 Kurs",
@@ -57,23 +57,6 @@
     "href": "https://online.fliphtml5.com/ajgpd/vsal/",
     "date": "12/2023"
 
-  },
-  {
-    "name": "Integrationskurs",
-    "location": "Inlingua Memmingen, Memmingen",
-    "period": "April 2023 - August 2023",
-    "degree": "Telc DTZ B1, LiD",
-    "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544727939/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
-    "href": "https://online.fliphtml5.com/ajgpd/hcga/",
-    "date": "10/2023"
-  },
-  {
-    "name": "FullStack Developer Kurs",
-    "location": "IT Schule GoIT, Kiew (Ukraine)",
-    "period": "November 2022 - Oktober 2023",
-    "degree": "FullStack Developer",
-    "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544730567/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
-    "href": "https://online.fliphtml5.com/ajgpd/eflf/",
-    "date": "08/2023"
   }
+
 ]
