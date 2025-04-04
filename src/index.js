@@ -3,6 +3,7 @@ import './js/renderProjects';
 import './js/renderWorkExperience';
 import './js/renderFurtherEducation';
 import './js/renderInternship';
+import './js/renderTechSkills';
 import './js/renderSkills';
 import './js/renderLanguages';
 import './js/renderContacts';

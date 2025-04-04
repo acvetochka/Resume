@@ -17,10 +17,10 @@
 }
 
 @media screen and (min-width: 468px) and (max-width: 768px) {
-    .sidebar {
-        width: 100%;
-        padding: 40px;
-    }    
+  .sidebar {
+    width: 100%;
+    padding: 40px;
+  }
 }
 
 .sidebar-title {
@@ -49,7 +49,7 @@
 .soft-skills,
 .languages,
 .sidebar .education {
-//   padding-left: 10px;
+  //   padding-left: 10px;
   margin-bottom: 40px;
 }
 
@@ -86,13 +86,38 @@
 }
 
 .tech-skills-list {
-  width: 400px;
+  max-width: 400px;
+  list-style: none;
+  margin-left: 0;
   // overflow: hidden;
 }
 
-.tech-skills-list li {
-  width: 40%;
-  float: left;
+.tech-skills-name {
+  // text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 5px;
+  // color: #595959;
+  color: #323b4c;
+
+}
+
+// .tech-skills-list li {
+//   width: 40%;
+//   float: left;
+// }
+.tech-skills-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: square;
+  justify-content: space-between;
+  // margin-left: 18px;
+  margin-bottom: 8px;
+  font-size: 14px;
+
+  & li {
+    width: 43%;
+    margin-left: 15px;
+  }
 }
 
 .tech-skills-text,
@@ -127,7 +152,7 @@ a:hover {
 //   display: flex;
 // }
 
-span.education-course{
+span.education-course {
   text-decoration: none;
   cursor: auto;
 }

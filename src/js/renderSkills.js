@@ -1,8 +1,8 @@
-import techSkills from '../data/techSkills.json';
+// import techSkills from '../data/techSkills.json';
 import softSkillsEn from '../data/softSkills.json';
 import softSkillsDe from '../data/de/softSkills.json';
 
-const techSkillsList = document.querySelector('.tech-skills-list');
+// const techSkillsList = document.querySelector('.tech-skills-list');
 const softSkillsList = document.querySelector('.soft-skills-list');
 
 const currentURL = window.location.href;
@@ -24,5 +24,5 @@ function renderSkills(arr) {
   return markup;
 }
 
-techSkillsList.innerHTML = renderSkills(techSkills);
+// techSkillsList.innerHTML = renderSkills(techSkills);
 softSkillsList.innerHTML = renderSkills(softSkills);

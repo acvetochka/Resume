@@ -1,6 +1,6 @@
 [
   {
-    "name": "Programming Languages",
+    "name": "Programmiersprache",
     "skills": ["JavaScript", "TypeScript", "Python"]
   },
   {
@@ -22,11 +22,11 @@
     "skills": ["Node.js", "MongoDB", "Express.js", "SQL"]
   },
   {
-    "name": "Documentation and API",
+    "name": "Documentation und API",
     "skills": ["REST API", "JSON/YAML", "Markdown", "Swagger"]
   },
   {
-    "name": "Tools and technologies",
+    "name": "Tools und Technologien",
     "skills": [
       "GIT/Github",
       "CI/CD",
