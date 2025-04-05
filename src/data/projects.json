@@ -3,7 +3,13 @@
     "title": "Portfolio",
     "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
-    "technologies": ["Next JS", "React JS", "TypeScript", "Styled Components", " Vercel"],
+    "technologies": [
+      "Next JS",
+      "React JS",
+      "TypeScript",
+      "Styled Components",
+      " Vercel"
+    ],
     "description": [
       "Developed a personal website to showcase professional skills, projects, and contact information.",
       "Responsibilities:",
@@ -33,7 +39,13 @@
     "title": "SmileBar",
     "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
-    "technologies": ["Next JS", "React JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
+    "technologies": [
+      "Next JS",
+      "React JS",
+      " Tailwind CSS",
+      " Sanity",
+      "Telegram bot API"
+    ],
     "description": [
       "Commercial team project by SoftRyzen. Role: Developer",
       "Participated in the development of a website for a professional teeth whitening studio in Lviv.​",
@@ -49,7 +61,13 @@
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
-    "technologies": ["React JS", " Redux Toolkit", " Axios", "Framer Motion", "Emotion Styles"],
+    "technologies": [
+      "React JS",
+      " Redux Toolkit",
+      " Axios",
+      "Framer Motion",
+      "Emotion Styles"
+    ],
     "description": [
       "- Developed a car rental service website offering convenient search and booking functionalities",
       "- Implemented filters by brand, price, and mileage to facilitate car searches",
@@ -149,7 +167,13 @@
     "technologies": ["HTML", "SASS", "JS", "Parcel"],
     "description": [
       "Team-project. Role: Team-lead, developer.",
-      "Website of the hotel and restaurant complex. Adaptive layout and adaptive graphics were implemented. Build project on github, check for build errors and live page performance."
+      "Led the development of a responsive website for the Mimino restaurant-hotel complex.​",
+      "Responsibilities:",
+      "- Coordinated a team of 14 developers, ensuring timely delivery and adherence to project goals​",
+      "- Designed and implemented the website's architecture using HTML5, SASS, and JavaScript",
+      "- Applied BEM methodology for maintainable and scalable code structure",
+      "- Integrated third-party libraries such as Swiper-slider, nice-select, imask, and aos-animation to enhance user experience.",
+      "- Ensured cross-device compatibility through adaptive layout and graphics."
     ],
     "date": ["January - February 2023"]
   },

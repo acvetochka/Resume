@@ -160,7 +160,12 @@
     "technologies": ["HTML", "SASS", "JS", "Parcel"],
     "description": [
       "Teamprojekt. Rolle: Team Lead, Entwickler.",
-      "Website des Hotel- und Restaurantkomplexes. Eine adaptive Layout- und adaptive Grafik wurden umgesetzt. Das Projekt wurde auf GitHub erstellt, auf Build-Fehler überprüft und die Leistung der Live-Seite überwacht."
+      "Leitete die Entwicklung einer responsiven Website für den Restaurant- und Hotelkomplex Mimino",
+      "Verantwortlichkeiten:",
+      "- Koordination eines Teams von 14 Entwicklern zur Sicherstellung der termingerechten Lieferung und Einhaltung der Projektziele",
+      "- Entwurf und Implementierung der Website-Architektur unter Verwendung von HTML5, SASS und JavaScript",
+      "- Integration von Drittanbieter-Bibliotheken wie Swiper-slider, nice-select, imask und aos-animation zur Verbesserung der Benutzererfahrung",
+      "- Sicherstellung der Kompatibilität mit verschiedenen Geräten durch adaptive Layouts und Grafiken."
     ],
     "date": ["Januar - Februar 2023"]
   },
