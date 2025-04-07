@@ -2,7 +2,7 @@
   {
     "position": "Frontend Developer",
     "company": "SoftRyzen",
-    "place": "Kyiv, Ukraine",
+    "place": "Kyiv, Ukraine (remote)",
     "date": "November 2023 - December 2023",
     "duties": [
       "Participated in the development of a website for a professional teeth whitening studio in Lviv (SmileBar)",
@@ -12,6 +12,19 @@
       "Studied documentation for Sanity and Telegram Bot API to understand their integration in the project",
       "Collaborated with the team to resolve cross-browser issues, using various libraries to optimize tabs and backgrounds",
       "Worked within an Agile team, utilizing Figma for design and Trello for task management"
+    ]
+  },
+  {
+    "position": "FullStack Developer Training Program",
+    "company": "IT-School GoIT",
+    "place": "Kyiv, Ukraine (remote)",
+    "date": "November 2022 - October 2023",
+    "duties": [
+      "Project Development: Participated in the creation of 5 individual and 3 team projects focused on developing web applications using JavaScript, React, Node.js, and MongoDB.​",
+      "Leadership and Process Management: Fulfilled the roles of Team Lead and Scrum Master in team projects, including project organization, task distribution, project setup, development process management, and implementation of Agile methodologies",
+      "Adoption of New Technologies: Studied and applied new libraries and technologies, optimizing code to enhance performance and efficiency​",
+      "Team Collaboration and Communication: Maintained constant communication with peers, assisted in resolving issues and bugs, and interacted with the mentor on behalf of the team to discuss technical solutions",
+      "GitHub Management: Reviewed and conducted code reviews for all team members, ensuring code quality and adherence to project standards."
     ]
   },
   {
