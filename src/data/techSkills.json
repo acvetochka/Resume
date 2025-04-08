@@ -8,13 +8,13 @@
     "skills": [
       "HTML5",
       "CSS3/SASS",
-      "Adaptive design",
-      "A11y",
       "React",
       "Redux",
       "Redux Toolkit",
       "Next.js",
-      "Vue.js"
+      "Vue.js",
+      "Adaptive design",
+      "A11y"
     ]
   },
   {
