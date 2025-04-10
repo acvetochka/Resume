@@ -175,8 +175,11 @@
     "github": "https://github.com/acvetochka/WebStudio/",
     "technologies": ["HTML5", "SASS", "BEM", "JS"],
     "description": [
-      "Einzelprojekt",
-      "Visitenkarten-Website. Im Projekt wurden ein adaptives Layout und adaptive Grafiken implementiert."
+      "Einzelprojekt.Visitenkarten-Website.",
+       "- Umsetzung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten",
+       "- Anwendung der BEM-Methodik zur strukturierten Organisation des CSS-Codes",
+       "- Optimierung der Gestaltung mithilfe von SASS zur Unterstützung der Skalierbarkeit",
+       "- Integration interaktiver Elemente mit JavaScript zur Verbesserung der Benutzererfahrung."
     ],
     "date": ["November - Dezember 2022", "April 2023", "Juni 2024"]
   }

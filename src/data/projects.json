@@ -183,8 +183,11 @@
     "github": "https://github.com/acvetochka/WebStudio/",
     "technologies": ["HTML5", "SASS", "BEM", "JS"],
     "description": [
-      "Individual project ",
-      "Business card site. Adaptive layout and adaptive graphics are implemented in the project."
+      "Individual project. Business card site.",
+      "- Implemented a responsive design for optimal display across various devices",
+      "- Applied the BEM methodology for structured CSS organization",
+      "- Streamlined styling with SASS to support project scalability",
+      "- Integrated interactive elements with JavaScript to enhance user experience."
     ],
     "date": ["November - December 2022", "April 2023", "Juny 2024"]
   }
