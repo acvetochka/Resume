@@ -5,8 +5,7 @@ const contactsList = document.querySelector('.contacts-list');
 
 function renderContacts() {
   const markup = contacts
-    .map(({ name, href, text, target, rel, src }) => {
-      console.log(src);
+    .map(({ name, href, text, target}) => {
 
       return `
       <li class="contact-item">

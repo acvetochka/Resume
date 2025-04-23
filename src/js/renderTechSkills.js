@@ -8,7 +8,6 @@ const techSkillsList = document.querySelector('.tech-skills-list');
 
 const currentURL = window.location.href;
 // let softSkills = softSkillsEn;
-console.log(Array.isArray(techSkillsEn));
 let techSkills = techSkillsEn;
 
 if (currentURL.includes('de.html')) {
@@ -27,7 +26,6 @@ function renderTechSkills() {
           <ul class="tech-skills-category-list">
           ${skills
             .map(skill =>  {
-              console.log(typeof skill, skill); // перевірте тип кожного skill
               return `<li class="tech-skills-item">${skill}</li>`})
             .join("")}
           </ul>
@@ -36,9 +34,7 @@ function renderTechSkills() {
     .join("");
 
   techSkillsList.innerHTML = markup;
-  // techSkillsList.appendChild(markup);
-  console.log(markup);
-  console.log(typeof markup)
+
 }
 
 renderTechSkills();
