@@ -1,51 +1,32 @@
 [
   {
-    "position": "Verantwortlicher Mitarbeiterin für die Bearbeitung schriftlicher und elektronischer Einsprüche",
-    "date": "July 2021 - August 2021",
-    "company": "Ukrposhta",
-    "place": "Kiew, Ukraine",
+    "position": "Frontend Entwicklerin (Ehrenamtlich)",
+    "date": "Juni 2025 - Heute",
+    "company": "DoGood Impact Inc.",
+    "place": "USA (Remote)",
     "duties": [
-      "Behandlung von Beschwerden von natürlichen und juristischen Personen",
-      "Verarbeitung von Anfragen von staatlichen und lokalen Behörden, Strafverfolgungs-, Justiz- und Regulierungsbehörden (Verwendung von Lotus Notes und dem elektronischen Dokumentenmanagementsystem IT-Enterprise)",
-      "Verarbeitung von Anträgen von Anwälten"
-    ]
+      "Entwicklung und Optimierung von UI-Komponenten mit modernen Frontend-Technologien (React, Next.js, TypeScript).",
+      "Implementierung von Skripten zur Automatisierung wiederkehrender Aufgaben (z. B. Komponenten- und Icon-Exports) zur Reduzierung der Entwicklungszeit.",
+      "Zusammenarbeit in einem Scrum-Team, Teilnahme an Sprint-Planung und Code-Reviews.",
+      "Verbesserung der Wiederverwendbarkeit und Wartbarkeit der Frontend-Architektur.",
+      "Beitrag zur Erstellung des MVP in enger Zusammenarbeit mit Designer:innen und Backend-Entwickler:innen."
+    ],
+
+    "technologies": "React, Next.js, TypeScript, Tailwind CSS, Stripe, GitHub Actions"
   },
   {
-    "position": "Leitender Angestellter von Postsicherung",
-    "date": "April 2013 - July 2021",
-    "company": "Ukrposhta",
+    "position": "Frontend Entwicklerin",
+    "company": "SoftRyzen",
     "place": "Kiew, Ukraine",
+    "date": "November 2023 - Dezember 2023",
     "duties": [
-      "Erstellung, Verwaltung und Pflege einer Datenbank von Straftaten, die von Dritten begangen wurden (im Excel-Programm)",
-      "Analyse von Daten zu Straftaten im Bereich der Postkommunikation",
-      "Kontrolle der Ergebnisse der Reaktion der Strafverfolgungs- und Justizbehörden auf Berichte über Straftaten im Tätigkeitsbereich des Unternehmens",
-      "Analyse der Ergebnisse der Arbeit der Sicherheitsabteilungen in den Regionen",
-      "Erstellung von Kriminalitätsberichten und analytischen Zertifikaten für das Ministerium für Infrastruktur der Ukraine"
-    ]
-  },
-  {
-    "position": "Bürokauffrau",
-    "date": "Januar 2008 - April 2013",
-    "company": "Inter TV Kanal",
-    "place": "Kiew, Ukraine",
-    "duties": ["Dokumentenmanagement", "Arbeit mit elektronischer Dokumentenverwaltung („Delo“, „Terrasoft“-Programme)"]
-  },
-  {
-    "position": "Dispatcherin",
-    "date": "September 2007 - Januar 2008",
-    "company": "Inter TV Kanal",
-    "place": "Kiew, Ukraine",
-    "duties": ["Eingehende und interne Anrufe empfangen und umleiten"]
-  },
-  {
-    "position": "Kauffrau für Postdienstleistungen",
-    "date": "September 2006 - September 2007",
-    "company": "Ukrposhta",
-    "place": "Kiew, Ukraine",
-    "duties": [
-      "Verarbeitung von ein- und ausgehenden Postsendungen und Geldüberweisungen",
-      "Ausgabe von Renten und Geldleistungen",
-      "Implementierung von Briefmarken, Gütern und Zeitschriften"
+      "Teilnahme an der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw (SmileBar)",
+      "Entwicklung der Abschnitte \"Vorteile\" und \"FAQ\" mit Registerkartenfunktionalität",
+      "Gestaltung visueller Elemente, einschließlich Hintergründe, Animationen und Integration von Metadaten",
+      "Konfiguration von Stilvariablen in der Datei tailwind.config",
+      "Einarbeitung in die Dokumentation von Sanity und Telegram Bot API, um deren Integration in das Projekt zu verstehen",
+      "Zusammenarbeit mit dem Team zur Lösung von Kompatibilitätsproblemen, unter Verwendung verschiedener Bibliotheken zur Optimierung von Registerkarten und Hintergründen",
+      "Zusammenarbeit mit dem Team nach der Agile-Methodik unter Verwendung von Figma für Design und Trello für Aufgabenmanagement"
     ]
   }
 ]

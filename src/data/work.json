@@ -1,51 +1,31 @@
 [
   {
-    "position": "Leading specialist for the processing of written and electronic objections",
-    "date": "July 2021 - August 2021",
-    "company": "Ukrposhta",
-    "place": "Kyiv, Ukraine",
+    "position": "Frontend Developer (Volunteer)",
+    "date": "Juny 2025 - Today",
+    "company": "DoGood Impact Inc.",
+    "place": "USA (Remote)",
     "duties": [
-      "Handling of complaints from natural and legal persons",
-      "Processing of requests from state and local authorities, law enforcement, judicial and regulatory authorities (use of Lotus Notes and the electronic document management system IT-Enterprise)",
-      "Processing of lawyers' applications"
-    ]
+      "Development and optimization of UI components using React, Next.js, and TypeScript.",
+      "Implementation of scripts to automate repetitive tasks (e.g., component and icon exports).",
+      "Collaboration in an Agile/Scrum team, participation in sprint planning and reviews.",
+      "Improved reusability and maintainability of frontend architecture.",
+      "Contributed to the creation of the MVP together with designers and backend developers."
+    ],
+    "technologies": "React, Next.js, TypeScript, Tailwind CSS, Stripe, GitHub Actions"
   },
   {
-    "position": "Chief Specialist of the Postal Security Service",
-    "date": "April 2013 - July 2021",
-    "company": "Ukrposhta",
-    "place": "Kyiv, Ukraine",
+    "position": "Frontend Developer",
+    "company": "SoftRyzen",
+    "place": "Kyiv, Ukraine (remote)",
+    "date": "November 2023 - December 2023",
     "duties": [
-      "Creation, management and maintenance of a database of crimes committed by third parties (in Excel program)",
-      "Analysis of data on offences in the field of postal communications",
-      "Control of the results of the response of law enforcement and judicial authorities to reports of criminal offences in the company's field of activity",
-      "Analysis of the results of the work of the security departments in the regions",
-      "Preparation of crime reports and analytical certificates to the Ministry of Infrastructure of Ukraine"
-    ]
-  },
-  {
-    "position": "Office Clerk",
-    "date": "January 2008 - April 2013",
-    "company": "Inter TV Channel",
-    "place": "Kyiv, Ukraine",
-    "duties": ["Document management", "Work with electronic document management (\"Delo\", \"Terrasoft\" programs)"]
-  },
-  {
-    "position": "Dispatcher",
-    "date": "September 2007 - January 2008",
-    "company": "Inter TV Channel",
-    "place": "Kyiv, Ukraine",
-    "duties": ["Receiving and forwarding incoming and internal calls"]
-  },
-  {
-    "position": "Postal Service Operator",
-    "date": "September 2006 - September 2007",
-    "company": "Ukrposhta",
-    "place": "Kyiv, Ukraine",
-    "duties": [
-      "Processing incoming and outgoing post and money transfers",
-      "Distributing pensions and financial aid",
-      "Selling stamps, goods, and magazines"
+      "Participated in the development of a website for a professional teeth whitening studio in Lviv (SmileBar)",
+      "Developed the \"Advantages\" and \"FAQ\" sections with tab functionality",
+      "Designed visual elements, including backgrounds, animations, and metadata integration",
+      "Configured style variables in the tailwind.config file",
+      "Studied documentation for Sanity and Telegram Bot API to understand their integration in the project",
+      "Collaborated with the team to resolve cross-browser issues, using various libraries to optimize tabs and backgrounds",
+      "Worked within an Agile team, utilizing Figma for design and Trello for task management"
     ]
   }
 ]

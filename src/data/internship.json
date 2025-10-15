@@ -1,20 +1,5 @@
 [
   {
-    "position": "Frontend Developer",
-    "company": "SoftRyzen",
-    "place": "Kyiv, Ukraine (remote)",
-    "date": "November 2023 - December 2023",
-    "duties": [
-      "Participated in the development of a website for a professional teeth whitening studio in Lviv (SmileBar)",
-      "Developed the \"Advantages\" and \"FAQ\" sections with tab functionality",
-      "Designed visual elements, including backgrounds, animations, and metadata integration",
-      "Configured style variables in the tailwind.config file",
-      "Studied documentation for Sanity and Telegram Bot API to understand their integration in the project",
-      "Collaborated with the team to resolve cross-browser issues, using various libraries to optimize tabs and backgrounds",
-      "Worked within an Agile team, utilizing Figma for design and Trello for task management"
-    ]
-  },
-  {
     "position": "FullStack Developer Training Program",
     "company": "IT-School GoIT",
     "place": "Kyiv, Ukraine (remote)",
@@ -25,18 +10,6 @@
       "Adoption of New Technologies: Studied and applied new libraries and technologies, optimizing code to enhance performance and efficiency​",
       "Team Collaboration and Communication: Maintained constant communication with peers, assisted in resolving issues and bugs, and interacted with the mentor on behalf of the team to discuss technical solutions",
       "GitHub Management: Reviewed and conducted code reviews for all team members, ensuring code quality and adherence to project standards."
-    ]
-  },
-  {
-    "position": "Lawyer",
-    "company": "Legal Sector of the State Emergency Service of Ukraine",
-    "place": "Kyiv, Ukraine",
-    "date": "Oktober 2021 - December 2021",
-    "duties": [
-      "Practiced documentation management and compliance procedures during employee hiring and termination processes",
-      "Reviewed and processed case materials, ensuring adherence to procedural standards",
-      "Conducted analytical work, including review and drafting of contracts and claims",
-      "Collaborated with state systems for process tracking, gaining experience with data management and systemized workflows (e.g., ЄСІТС, АСВП)"
     ]
   }
 ]

@@ -23,19 +23,6 @@
     "date": ["October 2024 - today"]
   },
   {
-    "title": "Tetris",
-    "src": "https://acvetochka.github.io/tetris/",
-    "github": "https://github.com/acvetochka/tetris",
-    "technologies": ["HTML", "CSS", "JS"],
-    "description": [
-      "- Developed a web-based Tetris game implementing core gameplay mechanics such as block movement, collision detection, line clearing, and dynamic scoring.",
-      "- Integrated sound support with an option to mute audio.",
-      "- Saved high scores using local storage.",
-      "- Demonstrated strong algorithmic and problem-solving skills through efficient code structure and DOM manipulation."
-    ],
-    "date": ["February - March 2024"]
-  },
-  {
     "title": "SmileBar",
     "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
@@ -75,26 +62,6 @@
       "- Ensured responsive design for optimal display across various devices"
     ],
     "date": ["October - November 2023", "February 2024"]
-  },
-  {
-    "title": "Carp Travel",
-    "src": "https://carp-travel-xi.vercel.app",
-    "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": [
-      "React JS",
-      " Next JS",
-      " Tailwind CSS",
-      "Swiper",
-      "Vercel"
-    ],
-    "description": [
-      "- Developed a landing page for a company offering active recreation in the Carpathians using Next.js and React.​",
-      "- Created a responsive design for optimal display across various devices",
-      "- Integrated sliders and carousels using the Swiper library",
-      "- Utilized Tailwind CSS for rapid and efficient component styling",
-      "- Deployed and maintained the website on the Vercel platform."
-    ],
-    "date": ["September - October 2023"]
   },
   {
     "title": "Goose Track",
@@ -143,52 +110,5 @@
       "- Ensured a responsive design for proper display on various devices."
     ],
     "date": ["July - September 2023", "today"]
-  },
-  {
-    "title": "Booksheft",
-    "src": "https://nazarmural.github.io/project-bookshelf/",
-    "github": "https://github.com/NazarMural/project-bookshelf",
-    "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
-    "description": [
-      "Team-project. Role: Developer. ",
-      "Developed a platform for searching and purchasing books with a modern, responsive design.",
-      "Responsibilities:",
-      "- Development and integration of components: Category-Books, API requests, Loader, Footer, and TeamModal.",
-      "- Collaborated with the team using Trello to track tasks and progress",
-      "- Participated in meetings to discuss and resolve technical issues (Agile)",
-      "- Actively assisted in code reviews of other team members"
-    ],
-    "date": ["May 2023"]
-  },
-  {
-    "title": "Mimino",
-    "src": "https://acvetochka.github.io/mimino/",
-    "github": "https://github.com/acvetochka/mimino/",
-    "technologies": ["HTML", "SASS", "JS", "Parcel"],
-    "description": [
-      "Team-project. Role: Team-lead, developer.",
-      "Led the development of a responsive website for the Mimino restaurant-hotel complex.​",
-      "Responsibilities:",
-      "- Coordinated a team of 14 developers, ensuring timely delivery and adherence to project goals​",
-      "- Designed and implemented the website's architecture using HTML5, SASS, and JavaScript",
-      "- Applied BEM methodology for maintainable and scalable code structure",
-      "- Integrated third-party libraries such as Swiper-slider, nice-select, imask, and aos-animation to enhance user experience.",
-      "- Ensured cross-device compatibility through adaptive layout and graphics."
-    ],
-    "date": ["January - February 2023"]
-  },
-  {
-    "title": "WebStudio",
-    "src": "https://acvetochka.github.io/WebStudio/",
-    "github": "https://github.com/acvetochka/WebStudio/",
-    "technologies": ["HTML5", "SASS", "BEM", "JS"],
-    "description": [
-      "Individual project. Business card site.",
-      "- Implemented a responsive design for optimal display across various devices",
-      "- Applied the BEM methodology for structured CSS organization",
-      "- Streamlined styling with SASS to support project scalability",
-      "- Integrated interactive elements with JavaScript to enhance user experience."
-    ],
-    "date": ["November - December 2022", "April 2023", "Juny 2024"]
   }
 ]

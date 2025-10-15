@@ -1,20 +1,5 @@
 [
   {
-    "position": "Frontend Entwicklerin",
-    "company": "SoftRyzen",
-    "place": "Kiew, Ukraine",
-    "date": "November 2023 - Dezember 2023",
-    "duties": [
-      "Teilnahme an der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw (SmileBar)",
-      "Entwicklung der Abschnitte \"Vorteile\" und \"FAQ\" mit Registerkartenfunktionalität",
-      "Gestaltung visueller Elemente, einschließlich Hintergründe, Animationen und Integration von Metadaten",
-      "Konfiguration von Stilvariablen in der Datei tailwind.config",
-      "Einarbeitung in die Dokumentation von Sanity und Telegram Bot API, um deren Integration in das Projekt zu verstehen",
-      "Zusammenarbeit mit dem Team zur Lösung von Kompatibilitätsproblemen, unter Verwendung verschiedener Bibliotheken zur Optimierung von Registerkarten und Hintergründen",
-      "Zusammenarbeit mit dem Team nach der Agile-Methodik unter Verwendung von Figma für Design und Trello für Aufgabenmanagement"
-    ]
-  },
-  {
     "position": "FullStack Developer Training Program",
     "company": "IT-School GoIT",
     "place": "Kiew, Ukraine (remote)",
@@ -25,18 +10,6 @@
       "Einsatz neuer Technologien: Erlernen und Anwenden neuer Bibliotheken und Technologien, Optimierung des Codes zur Steigerung von Leistung und Effizienz",
       "Teamarbeit und Kommunikation: Kontinuierliche Kommunikation mit Teamkollegen, Unterstützung bei der Lösung von Problemen und Fehlern, Interaktion mit dem Mentor im Namen des Teams zur Besprechung technischer Lösungen",
       "GitHub-Verwaltung: Überprüfung und Code-Reviews aller Teammitglieder, Sicherstellung der Code-Qualität und Einhaltung der Projektstandards."
-    ]
-  },
-  {
-    "position": "Juristin",
-    "company": "Rechtsabteilung des Staatlichen Notdienstes der Ukraine",
-    "place": "Kiew, Ukraine",
-    "date": "Oktober 2021 - Dezember 2021",
-    "duties": [
-      "Verwaltung von Dokumenten und Sicherstellung der Einhaltung von Verfahren bei der Einstellung und Entlassung von Mitarbeitern",
-      "Bearbeitung von Unterlagen und Sicherstellung ihrer Einhaltung der Verfahrensnormen",
-      "Analytische Arbeit, einschließlich der Überprüfung und Erstellung von Verträgen und Forderungen",
-      "Zusammenarbeit mit staatlichen Systemen zur Überwachung von Fällen, wobei ich Erfahrung im Umgang mit Daten und systematisierten Prozessen (z. B. ЄСІТС, АСВП) gesammelt habe"
     ]
   }
 ]

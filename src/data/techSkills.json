@@ -22,11 +22,11 @@
     "skills": ["Node.js", "MongoDB", "Express.js", "SQL"]
   },
   {
-    "name": "Documentation and API",
+    "name": "API & Documentation",
     "skills": ["REST API", "JSON/YAML", "Markdown", "Swagger"]
   },
   {
-    "name": "Tools and technologies",
+    "name": "Tools & technologies",
     "skills": [
       "GIT/Github",
       "CI/CD",

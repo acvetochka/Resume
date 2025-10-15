@@ -1,8 +1,9 @@
 [
   {
     "name": "Alona Kuznietsova",
-    "position": "Junior Frontend Developer",
-    "description": "Qualified Junior Frontend Developer with 2 years of practical experience in web application development. Proficient in HTML, CSS, JavaScript, and TypeScript, with expertise in modern frameworks such as React, Next.js. Possesses foundational knowledge in backend technologies (Node.js, Express.js, MongoDB, RestAPI) and basic DevOps principles. Served as Team Lead and Scrum Master, enhancing leadership and organizational skills. Committed to continuous professional growth and business process optimization.",
+    "position": "Frontend Developer | React / Next.js | TypeScript",
+    "description": "Passionate Frontend Developer with 2+ years of hands-on experience in building responsive, user-friendly web applications using React, Next.js, and TypeScript. Experienced in team leadership and agile methodologies. Strong focus on performance, clean architecture, and continuous learning.",
+
     "link": "./de.html",
     "lang": "DE"
   }

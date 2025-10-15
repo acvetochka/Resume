@@ -16,19 +16,6 @@
     "date": ["Oktober 2024 - heute"]
   },
   {
-    "title": "Tetris",
-    "src": "https://acvetochka.github.io/tetris/",
-    "github": "https://github.com/acvetochka/tetris",
-    "technologies": ["HTML", "CSS", "JS"],
-    "description": [
-      "- Entwicklung eines webbasierten Tetris-Spiels mit Implementierung der Kernmechaniken wie Blockbewegung, Kollisionsprüfung, Linienlöschung und einem dynamischen Punktesystem",
-      "- Nachweis starker algorithmischer und problemlösungsorientierter Fähigkeiten durch effiziente Code-Strukturen und DOM-Manipulation",
-      "- Integrierter Sound-Support mit der Möglichkeit, die Audioausgabe zu deaktivieren",
-      "- Speicherung der Highscores im Local Storage"
-    ],
-    "date": ["Februar - März 2024"]
-  },
-  {
     "title": "SmileBar",
     "src": "https://smile-bar.vercel.app/",
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
@@ -68,26 +55,6 @@
       "- Sicherstellung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten"
     ],
     "date": ["Oktober - November 2023", "Februar 2024"]
-  },
-  {
-    "title": "Carp Travel",
-    "src": "https://carp-travel-xi.vercel.app",
-    "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": [
-      "React JS",
-      " Next JS",
-      " Tailwind CSS",
-      "Swiper",
-      " Vercel"
-    ],
-    "description": [
-      "- Entwicklung einer Landingpage für ein Unternehmen, das aktive Erholung in den Karpaten anbietet mit Next.js und React.",
-      "- Erstellung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten",
-      "- Integration von Slidern und Karussells mithilfe der Swiper-Bibliothek",
-      "- Verwendung von Tailwind CSS für schnelle und effiziente Komponenten-Stylisierung",
-      "- Bereitstellung und Wartung der Website auf der Vercel-Plattform."
-    ],
-    "date": ["September - Oktober 2023"]
   },
   {
     "title": "Goose Track",
@@ -136,51 +103,5 @@
       "- Sicherstellung eines responsiven Designs für die korrekte Darstellung auf verschiedenen Geräten."
     ],
     "date": ["Juli - September 2023", "heute"]
-  },
-  {
-    "title": "Booksheft",
-    "src": "https://nazarmural.github.io/project-bookshelf/",
-    "github": "https://github.com/NazarMural/project-bookshelf",
-    "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
-    "description": [
-      "Teamproject. Rolle: Entwickler. ",
-      "Entwicklung einer Plattform zur Suche und zum Kauf von Büchern mit modernem, responsivem Design.",
-      "Verantwortlichkeiten:",
-      "- Entwicklung und Integration von Komponenten: Kategorie-Bücher, API-Anfragen, Loader, Footer und TeamModal",
-      "- Zusammenarbeit mit dem Team über Trello zur Verfolgung von Aufgaben und Fortschritten",
-      "- Teilnahme an Meetings zur Diskussion und Lösung technischer Fragen",
-      "- Aktive Unterstützung bei Code-Reviews anderer Teammitglieder"
-    ],
-    "date": ["Mai 2023"]
-  },
-  {
-    "title": "Mimino",
-    "src": "https://acvetochka.github.io/mimino/",
-    "github": "https://github.com/acvetochka/mimino/",
-    "technologies": ["HTML", "SASS", "JS", "Parcel"],
-    "description": [
-      "Teamprojekt. Rolle: Team Lead, Entwickler.",
-      "Leitete die Entwicklung einer responsiven Website für den Restaurant- und Hotelkomplex Mimino",
-      "Verantwortlichkeiten:",
-      "- Koordination eines Teams von 14 Entwicklern zur Sicherstellung der termingerechten Lieferung und Einhaltung der Projektziele",
-      "- Entwurf und Implementierung der Website-Architektur unter Verwendung von HTML5, SASS und JavaScript",
-      "- Integration von Drittanbieter-Bibliotheken wie Swiper-slider, nice-select, imask und aos-animation zur Verbesserung der Benutzererfahrung",
-      "- Sicherstellung der Kompatibilität mit verschiedenen Geräten durch adaptive Layouts und Grafiken."
-    ],
-    "date": ["Januar - Februar 2023"]
-  },
-  {
-    "title": "WebStudio",
-    "src": "https://acvetochka.github.io/WebStudio/",
-    "github": "https://github.com/acvetochka/WebStudio/",
-    "technologies": ["HTML5", "SASS", "BEM", "JS"],
-    "description": [
-      "Einzelprojekt.Visitenkarten-Website.",
-       "- Umsetzung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten",
-       "- Anwendung der BEM-Methodik zur strukturierten Organisation des CSS-Codes",
-       "- Optimierung der Gestaltung mithilfe von SASS zur Unterstützung der Skalierbarkeit",
-       "- Integration interaktiver Elemente mit JavaScript zur Verbesserung der Benutzererfahrung."
-    ],
-    "date": ["November - Dezember 2022", "April 2023", "Juni 2024"]
   }
 ]

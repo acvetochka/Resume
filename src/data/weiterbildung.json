@@ -1,0 +1,149 @@
+[
+  {
+    "position": "Lawyer",
+    "company": "Legal Sector of the State Emergency Service of Ukraine",
+    "place": "Kyiv, Ukraine",
+    "date": "Oktober 2021 - December 2021",
+    "duties": [
+      "Practiced documentation management and compliance procedures during employee hiring and termination processes",
+      "Reviewed and processed case materials, ensuring adherence to procedural standards",
+      "Conducted analytical work, including review and drafting of contracts and claims",
+      "Collaborated with state systems for process tracking, gaining experience with data management and systemized workflows (e.g., ЄСІТС, АСВП)"
+    ]
+  },
+  {
+    "position": "Leading specialist for the processing of written and electronic objections",
+    "date": "July 2021 - August 2021",
+    "company": "Ukrposhta",
+    "place": "Kyiv, Ukraine",
+    "duties": [
+      "Handling of complaints from natural and legal persons",
+      "Processing of requests from state and local authorities, law enforcement, judicial and regulatory authorities (use of Lotus Notes and the electronic document management system IT-Enterprise)",
+      "Processing of lawyers' applications"
+    ]
+  },
+  {
+    "position": "Chief Specialist of the Postal Security Service",
+    "date": "April 2013 - July 2021",
+    "company": "Ukrposhta",
+    "place": "Kyiv, Ukraine",
+    "duties": [
+      "Creation, management and maintenance of a database of crimes committed by third parties (in Excel program)",
+      "Analysis of data on offences in the field of postal communications",
+      "Control of the results of the response of law enforcement and judicial authorities to reports of criminal offences in the company's field of activity",
+      "Analysis of the results of the work of the security departments in the regions",
+      "Preparation of crime reports and analytical certificates to the Ministry of Infrastructure of Ukraine"
+    ]
+  },
+  {
+    "position": "Office Clerk",
+    "date": "January 2008 - April 2013",
+    "company": "Inter TV Channel",
+    "place": "Kyiv, Ukraine",
+    "duties": [
+      "Document management",
+      "Work with electronic document management (\"Delo\", \"Terrasoft\" programs)"
+    ]
+  },
+  {
+    "position": "Dispatcher",
+    "date": "September 2007 - January 2008",
+    "company": "Inter TV Channel",
+    "place": "Kyiv, Ukraine",
+    "duties": ["Receiving and forwarding incoming and internal calls"]
+  },
+  {
+    "position": "Postal Service Operator",
+    "date": "September 2006 - September 2007",
+    "company": "Ukrposhta",
+    "place": "Kyiv, Ukraine",
+    "duties": [
+      "Processing incoming and outgoing post and money transfers",
+      "Distributing pensions and financial aid",
+      "Selling stamps, goods, and magazines"
+    ]
+  },
+  {
+    "title": "Tetris",
+    "src": "https://acvetochka.github.io/tetris/",
+    "github": "https://github.com/acvetochka/tetris",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": [
+      "- Developed a web-based Tetris game implementing core gameplay mechanics such as block movement, collision detection, line clearing, and dynamic scoring.",
+      "- Integrated sound support with an option to mute audio.",
+      "- Saved high scores using local storage.",
+      "- Demonstrated strong algorithmic and problem-solving skills through efficient code structure and DOM manipulation."
+    ],
+    "date": ["February - March 2024"]
+  },
+  {
+    "title": "Carp Travel",
+    "src": "https://carp-travel-xi.vercel.app",
+    "github": "https://github.com/acvetochka/carp-travel",
+    "technologies": [
+      "React JS",
+      " Next JS",
+      " Tailwind CSS",
+      "Swiper",
+      "Vercel"
+    ],
+    "description": [
+      "- Developed a landing page for a company offering active recreation in the Carpathians using Next.js and React.​",
+      "- Created a responsive design for optimal display across various devices",
+      "- Integrated sliders and carousels using the Swiper library",
+      "- Utilized Tailwind CSS for rapid and efficient component styling",
+      "- Deployed and maintained the website on the Vercel platform."
+    ],
+    "date": ["September - October 2023"]
+  },
+  {
+    "title": "Booksheft",
+    "src": "https://nazarmural.github.io/project-bookshelf/",
+    "github": "https://github.com/NazarMural/project-bookshelf",
+    "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
+    "description": [
+      "Team-project. Role: Developer. ",
+      "Developed a platform for searching and purchasing books with a modern, responsive design.",
+      "Responsibilities:",
+      "- Development and integration of components: Category-Books, API requests, Loader, Footer, and TeamModal.",
+      "- Collaborated with the team using Trello to track tasks and progress",
+      "- Participated in meetings to discuss and resolve technical issues (Agile)",
+      "- Actively assisted in code reviews of other team members"
+    ],
+    "date": ["May 2023"]
+  },
+  {
+    "title": "Mimino",
+    "src": "https://acvetochka.github.io/mimino/",
+    "github": "https://github.com/acvetochka/mimino/",
+    "technologies": ["HTML", "SASS", "JS", "Parcel"],
+    "description": [
+      "Team-project. Role: Team-lead, developer.",
+      "Led the development of a responsive website for the Mimino restaurant-hotel complex.​",
+      "Responsibilities:",
+      "- Coordinated a team of 14 developers, ensuring timely delivery and adherence to project goals​",
+      "- Designed and implemented the website's architecture using HTML5, SASS, and JavaScript",
+      "- Applied BEM methodology for maintainable and scalable code structure",
+      "- Integrated third-party libraries such as Swiper-slider, nice-select, imask, and aos-animation to enhance user experience.",
+      "- Ensured cross-device compatibility through adaptive layout and graphics."
+    ],
+    "date": ["January - February 2023"]
+  },
+  {
+    "title": "WebStudio",
+    "src": "https://acvetochka.github.io/WebStudio/",
+    "github": "https://github.com/acvetochka/WebStudio/",
+    "technologies": ["HTML5", "SASS", "BEM", "JS"],
+    "description": [
+      "Individual project. Business card site.",
+      "- Implemented a responsive design for optimal display across various devices",
+      "- Applied the BEM methodology for structured CSS organization",
+      "- Streamlined styling with SASS to support project scalability",
+      "- Integrated interactive elements with JavaScript to enhance user experience."
+    ],
+    "date": ["November - December 2022", "April 2023", "Juny 2024"]
+  },
+  {
+    "description": "Qualified Junior Frontend Developer with 2 years of practical experience in web application development. Proficient in HTML, CSS, JavaScript, and TypeScript, with expertise in modern frameworks such as React, Next.js. Possesses foundational knowledge in backend technologies (Node.js, Express.js, MongoDB, RestAPI) and basic DevOps principles. Served as Team Lead and Scrum Master, enhancing leadership and organizational skills. Committed to continuous professional growth and business process optimization."
+  }
+]
