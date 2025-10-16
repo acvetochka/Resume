@@ -1,6 +1,7 @@
 import about from '../data/about.json';
 import aboutDe from '../data/de/about.json';
-import photo from '../img/alona-kuznietsova.jpg';
+// import photo from '../img/alona-kuznietsova.jpg';
+import photo from '../img/alonaKuz.jpg';
 
 const aboutSection = document.querySelector('.about');
 const aboutContainer = document.querySelector('.about-container');
