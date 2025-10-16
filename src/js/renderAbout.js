@@ -3,7 +3,7 @@ import aboutDe from '../data/de/about.json';
 import photo from '../img/alona-kuznietsova.jpg';
 
 const aboutSection = document.querySelector('.about');
-const aboutContainer = document.querySelector('.about-container')
+const aboutContainer = document.querySelector('.about-container');
 const currentURL = window.location.href;
 let aboutData = about;
 
@@ -16,7 +16,7 @@ function renderAbout() {
 
   const markup = aboutData
     .map(
-      ({ name, position, description, link, lang }) => `
+      ({ name, position, technologies, description, link, lang }) => `
       <div class="about-container">
        <div class="lang">
         <a href=${link} class="lang-link">${lang}</a>
@@ -27,6 +27,7 @@ function renderAbout() {
        <div>
         <h1 class="about-name">${name}</h1>
         <h2 class="about-position">${position}</h2>
+        <h3 class="about-technologies">${technologies}</h3>
         <p class="about-description">${description}</p>
        </div>
        </div>

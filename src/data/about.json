@@ -1,7 +1,8 @@
 [
   {
     "name": "Alona Kuznietsova",
-    "position": "Frontend Developer | React / Next.js | TypeScript",
+    "position": "Frontend Developer",
+    "technologies": "React / Next.js | TypeScript",
     "description": "Passionate Frontend Developer with 2+ years of hands-on experience in building responsive, user-friendly web applications using React, Next.js, and TypeScript. Experienced in team leadership and agile methodologies. Strong focus on performance, clean architecture, and continuous learning.",
 
     "link": "./de.html",
