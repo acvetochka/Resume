@@ -1,7 +1,7 @@
 [
   {
     "position": "Frontend Entwicklerin (Ehrenamtlich)",
-    "date": "Juni 2025 - Heute",
+    "date": "06/2025 - heute",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
@@ -18,15 +18,11 @@
     "position": "Frontend Entwicklerin",
     "company": "SoftRyzen",
     "place": "Kiew, Ukraine",
-    "date": "November 2023 - Dezember 2023",
+    "date": "11/2023 - 12/2023",
     "duties": [
-      "Teilnahme an der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw (SmileBar)",
-      "Entwicklung der Abschnitte \"Vorteile\" und \"FAQ\" mit Registerkartenfunktionalität",
-      "Gestaltung visueller Elemente, einschließlich Hintergründe, Animationen und Integration von Metadaten",
-      "Konfiguration von Stilvariablen in der Datei tailwind.config",
-      "Einarbeitung in die Dokumentation von Sanity und Telegram Bot API, um deren Integration in das Projekt zu verstehen",
-      "Zusammenarbeit mit dem Team zur Lösung von Kompatibilitätsproblemen, unter Verwendung verschiedener Bibliotheken zur Optimierung von Registerkarten und Hintergründen",
-      "Zusammenarbeit mit dem Team nach der Agile-Methodik unter Verwendung von Figma für Design und Trello für Aufgabenmanagement"
+      "Entwicklung zentraler UI-Komponenten für eine Unternehmenswebsite (SmileBar)",
+      "Anpassung von Tailwind-Konfigurationen und Integration neuer Bibliotheken (Sanity, Telegram Bot API)",
+      "Zusammenarbeit im Team nach agilen Methoden (Figma, Trello)"
     ]
   }
 ]
