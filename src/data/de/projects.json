@@ -13,7 +13,7 @@
       "- Bereitstellung und Wartung der Website auf einem persönlichen Server",
       "Erfolge: Erzielung einer perfekten Punktzahl von 100 in allen Lighthouse-Kategorien."
     ],
-    "date": ["Oktober 2024 - heute"]
+    "date": ["10/2024 - heute"]
   },
   {
     "title": "SmileBar",
@@ -35,7 +35,7 @@
       "- Konfiguration von Stilen in der tailwind.config-Datei",
       "- Zusammenarbeit mit dem Team zur Lösung von Cross-Browser-Problemen und Optimierung des Interfaces."
     ],
-    "date": ["November - Dezember 2023"]
+    "date": ["11/2023 - 12/2023"]
   },
   {
     "title": "Car Rental",
@@ -54,7 +54,7 @@
       "- Entwicklung der Funktion zum Hinzufügen von Fahrzeugen zu Favoriten für zukünftige Buchungen",
       "- Sicherstellung eines responsiven Designs für optimale Darstellung auf verschiedenen Geräten"
     ],
-    "date": ["Oktober - November 2023", "Februar 2024"]
+    "date": ["10/2023 - 11/2023"]
   },
   {
     "title": "Goose Track",
@@ -76,7 +76,7 @@
       "- Als Scrum Master: Einrichtung und Verwaltung des Trello-Boards, Teilnahme an Meetings nach Agile-Methodik",
       "- Als Frontend-Teamleiter: Durchführung von Code-Reviews für 9 Frontend-Teammitglieder."
     ],
-    "date": ["September - Oktober 2023"]
+    "date": ["09/2023 - 10/2023"]
   },
   {
     "title": "Phonebook",
@@ -102,6 +102,6 @@
       "- Implementierung von Funktionen zum Hinzufügen, Löschen und Filtern von Kontakten nach Namen",
       "- Sicherstellung eines responsiven Designs für die korrekte Darstellung auf verschiedenen Geräten."
     ],
-    "date": ["Juli - September 2023", "heute"]
+    "date": ["07/2023 - 09/2023", "heute"]
   }
 ]

@@ -29,7 +29,7 @@ function render(arr, projects) {
               <a href=${src} target="_blank" class="project-link">${title}</a>
             </div>
             <div class="project-date">
-            ${date.map(item => `<p >${item}</p>`).join("")}
+            ${date.map(item => `<p >${item}</p>`).join('')}
             </div>
             </div>
             ${description

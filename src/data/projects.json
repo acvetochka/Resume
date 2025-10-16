@@ -20,7 +20,7 @@
       "- Deployed and maintained the website on a personal server",
       "Achievements: Achieved a perfect score of 100 across all Lighthouse parameters"
     ],
-    "date": ["October 2024 - today"]
+    "date": ["10/2024 - today"]
   },
   {
     "title": "SmileBar",
@@ -42,7 +42,7 @@
       "- Configured styles in the tailwind.config file",
       "- Collaborated with the team to resolve cross-browser issues and optimize the interface"
     ],
-    "date": ["November - December 2023"]
+    "date": ["11/2023 - 12/2023"]
   },
   {
     "title": "Car Rental",
@@ -61,7 +61,7 @@
       "- Developed functionality for adding cars to favorites for future booking",
       "- Ensured responsive design for optimal display across various devices"
     ],
-    "date": ["October - November 2023", "February 2024"]
+    "date": ["10/2023 - 11/2023"]
   },
   {
     "title": "Goose Track",
@@ -83,7 +83,7 @@
       "- As Scrum Master: set up and managed Trello board, participated in Agile methodology meetings.​",
       "- As Frontend Team Lead: conducted code reviews for 9 frontend team members."
     ],
-    "date": ["September - October 2023"]
+    "date": ["09/2023 - 10/2023"]
   },
   {
     "title": "Phonebook",
@@ -109,6 +109,6 @@
       "- Implemented functionality for adding, deleting, and filtering contacts by name",
       "- Ensured a responsive design for proper display on various devices."
     ],
-    "date": ["July - September 2023", "today"]
+    "date": ["07/2023 - 09/2023", "today"]
   }
 ]
