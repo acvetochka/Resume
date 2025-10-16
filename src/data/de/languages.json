@@ -1,22 +1,22 @@
 [
   {
     "title": "Englisch",
-    "level": "Intermediate",
+    "level": "Mittelstufe",
     "cefr": "B1"
   },
   {
     "title": "Deutsch",
-    "level": "Upper-Intermediate",
-    "cefr": "B2"
+    "level": "Mittelstufe",
+    "cefr": "B2 <br/> (aktuell im Kurs C1.1)"
   },
   {
     "title": "Ukrainisch",
-    "level": "Native",
+    "level": "Mutterspreche",
     "cefr": "C2"
   },
   {
     "title": "Rusisch",
-    "level": "Proficiency",
+    "level": "Verhandlungssicher",
     "cefr": "C2"
   }
 ]
