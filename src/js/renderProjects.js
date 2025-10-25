@@ -1,6 +1,6 @@
 import projectsEn from '../data/projects.json';
 import projectsDe from '../data/de/projects.json';
-import gitIcon from '../img/icons.svg';
+import gitIcon from 'url:../img/icons.svg';
 
 const projectList = document.querySelector('.projects-list');
 const moreProjectList = document.querySelector('.more-projects-list');

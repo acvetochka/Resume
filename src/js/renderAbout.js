@@ -1,8 +1,6 @@
 import about from '../data/about.json';
 import aboutDe from '../data/de/about.json';
-import photo from '../img/alonaKuz.jpg';
-// import pdf from '../files/Lebenslauf_Frontend_Developer_Kuznietsova.pdf';
-// import pdfDe from '../files/Lebenslauf_Frontend_Developer_Kuznietsova.pdf';
+import photo from 'url:../img/alonaKuz.jpg';
 
 const aboutSection = document.querySelector('.about');
 const aboutContainer = document.querySelector('.about-container');
@@ -12,10 +10,8 @@ let aboutData = about;
 function renderAbout() {
   if (currentURL.includes('de.html')) {
     aboutData = aboutDe;
-    // pdfFile = pdfDe;
   } else {
     aboutData = about;
-    // pdfFile = pdf;
   }
 
   const markup = aboutData
@@ -23,7 +19,7 @@ function renderAbout() {
       ({ name, position, technologies, description, link, lang, pdf }) => `
       <div class="about-container">
        <div class="lang">
-       <a href=${pdf} download>pdf</a>
+       <a href=${pdf} class="lang-link" target="_blank">Pdf</a>
         <a href=${link} class="lang-link">${lang}</a>
        </div>
        <div class="photo-wrapper"> 
