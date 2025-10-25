@@ -5,7 +5,7 @@
   "homepage": "https://acvetochka.github.io/Resume/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Resume/"
+    "build": "parcel build src/*.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,16 @@
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "@parcel/transformer-webmanifest": "^2.6.0",
-    "parcel": "^2.6.0",
+    "@parcel/transformer-sass": "^2.16.0",
+    "@parcel/transformer-webmanifest": "^2.16.0",
+    "parcel": "^2.16.0",
     "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "staticFiles": {
+    "staticPath": "public",
+    "watchedGlob": "**"
+  }
 }
