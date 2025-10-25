@@ -1,4 +1,4 @@
-name: Build and deploy 
+name: Build and deploy
 
 on:
   push:
@@ -7,38 +7,55 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Отримуємо код
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
+      # 2️⃣ Встановлюємо залежності
+      - name: Install dependencies 🔧
+        run: npm ci
 
-      - name: Deploy to GH Pages🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+      # 3️⃣ Білд для GitHub Pages
+      - name: Build for GitHub Pages 🌐
+        run: npm run build -- --public-url /Resume/
+
+      # 4️⃣ Деплой на gh-pages
+      - name: Deploy to GH Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
-        
+
+      # 5️⃣ Очищення перед білдом для сервера
+      - name: Clean dist before server build
+        run: rm -rf dist
+
+      # 6️⃣ Білд для сервера DigitalOcean
+      - name: Build for Server 🖥️
+        run: npm run build -- --public-url ./
+
+      # 7️⃣ Налаштовуємо SSH
       - name: Set up SSH keys for server deployment
-        uses: webfactory/ssh-agent@v0.5.3
+        uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          
+
       - name: Add server to known hosts
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan -H 178.62.208.241 >> ~/.ssh/known_hosts
-  
-      - name: Deploy to server 🚀
+
+      # 8️⃣ Копіюємо зібрані файли на сервер
+      - name: Upload build to server 📦
+        run: |
+          rsync -avz --delete dist/ root@178.62.208.241:/var/www/resume/dist/
+
+      # 9️⃣ Перезапускаємо застосунок на сервері
+      - name: Restart app on server 🔁
         run: |
           ssh root@178.62.208.241 << 'EOF'
             cd /var/www/resume
-            git fetch --all
-            git reset --hard origin/main
-            npm ci
-            npx parcel build src/*.html --no-optimize
-            pm2 restart resume-site
+            pm2 restart resume-site || echo "PM2 process not found, skipping restart"
           EOF
