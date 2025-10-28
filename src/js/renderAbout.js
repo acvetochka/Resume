@@ -16,14 +16,24 @@ function renderAbout() {
 
   const markup = aboutData
     .map(
-      ({ name, position, technologies, description, link, lang, pdf }) => `
+      ({
+        name,
+        position,
+        technologies,
+        description,
+        link,
+        lang,
+        pdf,
+        pdfTitle,
+        linkTitle,
+      }) => `
       <div class="about-container">
        <div class="lang">
-       <a href=${pdf} class="lang-link" target="_blank">Pdf</a>
-        <a href=${link} class="lang-link">${lang}</a>
+       <a href=${pdf} class="lang-link" target="_blank" title=${pdfTitle}>Pdf</a>
+        <a href=${link} class="lang-link" title=${linkTitle}>${lang}</a>
        </div>
        <div class="photo-wrapper"> 
-        <img src=${photo} alt="photo" class="photo" width="250" height="250">
+        <img src=${photo} alt="photo" class="photo" width="250" height="250" fetchpriority=high title="Alona Kuznietsova">
        </div>
        <div>
         <h1 class="about-name">${name}</h1>

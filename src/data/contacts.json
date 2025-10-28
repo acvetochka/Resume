@@ -4,14 +4,16 @@
     "href": "tel:+4915141896120",
     "text": "+49(151)418-96-120",
     "target": "_self",
-    "src": "../img/email.svg"
+    "src": "../img/email.svg",
+    "title": "Mobile"
   },
   {
     "name": "email",
     "href": "mailto:acvetochka@gmail.com",
     "text": "acvetochka@gmail.com",
     "target": "_self",
-    "src": "../img/email.svg"
+    "src": "../img/email.svg",
+    "title": "Email"
   },
   {
     "name": "whatsapp",
@@ -19,7 +21,8 @@
     "text": "+380(96)127-06-93",
     "target": "_blank",
     "rel": "noopener noreferrer nofollow",
-    "src": "../img/email.svg"
+    "src": "../img/email.svg",
+    "title": "WhatsApp"
   },
   {
     "name": "linkedin",
@@ -27,14 +30,16 @@
     "text": "LinkedIn",
     "target": "_blank",
     "rel": "noopener noreferrer nofollow",
-    "src": "../img/email.svg"
+    "src": "../img/email.svg",
+    "title": "LinkedIn_link"
   },
   {
     "name": "location",
     "href": "https://maps.app.goo.gl/Rs829S1gaSCQ58WX7",
     "text": "Erkheim, Germany",
-    "rel":"noopener noreferrer nofollow",
-    "src": "../img/email.svg"
+    "rel": "noopener noreferrer nofollow",
+    "src": "../img/email.svg",
+    "title": "Location"
   },
   {
     "name": "github",
@@ -42,6 +47,7 @@
     "text": "GitHub",
     "target": "_blank",
     "rel": "noopener noreferrer nofollow",
-    "src": "../img/email.svg"
+    "src": "../img/email.svg",
+    "title": "Github_account"
   }
 ]

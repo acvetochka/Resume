@@ -17,16 +17,17 @@ if (currentURL.includes('de.html')) {
 function render(arr, projects) {
   const markup = arr
     .map(({ title, src, github, technologies, description, date }) => {
+      const linkTitle = title.split(' ').join('_');
       return `
           <li class="project-item">
             <div class="project-name-wrapper">
             <div class="project">
-              <a href=${github} target="_blank" class="project-link">
+              <a href=${github} target="_blank" class="project-link" title=${`Gode-${linkTitle}`}>
                <svg width="20" height="20" class="github-icon">
                 <use width="20" height="20" xlink:href="#icon-github" />
                </svg>
               </a>
-              <a href=${src} target="_blank" class="project-link">${title}</a>
+              <a href=${src} target="_blank" class="project-link" title=${`Website-${linkTitle}`}>${title}</a>
             </div>
             <div class="project-date">
             ${date.map(item => `<p >${item}</p>`).join('')}
