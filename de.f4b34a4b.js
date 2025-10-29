@@ -1,7 +1,11 @@
 function e(e){return e&&e.__esModule?e.default:e}var t,n="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{},i={},a={},o=n.parcelRequire0784;null==o&&((o=function(e){if(e in i)return i[e].exports;if(e in a){var t=a[e];delete a[e];var n={id:e,exports:{}};return i[e]=n,t.call(n.exports,n,n.exports),n.exports}var o=Error("Cannot find module '"+e+"'");throw o.code="MODULE_NOT_FOUND",o}).register=function(e,t){a[e]=t},n.parcelRequire0784=o),o.register,Object.assign(o.i??={},{kAoSS:"alonaKuz.fd26365a.jpg"});var r={};r=JSON.parse('[{"name":"Alona Kuznietsova","position":"Frontend Developer","technologies":"React / Next.js | TypeScript","description":"Passionate Frontend Developer with 2+ years of hands-on experience in building responsive, user-friendly web applications using React, Next.js, and TypeScript. Experienced in team leadership and agile methodologies. Strong focus on performance, clean architecture, and continuous learning.","link":"./de.html","linkTitle":"Switch_to_DE-version","lang":"DE","pdf":"./CV_Frontend_Developer.pdf","pdfTitle":"Download_PDF-file CV_Frontend_Developer_Alona_Kuznietsova"}]');var s={};s=JSON.parse('[{"name":"Alona Kuznietsova","position":"Frontend Entwicklerin","technologies":"React / Next.js | TypeScript","description":"Engagierte Frontend-Entwicklerin mit über 2 Jahren Erfahrung in der Entwicklung moderner Webanwendungen mit React, Next.js und TypeScript. Erfahren in Teamleitung und agilen Methoden. Fokus auf Performance, Codequalität und Benutzerfreundlichkeit.","link":"./index.html","linkTitle":"Zur_EN-Version_wechseln","lang":"EN","pdf":"./Lebenslauf_Frontend_Developer_Kuznietsova.pdf","pdfTitle":"Pdf-file_Lebenslauf_Frontend_Developer_Kuznietsova_herunterladen"}]');var l={};t="kAoSS",l=new URL("./"+(t=o.i?.[t]||t),import.meta.url).toString(),document.querySelector(".about");const c=document.querySelector(".about-container"),d=window.location.href;c.innerHTML=(d.includes("de.html")?e(s):e(r)).map(({name:t,position:n,technologies:i,description:a,link:o,lang:r,pdf:s,pdfTitle:c,linkTitle:d})=>`
       <div class="about-container">
        <div class="lang">
-       <a href=${s} class="lang-link" target="_blank" title=${c}>Pdf</a>
+       <a href=${s} class="lang-link" target="_blank" title=${c}>
+          <svg width="20" height="20" class="pdf-icon">
+            <use width="20" height="20" xlink:href="#icon-pdf" />
+          </svg>
+       </a>
         <a href=${o} class="lang-link" title=${d}>${r}</a>
        </div>
        <div class="photo-wrapper"> 
@@ -70,4 +74,4 @@ function e(e){return e&&e.__esModule?e.default:e}var t,n="undefined"!=typeof glo
       <p class="education-uni">${e}</p>
       <p class="period">${t}<span class="line"> | </span>${n}</p>
       </li>`).join("");
-//# sourceMappingURL=de.ac795920.js.map
+//# sourceMappingURL=de.f4b34a4b.js.map
