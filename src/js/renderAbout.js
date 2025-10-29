@@ -29,7 +29,11 @@ function renderAbout() {
       }) => `
       <div class="about-container">
        <div class="lang">
-       <a href=${pdf} class="lang-link" target="_blank" title=${pdfTitle}>Pdf</a>
+       <a href=${pdf} class="lang-link" target="_blank" title=${pdfTitle}>
+          <svg width="20" height="20" class="pdf-icon">
+            <use width="20" height="20" xlink:href="#icon-pdf" />
+          </svg>
+       </a>
         <a href=${link} class="lang-link" title=${linkTitle}>${lang}</a>
        </div>
        <div class="photo-wrapper"> 
