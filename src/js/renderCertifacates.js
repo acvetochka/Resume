@@ -6,12 +6,6 @@ const currentURL = window.location.href;
 let add = addEn;
 
 function renderCertificates() {
-  // if (currentURL.includes('de.html')) {
-  //   add = addDe;
-  // } else {
-  //   add = addEn;
-  // }
-
   const markup = add
     .map(({ name, date }) => {
       return `<li class="education-item">

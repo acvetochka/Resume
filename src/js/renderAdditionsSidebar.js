@@ -14,13 +14,6 @@ function renderAdditionSidebar() {
 
   const markup = add
     .map(({ href, date, degree }) => {
-      // const deg = degree => {
-      //   if (degree) {
-      //     return 'Abschluss: ' + degree;
-      //   } else {
-      //     return '';
-      //   }
-      // };
       const linkDegree = degree.split(' ').join('_');
 
       let link = `<a href=${href} rel="noopener noreferrer nofollow" target="_blank" class="education-course" title=${`Show_${linkDegree}`}>${degree}</a> `;

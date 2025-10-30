@@ -29,8 +29,6 @@ function renderEducation() {
       </li>`;
     })
     .join('');
-    
-    // ${deg(degree)}</p>
   eduList.innerHTML = markup;
 }
 
