@@ -127,7 +127,8 @@
 }
 
 .project-link:hover > .github-icon {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  filter: drop-shadow(1px 1px 1px #000000b3);
 }
 
 .project-bracket {
