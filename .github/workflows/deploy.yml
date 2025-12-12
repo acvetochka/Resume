@@ -40,22 +40,22 @@ jobs:
       - name: Set up SSH keys for server deployment
         uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ${{ secrets.SERVER_SSH_KEY }}
 
       - name: Add server to known hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H 178.62.208.241 >> ~/.ssh/known_hosts
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
       # 8️⃣ Копіюємо зібрані файли на сервер
       - name: Upload build to server 📦
         run: |
-          rsync -avz --delete dist/ root@178.62.208.241:/var/www/resume/dist/
+          rsync -avz --delete dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:{{ secrets.DEPLOY_PATH }}
 
       # 9️⃣ Перезапускаємо застосунок на сервері
       - name: Restart app on server 🔁
         run: |
-          ssh root@178.62.208.241 << 'EOF'
-            cd /var/www/resume
-            pm2 restart resume-site || echo "PM2 process not found, skipping restart"
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP } << 'EOF'
+            cd ${{ secrets.PROJECT_PATH }}
+            pm2 restart ${{ secrets.PM_PROCESS }} || echo "PM2 process not found, skipping restart"
           EOF
