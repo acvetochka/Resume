@@ -41,11 +41,14 @@ jobs:
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SERVER_SSH_KEY }}
+          log-public-key: false
 
       - name: Add server to known hosts
         run: |
           mkdir -p $HOME/.ssh
-          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> $HOME/.ssh/known_hosts
+          touch $HOME/.ssh/known_hosts
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> $HOME/.ssh/known_hosts || true
+
 
       # 8️⃣ Копіюємо зібрані файли на сервер
       - name: Upload build to server 📦
