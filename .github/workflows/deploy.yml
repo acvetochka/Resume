@@ -53,7 +53,7 @@ jobs:
       # 8️⃣ Копіюємо зібрані файли на сервер
       - name: Upload build to server 📦
         run: |
-          rsync -avz --delete dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:{{ secrets.DEPLOY_PATH }}
+          rsync -avz --delete dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:${{ secrets.DEPLOY_PATH }}
 
       # # 9️⃣ Перезапускаємо застосунок на сервері
       # - name: Restart app on server 🔁
