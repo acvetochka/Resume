@@ -52,10 +52,10 @@ jobs:
         run: |
           rsync -avz --delete dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:{{ secrets.DEPLOY_PATH }}
 
-      # 9️⃣ Перезапускаємо застосунок на сервері
-      - name: Restart app on server 🔁
-        run: |
-          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP } << 'EOF'
-            cd ${{ secrets.PROJECT_PATH }}
-            pm2 restart ${{ secrets.PM_PROCESS }} || echo "PM2 process not found, skipping restart"
-          EOF
+      # # 9️⃣ Перезапускаємо застосунок на сервері
+      # - name: Restart app on server 🔁
+      #   run: |
+      #     ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP } << 'EOF'
+      #       cd ${{ secrets.PROJECT_PATH }}
+      #       pm2 restart ${{ secrets.PM_PROCESS }} || echo "PM2 process not found, skipping restart"
+      #     EOF
