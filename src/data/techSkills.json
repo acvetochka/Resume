@@ -19,22 +19,33 @@
   },
   {
     "name": "Backend",
-    "skills": ["Node.js", "MongoDB", "Express.js", "SQL"]
+    "skills": [
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "REST API",
+      "PostgreSQL",
+      "Prisma",
+      "SQL"
+    ]
+  },
+  {
+    "name": "DevOps & Tool",
+    "skills": [
+      "Linux",
+      "Docker",
+      "CI/CD",
+      "GitHub Actions",
+      "DigitalOcean",
+      "SSH"
+    ]
   },
   {
     "name": "API & Documentation",
-    "skills": ["REST API", "JSON/YAML", "Markdown", "Swagger"]
+    "skills": ["JSON/YAML", "Markdown", "Swagger (OpenAPI)", "VitePress"]
   },
   {
-    "name": "Tools & technologies",
-    "skills": [
-      "GIT/Github",
-      "CI/CD",
-      "Github Actions",
-      "Axios",
-      "WebPack",
-      "Parcel",
-      "DigitalOcean"
-    ]
+    "name": "Other Tools",
+    "skills": ["GIT/Github", "Axios", "Webpack", "Parcel"]
   }
 ]

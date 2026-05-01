@@ -1,17 +1,20 @@
 [
   {
-    "position": "Frontend Developer (Volunteer)",
+    "position": "FullStack Developer (Volunteer)",
     "date": "Juny 2025 - Today",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Development and optimization of UI components using React, Next.js, and TypeScript.",
-      "Implementation of scripts to automate repetitive tasks (e.g., component and icon exports).",
-      "Collaboration in an Agile/Scrum team, participation in sprint planning and reviews.",
-      "Improved reusability and maintainability of frontend architecture.",
-      "Contributed to the creation of the MVP together with designers and backend developers."
+      "Developed and optimized both frontend and backend features using React, Next.js, TypeScript, PostgreSQL, and Prisma.",
+      "Designed and implemented data flow and API integration between frontend and backend systems.",
+      "Owned and maintained comprehensive project documentation (architecture, API, data flow) using VitePress.",
+      "Automated API documentation (Swagger) by building CI/CD workflows to synchronize backend and documentation repositories.",
+      "Implemented automation scripts to streamline repetitive tasks (e.g., component and icon exports), improving development efficiency.",
+      "Collaborated in an Agile (Scrum) team, actively participating in sprint planning, refinements, and code reviews.",
+      "Improved scalability, maintainability, and reusability of the application architecture.",
+      "Contributed to MVP delivery in close collaboration with designers and backend developers."
     ],
-    "technologies": "React, Next.js, TypeScript, Tailwind CSS, Stripe, GitHub Actions"
+    "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
   },
   {
     "position": "Frontend Developer (Commercial Project)",

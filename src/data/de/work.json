@@ -1,18 +1,20 @@
 [
   {
-    "position": "Frontend Entwicklerin (Voluntary Project)",
+    "position": "FullStack Entwicklerin (Voluntary Project)",
     "date": "06/2025 - heute",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Entwicklung und Optimierung von UI-Komponenten mit modernen Frontend-Technologien (React, Next.js, TypeScript).",
-      "Implementierung von Skripten zur Automatisierung wiederkehrender Aufgaben (z. B. Komponenten- und Icon-Exports) zur Reduzierung der Entwicklungszeit.",
-      "Zusammenarbeit in einem Scrum-Team, Teilnahme an Sprint-Planung und Code-Reviews.",
-      "Verbesserung der Wiederverwendbarkeit und Wartbarkeit der Frontend-Architektur.",
-      "Beitrag zur Erstellung des MVP in enger Zusammenarbeit mit Designer:innen und Backend-Entwickler:innen."
+      "Entwicklung und Optimierung von Frontend- und Backend-Funktionalitäten (React, Next.js, TypeScript, PostgreSQL, Prisma).",
+      "Konzeption und Implementierung der Schnittstellen zwischen Frontend und Backend sowie Sicherstellung einer konsistenten Datenstruktur.",
+      "Aufbau und Pflege einer umfassenden Projektdokumentation (Architektur, API, Datenflüsse) mit VitePress.",
+      "Automatisierung der API-Dokumentation (Swagger) durch Einrichtung von CI/CD-Workflows zur Synchronisierung zwischen Backend- und Dokumentations-Repository.",
+      "Implementierung von Skripten zur Automatisierung wiederkehrender Aufgaben (z. B. Komponenten- und Icon-Exports) zur Effizienzsteigerung.",
+      "Zusammenarbeit in einem Scrum-Team, Teilnahme an Sprint-Planung, Refinements und Code-Reviews.",
+      "Verbesserung der Skalierbarkeit, Wartbarkeit und Wiederverwendbarkeit der gesamten Applikationsarchitektur.",
+      "Aktive Mitwirkung an der Entwicklung des MVP in enger Abstimmung mit Design und Backend."
     ],
-
-    "technologies": "React, Next.js, TypeScript, Tailwind CSS, Stripe, GitHub Actions"
+    "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
   },
   {
     "position": "Frontend Entwicklerin (Kommerzielles Kundenprojekt)",
@@ -20,9 +22,13 @@
     "place": "Kiew, Ukraine",
     "date": "11/2023 - 12/2023",
     "duties": [
-      "Entwicklung zentraler UI-Komponenten für eine Unternehmenswebsite (SmileBar)",
-      "Anpassung von Tailwind-Konfigurationen und Integration neuer Bibliotheken (Sanity, Telegram Bot API)",
-      "Zusammenarbeit im Team nach agilen Methoden (Figma, Trello)"
+      "Mitwirkung an der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw (SmileBar)",
+      "Entwicklung der Bereiche „Vorteile“ und „FAQ“ mit Tab-Funktionalität",
+      "Gestaltung visueller Elemente, einschließlich Hintergründen, Animationen und Integration von Metadaten",
+      "Konfiguration von Style-Variablen in der tailwind.config-Datei",
+      "Einarbeitung in die Dokumentation von Sanity und der Telegram Bot API zur Unterstützung der Integration im Projekt",
+      "Zusammenarbeit im Team zur Behebung von Cross-Browser-Problemen sowie Einsatz von Bibliotheken zur Optimierung von Tabs und Hintergründen",
+      "Arbeit in einem agilen Team unter Nutzung von Figma für Design und Trello für Aufgabenmanagement"
     ]
   }
 ]
