@@ -1,7 +1,7 @@
 [
   {
     "position": "Linux & Network Administration Course",
-    "date": "01/2026 - present",
+    "date": "01/2026 - 05/2026",
     "company": "PortaOne Education Center",
     "place": "Remote",
     "duties": [
@@ -11,7 +11,7 @@
       "Server Management: Web server setup, virtual hosts, HTTPS/SSL configuration, and LAMP stack.",
       "Database Basics: MySQL installation, configuration, replication, backups, and SQL queries.",
       "Troubleshooting & Performance: Diagnosing system issues and optimizing server performance.",
-      "DevOps & Tools: Hands-on exposure to Docker, Kubernetes, Ansible, and AI-assisted engineering workflows."
+      "DevOps & Tools: Foundational knowledge of Docker, Kubernetes, and Ansible gained through workshops, along with experience using AI-assisted engineering tools."
     ]
   },
   {

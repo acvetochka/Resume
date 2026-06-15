@@ -1,7 +1,7 @@
 [
   {
     "position": "Linux- und Netzwerkadministration Kurs",
-    "date": "01/2026 - heute",
+    "date": "01/2026 - 05/2026",
     "company": "PortaOne Education Center",
     "place": "Remote",
     "duties": [
@@ -11,7 +11,7 @@
       "Serveradministration: Einrichtung und Konfiguration von Webservern, virtuellen Hosts sowie HTTPS/SSL-Zertifikaten und LAMP-Stack.",
       "Datenbanken: Installation und Konfiguration von MySQL, grundlegende SQL-Abfragen, Backups und Replikation.",
       "Fehleranalyse & Performance: Analyse und Behebung von Systemproblemen sowie Optimierung der Serverleistung.",
-      "DevOps & Tools: Praktische Erfahrung mit Docker, Kubernetes, Ansible sowie Einsatz von KI-gestützten Tools im Entwicklungsprozess."
+      "DevOps & Tools: Grundlegende Kenntnisse in Docker, Kubernetes und Ansible aus Workshops sowie Einsatz von KI-gestützten Tools im Entwicklungsprozess."
     ]
   },
   {
