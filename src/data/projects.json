@@ -4,62 +4,46 @@
     "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
     "technologies": [
-      "Next JS",
-      "React JS",
+      "Next.js",
+      "React",
       "TypeScript",
       "Styled Components",
-      " Vercel"
+      "EmailJS",
+      "MailboxLayer API",
+      "Yup",
+      "Git",
+      "Vercel"
     ],
     "description": [
-      "Developed a personal website to showcase professional skills, projects, and contact information.",
-      "Responsibilities:",
-      "- Created a responsive and interactive user interface using Next.js and React",
-      "- Implemented server-side functions to handle contact forms and dynamic content",
-      "- Integrated animations and styling with Styled-components libraries",
-      "- Ensured cross-browser compatibility and optimized performance",
-      "- Deployed and maintained the website on a personal server",
-      "Achievements: Achieved a perfect score of 100 across all Lighthouse parameters"
+      "Developed a responsive portfolio website using <b>Next.js</b>, <b>React</b>, and <b>TypeScript</b> to showcase projects and technical skills.",
+      "Built reusable <b>React components</b> and implemented modern animations with <b>Styled Components</b> to create a consistent and maintainable UI.",
+      "Developed a secure contact form featuring <b>multi-step validation</b>, <b>spam detection</b>, <b>email verification</b>, and automated message delivery via external <b>REST APIs</b>.",
+      "Ensured <b>cross-browser compatibility</b> while optimizing application performance and page load times across different browsers and devices.",
+      "Deployed and continuously maintained the application on <b>Vercel</b>, including the configuration of automated <b>deployment workflows</b>.",
+      "Achieved a <b>Lighthouse score of 100/100</b> in Performance, Accessibility, Best Practices, and SEO."
     ],
-    "date": ["10/2024 - today"]
-  },
-  {
-    "title": "SmileBar",
-    "src": "https://smile-bar.vercel.app/",
-    "github": "https://github.com/SoftRyzen-internship/smile_bar",
-    "technologies": [
-      "Next JS",
-      "React JS",
-      " Tailwind CSS",
-      " Sanity",
-      "Telegram bot API"
-    ],
-    "description": [
-      "Commercial team project by SoftRyzen. Role: Developer",
-      "Participated in the development of a website for a professional teeth whitening studio in Lviv.​",
-      "Responsibilities:",
-      "- Developed the \"Advantages\" and \"FAQ\" sections with tab functionality​",
-      "- Designed visual elements, including backgrounds and animations",
-      "- Configured styles in the tailwind.config file",
-      "- Collaborated with the team to resolve cross-browser issues and optimize the interface"
-    ],
-    "date": ["11/2023 - 12/2023"]
+    "date": ["10/2024 - Present"]
   },
   {
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
     "technologies": [
-      "React JS",
-      " Redux Toolkit",
-      " Axios",
+      "React",
+      "Redux Toolkit",
+      "React Router",
+      "Axios",
       "Framer Motion",
-      "Emotion Styles"
+      "Emotion Styles",
+      "GitHub Actions",
+      "GitHub Pages"
     ],
     "description": [
-      "- Developed a car rental service website offering convenient search and booking functionalities",
-      "- Implemented filters by brand, price, and mileage to facilitate car searches",
-      "- Developed functionality for adding cars to favorites for future booking",
-      "- Ensured responsive design for optimal display across various devices"
+      "Developed a responsive <b>React</b> web application for vehicle search and reservation using a component-based architecture.",
+      "Managed application state with <b>Redux Toolkit</b> and integrated a <b>REST API</b> using <b>Axios</b> to dynamically display and filter vehicle data.",
+      "Implemented interactive search and filtering features, a favorites system with <b>Local Storage</b> persistence, and a modal-based vehicle details view.",
+      "Built a responsive user interface and implemented modern animations using <b>Emotion</b> and <b>Framer Motion</b> to ensure a consistent user experience across different devices.",
+      "Configured an automated <b>CI/CD</b> workflow with <b>GitHub Actions</b> to deploy the application to <b>GitHub Pages</b>."
     ],
     "date": ["10/2023 - 11/2023"]
   },
@@ -68,20 +52,23 @@
     "src": "https://nazarmural.github.io/goose-track-project/",
     "github": "https://github.com/acvetochka/goose-track-project",
     "technologies": [
-      "React JS",
+      "React",
       "Redux Toolkit",
-      "Node.js",
-      "Express.js",
-      "MongoDB"
+      "React Router",
+      "Axios",
+      "Trello",
+      "Git",
+      "GitHub"
+    ],
+    "text": [
+      "Full-Stack Team Project",
+      "Role: Frontend Team Lead, Scrum Master, Frontend Developer."
     ],
     "description": [
-      "Team-project. Role: Frontend Team Lead, Scrum Master, Developer.",
-      "Developed an event schedule management system with Google authentication support.",
-      "Responsibilities:",
-      "- Configured project structure.​",
-      "- Created markup and functionality for the monthly calendar.​",
-      "- As Scrum Master: set up and managed Trello board, participated in Agile methodology meetings.​",
-      "- As Frontend Team Lead: conducted code reviews for 9 frontend team members."
+      "Developed a responsive <b>React</b> web application for personal task and calendar management with <b>Google Authentication</b> as part of a full-stack team project.",
+      "Implemented core monthly calendar functionality, including the user interface, interaction logic, and state management with <b>Redux Toolkit</b>, while collaborating closely with the backend team on <b>REST API</b> integration and issue resolution.",
+      "Led a frontend <b>team of 9 developers</b>, conducted <b>Code Reviews</b>, and ensured consistent development standards and code quality.",
+      "Served as <b>Scrum Master</b>, organizing the development workflow with <b>Trello</b>, facilitating <b>Agile ceremonies</b>, and coordinating collaboration across the frontend team."
     ],
     "date": ["09/2023 - 10/2023"]
   },
@@ -90,7 +77,7 @@
     "src": "https://acvetochka.github.io/Phonebook/",
     "github": "https://github.com/acvetochka/Phonebook",
     "technologies": [
-      "React JS",
+      "React",
       "Redux Toolkit",
       "Axios",
       "Node.js",
@@ -99,16 +86,14 @@
       "REST API",
       "DigitalOcean"
     ],
+    "text": ["Full-Stack App"],
     "description": [
-      "FullStack App",
-      "Developed a full-featured web application for storing and managing phone contacts with user authentication",
-      "Responsibilities:",
-      "- Developed the frontend using React to create an intuitive user interface.",
-      "- Created the backend with Node.js to handle requests and data storage",
-      "- Deployed the backend on a DigitalOcean server to ensure availability and stability",
-      "- Implemented functionality for adding, deleting, and filtering contacts by name",
-      "- Ensured a responsive design for proper display on various devices."
+      "Developed a responsive contact management web application using <b>React</b> and <b>Redux Toolkit</b> with an intuitive and user-friendly interface.",
+      "Designed and implemented a <b>RESTful API</b> using <b>Node.js</b>, <b>Express</b>, and <b>MongoDB</b> to handle user authentication, contact management, and persistent data storage.",
+      "Integrated the frontend with the <b>REST API</b> using <b>Axios</b> and managed application state with <b>Redux Toolkit</b>.",
+      "Implemented <b>CRUD</b> functionality for creating, updating, deleting, and filtering contacts, while ensuring a responsive user experience across different devices.",
+      "Deployed the backend to a <b>DigitalOcean</b> server, including server environment configuration and application deployment."
     ],
-    "date": ["07/2023 - 09/2023", "today"]
+    "date": ["07/2023 - Present"]
   }
 ]

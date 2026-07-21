@@ -2,12 +2,14 @@
   padding-top: 40px;
   padding-bottom: 20px;
   margin-bottom: 0;
-  background: linear-gradient(
-    90deg,
-    rgb(137 151 204) 0%,
-    rgba(89, 125, 164, 1) 35%,
-    rgb(48 88 131) 100%
-  );
+  background: #41788f;
+
+  // background: linear-gradient(
+  //   90deg,
+  //   rgb(137 151 204) 0%,
+  //   rgba(89, 125, 164, 1) 35%,
+  //   rgb(48 88 131) 100%
+  // );
 }
 
 .about-container {
@@ -43,7 +45,8 @@
   color: #fff;
   margin-top: 0;
   text-shadow: 0 0 2px #000000;
-  text-align: end;
+  // text-align: end;
+  text-align: center;
 }
 
 .about-technologies {
@@ -59,6 +62,7 @@
   color: #fff;
   margin-bottom: 25px;
   text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 
 .about-description {

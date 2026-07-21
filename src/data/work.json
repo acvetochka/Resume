@@ -1,34 +1,37 @@
 [
   {
-    "position": "FullStack Developer (Volunteer)",
-    "date": "Juny 2025 - Today",
+    "position": "Full-Stack Developer",
+    "date": "06/2025 - Present",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Developed and optimized both frontend and backend features using React, Next.js, TypeScript, PostgreSQL, and Prisma.",
-      "Designed and implemented data flow and API integration between frontend and backend systems.",
-      "Owned and maintained comprehensive project documentation (architecture, API, data flow) using VitePress.",
-      "Automated API documentation (Swagger) by building CI/CD workflows to synchronize backend and documentation repositories.",
-      "Implemented automation scripts to streamline repetitive tasks (e.g., component and icon exports), improving development efficiency.",
-      "Collaborated in an Agile (Scrum) team, actively participating in sprint planning, refinements, and code reviews.",
-      "Improved scalability, maintainability, and reusability of the application architecture.",
-      "Contributed to MVP delivery in close collaboration with designers and backend developers."
+      "Developed and optimized scalable frontend and backend components using <b>React</b>, <b>Next.js, TypeScript, PostgreSQL</b>, and <b>Prisma</b> for an international non-profit platform.",
+      "Designed and implemented interfaces between frontend and backend to ensure consistent data structures and reliable data communication.",
+      "Created and maintained technical project documentation (architecture, API, data flows) using <b>VitePress</b>, improving maintainability and knowledge sharing across the team.",
+      "Automated <b>API documentation</b> by implementing <b>CI/CD</b> workflows with <b>GitHub Actions</b> and <b>Swagger</b>, reducing manual effort and increasing development efficiency.",
+      "Developed <b>automation scripts</b> for recurring tasks (e.g., component and icon exports) to streamline the development workflow.",
+      "Collaborated closely with frontend, backend, and design teams on the development of an <b>MVP</b>, participating in <b>Sprint Planning</b>, <b>Refinement sessions</b>, and <b>Code Reviews</b>.",
+      "Continuously improved the scalability, maintainability, and reusability of the application architecture.",
+      "Independently delivered technical solutions while ensuring the quality, reliability, and stability of the developed components."
     ],
     "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
   },
   {
-    "position": "Frontend Developer (Commercial Project)",
+    "position": "Frontend Developer",
     "company": "SoftRyzen",
     "place": "Kyiv, Ukraine (remote)",
-    "date": "November 2023 - December 2023",
+    "date": "11/2023 - 12/2023",
     "duties": [
-      "Participated in the development of a website for a professional teeth whitening studio in Lviv (SmileBar)",
-      "Developed the \"Advantages\" and \"FAQ\" sections with tab functionality",
-      "Designed visual elements, including backgrounds, animations, and metadata integration",
-      "Configured style variables in the tailwind.config file",
-      "Studied documentation for Sanity and Telegram Bot API to understand their integration in the project",
-      "Collaborated with the team to resolve cross-browser issues, using various libraries to optimize tabs and backgrounds",
-      "Worked within an Agile team, utilizing Figma for design and Trello for task management"
+      "Developed interactive user interfaces for the website of a commercial client (SmileBar) using <b>React</b>, <b>Next.js</b>, and <b>Tailwind CSS</b>, ensuring an intuitive user experience.",
+      "Implemented dynamic <b>tab components</b> for the Benefits and FAQ sections to improve usability and interactivity.",
+      "Customized the <b>Tailwind CSS</b> configuration and developed reusable <b>UI components</b> and animations to ensure a consistent design system.",
+      "Analyzed and resolved <b>cross-browser compatibility</b> issues to ensure consistent behavior across different browsers and devices.",
+      "Collaborated with developers and designers in an <b>Agile Scrum</b> team using <b>Figma</b> and <b>Trello</b> to deliver project milestones on schedule.",
+      "Independently delivered assigned frontend tasks while maintaining high code quality and meeting project requirements."
+    ],
+    "reference": [
+      "https://smile-bar.vercel.app",
+      "https://github.com/SoftRyzen-internship/smile_bar"
     ]
   }
 ]

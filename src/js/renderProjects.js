@@ -16,13 +16,14 @@ if (currentURL.includes('de.html')) {
 
 function render(arr, projects) {
   const markup = arr
-    .map(({ title, src, github, technologies, description, date }) => {
-      const linkTitle = title.split(' ').join('_');
-      return `
+    .map(
+      ({ title, src, github, technologies, text = [], description, date }) => {
+        const linkTitle = title.split(' ').join('_');
+        return `
           <li class="project-item">
             <div class="project-name-wrapper">
             <div class="project">
-              <a href=${github} target="_blank" class="project-link" title=${`Gode-${linkTitle}`}>
+              <a href=${github} target="_blank" class="project-link" title=${`Code-${linkTitle}`}>
                <svg width="20" height="20" class="github-icon">
                 <use width="20" height="20" xlink:href="#icon-github" />
                </svg>
@@ -33,14 +34,23 @@ function render(arr, projects) {
             ${date.map(item => `<p >${item}</p>`).join('')}
             </div>
             </div>
+            ${
+              text &&
+              text
+                .map(item => `<p class="project-text text">${item}</p>`)
+                .join('')
+            }
+            <ul class="work-list">
             ${description
-              .map(item => `<p class="project-text">${item}</p>`)
+              .map(item => `<li class="work-list-item">${item}</li>`)
               .join('')}
+            </ul>
             <p class="project-bracket"> Technologies: ${technologies
               .map(item => `${item}`)
               .join(', ')}  </p>
           </li>`;
-    })
+      }
+    )
     .join('');
   projects.innerHTML = markup;
 }

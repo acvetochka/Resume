@@ -11,6 +11,7 @@
       "React",
       "Redux",
       "Redux Toolkit",
+      "Zustand",
       "Next.js",
       "Vue.js",
       "Adaptive design",
@@ -18,7 +19,7 @@
     ]
   },
   {
-    "name": "Backend",
+    "name": "Backend & Databases",
     "skills": [
       "Node.js",
       "MongoDB",
@@ -26,7 +27,7 @@
       "REST API",
       "PostgreSQL",
       "Prisma",
-      "SQL"
+      "MySQL"
     ]
   },
   {
@@ -45,7 +46,7 @@
     "skills": ["JSON/YAML", "Markdown", "Swagger (OpenAPI)", "VitePress"]
   },
   {
-    "name": "Other Tools",
+    "name": "Other Tools & Technologies",
     "skills": ["GIT/Github", "Axios", "Webpack", "Parcel"]
   }
 ]

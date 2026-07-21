@@ -5,26 +5,23 @@
     "company": "PortaOne Education Center",
     "place": "Remote",
     "duties": [
-      "Linux System Administration: File systems, process management, user permissions, package management, and system utilities.",
-      "Shell & Automation: Bash scripting, sed, awk, and automation of system tasks.",
-      "Networking Fundamentals: OSI model, TCP/IP stack, network protocols, IP addressing, routing, and traffic analysis.",
-      "Server Management: Web server setup, virtual hosts, HTTPS/SSL configuration, and LAMP stack.",
-      "Database Basics: MySQL installation, configuration, replication, backups, and SQL queries.",
-      "Troubleshooting & Performance: Diagnosing system issues and optimizing server performance.",
-      "DevOps & Tools: Foundational knowledge of Docker, Kubernetes, and Ansible gained through workshops, along with experience using AI-assisted engineering tools."
+      "Linux Administration & Automation: Hands-on administration of <b>Linux</b> systems, user and permission management, <b>Bash</b> scripting, automation of administrative tasks, and virtual machine setup using <b>Oracle VirtualBox</b>.",
+      "Networking: Configuration of <b>IP networks</b>, routing, <b>NAT</b>, <b>iptables</b> firewall, <b>FTP</b> servers, network traffic analysis, and troubleshooting.",
+      "Server Administration: Installation and configuration of <b>Apache</b>, <b>HTTPS/SSL</b>, virtual hosts, and <b>LAMP</b> environments.",
+      "Databases: Installation and administration of <b>MySQL</b>, user and permission management, database backups, and basic replication setup.",
+      "Troubleshooting & DevOps Fundamentals: Analysis and resolution of system and network issues, with foundational knowledge of <b>Docker</b>, <b>Kubernetes</b>, and <b>Ansible</b> gained through workshops."
     ]
   },
   {
-    "position": "FullStack Developer Training Program",
+    "position": "Full-Stack Web Developer Training Program",
     "company": "IT-School GoIT",
     "place": "Kyiv, Ukraine (remote)",
     "date": "11/2022 - 10/2023",
     "duties": [
-      "Project Development: Participated in the creation of 5 individual and 3 team projects focused on developing web applications using JavaScript, React, Node.js, and MongoDB.​",
-      "Leadership and Process Management: Fulfilled the roles of Team Lead and Scrum Master in team projects, including project organization, task distribution, project setup, development process management, and implementation of Agile methodologies",
-      "Adoption of New Technologies: Studied and applied new libraries and technologies, optimizing code to enhance performance and efficiency​",
-      "Team Collaboration and Communication: Maintained constant communication with peers, assisted in resolving issues and bugs, and interacted with the mentor on behalf of the team to discuss technical solutions",
-      "GitHub Management: Reviewed and conducted code reviews for all team members, ensuring code quality and adherence to project standards."
+      "Frontend & Backend Development: Practical experience developing <b>5 individual</b> and <b>3 team projects</b> using <b>JavaScript</b>, <b>React</b>, <b>Node.js</b>, and <b>MongoDB</b>.",
+      "Agile Development & Team Leadership: Practical experience serving as <b>Team Lead</b> and <b>Scrum Master</b>, coordinating development teams of <b>up to 14 members</b>, including task distribution and sprint organization.",
+      "Code Quality & Version Control: Practical experience conducting <b>Code Reviews</b>, maintaining consistent coding standards, and managing version control with <b>GitHub</b>.",
+      "Technology Adoption & Code Optimization: Experience learning and applying new frameworks and libraries while continuously improving and optimizing existing applications."
     ]
   }
 ]
