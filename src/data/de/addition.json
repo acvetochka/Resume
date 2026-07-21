@@ -1,5 +1,4 @@
-
-[ 
+[
   {
     "name": "FullStack Developer Kurs",
     "location": "IT Schule GoIT, Kiew (Ukraine)",
@@ -18,28 +17,12 @@
     "date": "03/2024"
   },
   {
-    "name": "VueJS Start",
-    "location": "ITVDN",
-    "period": "Mai 2024 - Juni 2024",
-    "degree": "VueJS",
-    "href": "https://testprovider.com/ru/search-certificate/tp03262156",
-    "date": "06/2024"
-  },
-  {
     "name": "Kurs \"Grundlagen von DevOps und Kubernetes\"",
     "location": "Prometheus",
     "period": "März 2024 - Mai 2024",
     "degree": "Grundlagen von DevOps und Kubernetes",
     "href": "https://certs.prometheus.org.ua/downloads/ca1a768be03f488fabceb66fa91e2c5c/Certificate.pdf",
     "date": "05/2024"
-  },
-  {
-    "name": "IBM Data Science",
-    "location": "Coursera",
-    "period": "Juli 2024 - Februar 2025",
-    "degree": "IBM Data Science",
-    "href": "https://www.coursera.org/account/accomplishments/professional-cert/7L8PJB19V8I3",
-    "date": "02/2025"
   },
   {
     "name": "Berufssprachkurs - B2",
@@ -56,7 +39,5 @@
     "degree": "Englisch B1",
     "href": "https://online.fliphtml5.com/ajgpd/vsal/",
     "date": "12/2023"
-
   }
-
 ]

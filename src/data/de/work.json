@@ -1,34 +1,33 @@
 [
   {
-    "position": "FullStack Entwicklerin (Voluntary Project)",
+    "position": "FullStack Entwicklerin (Projektarbeit)",
     "date": "06/2025 - heute",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Entwicklung und Optimierung von Frontend- und Backend-Funktionalitäten (React, Next.js, TypeScript, PostgreSQL, Prisma).",
-      "Konzeption und Implementierung der Schnittstellen zwischen Frontend und Backend sowie Sicherstellung einer konsistenten Datenstruktur.",
-      "Aufbau und Pflege einer umfassenden Projektdokumentation (Architektur, API, Datenflüsse) mit VitePress.",
-      "Automatisierung der API-Dokumentation (Swagger) durch Einrichtung von CI/CD-Workflows zur Synchronisierung zwischen Backend- und Dokumentations-Repository.",
-      "Implementierung von Skripten zur Automatisierung wiederkehrender Aufgaben (z. B. Komponenten- und Icon-Exports) zur Effizienzsteigerung.",
-      "Zusammenarbeit in einem Scrum-Team, Teilnahme an Sprint-Planung, Refinements und Code-Reviews.",
-      "Verbesserung der Skalierbarkeit, Wartbarkeit und Wiederverwendbarkeit der gesamten Applikationsarchitektur.",
-      "Aktive Mitwirkung an der Entwicklung des MVP in enger Abstimmung mit Design und Backend."
+      "Entwicklung und Optimierung skalierbarer Frontend- und Backend-Komponenten mit <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, <b>PostgreSQL</b> und <b>Prisma</b> für eine internationale Non-Profit-Plattform.",
+      "Konzeption und Implementierung der Schnittstellen zwischen Frontend und Backend zur Sicherstellung einer konsistenten Datenstruktur und stabilen Datenkommunikation.",
+      "Aufbau und kontinuierliche Pflege einer technischen Projektdokumentation (Architektur, API, Datenflüsse) mit <b>VitePress</b> zur Verbesserung der Wartbarkeit und Wissensweitergabe im Team.",
+      "Automatisierung der <b>API-Dokumentation</b> durch Einrichtung von <b>CI/CD</b>-Workflows mit <b>GitHub Actions</b> und <b>Swagger</b> zur Reduzierung manueller Prozesse und Erhöhung der Entwicklungseffizienz.",
+      "Entwicklung von <b>Automatisierungsskripten</b> für wiederkehrende Aufgaben (z. B. Komponenten- und Icon-Exports) zur Optimierung des Entwicklungsprozesses.",
+      "Aktive Zusammenarbeit mit Frontend-, Backend- und Design-Teams bei der Entwicklung eines <b>MVP</b> sowie Teilnahme an <b>Sprint Planning</b>, <b>Refinements</b> und <b>Code Reviews</b>.",
+      "Kontinuierliche Verbesserung der Skalierbarkeit, Wartbarkeit und Wiederverwendbarkeit der Anwendungsarchitektur.",
+      "Selbstständige Umsetzung technischer Lösungen sowie Verantwortung für die Qualität und Stabilität der entwickelten Komponenten."
     ],
     "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
   },
   {
-    "position": "Frontend Entwicklerin (Kommerzielles Kundenprojekt)",
+    "position": "Frontend Entwicklerin (Projektarbeit)",
     "company": "SoftRyzen",
     "place": "Kiew, Ukraine",
     "date": "11/2023 - 12/2023",
     "duties": [
-      "Mitwirkung an der Entwicklung einer Website für ein professionelles Zahnaufhellungsstudio in Lwiw (SmileBar)",
-      "Entwicklung der Bereiche „Vorteile“ und „FAQ“ mit Tab-Funktionalität",
-      "Gestaltung visueller Elemente, einschließlich Hintergründen, Animationen und Integration von Metadaten",
-      "Konfiguration von Style-Variablen in der tailwind.config-Datei",
-      "Einarbeitung in die Dokumentation von Sanity und der Telegram Bot API zur Unterstützung der Integration im Projekt",
-      "Zusammenarbeit im Team zur Behebung von Cross-Browser-Problemen sowie Einsatz von Bibliotheken zur Optimierung von Tabs und Hintergründen",
-      "Arbeit in einem agilen Team unter Nutzung von Figma für Design und Trello für Aufgabenmanagement"
+      "Entwicklung interaktiver Benutzeroberflächen für die Website eines kommerziellen Kunden (SmileBar) mit <b>React</b>, <b>Next.js</b> und <b>Tailwind CSS</b> sowie Sicherstellung einer intuitiven Nutzerführung.",
+      "Implementierung dynamischer <b>Tab-Komponenten</b> für die Bereiche „Vorteile“ und „FAQ“ zur Verbesserung der Benutzerfreundlichkeit und Interaktivität.",
+      "Anpassung der <b>Tailwind CSS</b>-Konfiguration sowie Entwicklung wiederverwendbarer <b>UI-Komponenten</b> und Animationen zur Gewährleistung eines konsistenten Designs.",
+      "Analyse und Behebung von <b>Cross-Browser-Kompatibilitätsproblemen</b> zur Sicherstellung einer stabilen Darstellung auf unterschiedlichen Browsern und Endgeräten.",
+      "Zusammenarbeit mit Entwicklern und Designern in einem <b>Scrum-Team</b> unter Nutzung von <b>Figma</b> und <b>Trello</b> zur termingerechten Umsetzung der Projektziele.",
+      "Selbstständige Umsetzung der übertragenen Aufgaben unter Einhaltung der Qualitätsstandards und Projektvorgaben."
     ]
   }
 ]

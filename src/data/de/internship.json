@@ -5,26 +5,23 @@
     "company": "PortaOne Education Center",
     "place": "Remote",
     "duties": [
-      "Linux-Systemadministration: Dateisysteme, Prozessverwaltung, Benutzer- und Rechteverwaltung, Paketmanagement sowie Systemwerkzeuge.",
-      "Shell & Automatisierung: Bash-Scripting, Nutzung von sed und awk sowie Automatisierung von Systemaufgaben.",
-      "Netzwerkgrundlagen: OSI-Modell, TCP/IP-Stack, Netzwerkprotokolle, IP-Adressierung, Routing und Traffic-Analyse.",
-      "Serveradministration: Einrichtung und Konfiguration von Webservern, virtuellen Hosts sowie HTTPS/SSL-Zertifikaten und LAMP-Stack.",
-      "Datenbanken: Installation und Konfiguration von MySQL, grundlegende SQL-Abfragen, Backups und Replikation.",
-      "Fehleranalyse & Performance: Analyse und Behebung von Systemproblemen sowie Optimierung der Serverleistung.",
-      "DevOps & Tools: Grundlegende Kenntnisse in Docker, Kubernetes und Ansible aus Workshops sowie Einsatz von KI-gestützten Tools im Entwicklungsprozess."
+      "Linux-Administration & Automatisierung: Praktische Administration von <b>Linux</b>-Systemen, Benutzer- und Rechteverwaltung, <b>Bash</b>-Scripting, Automatisierung administrativer Aufgaben sowie Einrichtung virtueller Maschinen mit <b>Oracle VirtualBox</b>.",
+      "Netzwerktechnik: Konfiguration von <b>IP-Netzwerken</b>, Routing, <b>NAT</b>, <b>iptables</b>-Firewall, <b>FTP</b>-Servern sowie Analyse des Netzwerkverkehrs und Fehlerbehebung.",
+      "Serveradministration: Einrichtung und Konfiguration von <b>Apache</b>, <b>HTTPS/SSL</b>, virtuellen Hosts sowie <b>LAMP</b>-Umgebungen.",
+      "Datenbanken: Installation und Administration von <b>MySQL</b>, Konfiguration von Benutzern und Berechtigungen, Erstellung von Backups sowie Einrichtung grundlegender Replikation.",
+      "Troubleshooting & DevOps-Grundlagen: Analyse und Behebung von System- und Netzwerkproblemen sowie grundlegende Kenntnisse in <b>Docker</b>, <b>Kubernetes</b> und <b>Ansible</b> aus Workshops."
     ]
   },
   {
-    "position": "FullStack Developer Training Program",
+    "position": "FullStack Webentwicklung Training Program",
     "company": "IT-School GoIT",
     "place": "Kiew, Ukraine (remote)",
     "date": "11/2022 - 10/2023",
     "duties": [
-      "Projektentwicklung: Teilnahme an der Erstellung von 5 individuellen und 3 Teamprojekten zur Entwicklung von Webanwendungen unter Verwendung von JavaScript, React, Node.js und MongoDB",
-      "Führungs- und Prozessmanagement: Übernahme der Rollen von Team Lead und Scrum Master in Teamprojekten, einschließlich Projektorganisation, Aufgabenverteilung, Projekteinstellungen, Management des Entwicklungsprozesses und Implementierung von Agile-Methoden",
-      "Einsatz neuer Technologien: Erlernen und Anwenden neuer Bibliotheken und Technologien, Optimierung des Codes zur Steigerung von Leistung und Effizienz",
-      "Teamarbeit und Kommunikation: Kontinuierliche Kommunikation mit Teamkollegen, Unterstützung bei der Lösung von Problemen und Fehlern, Interaktion mit dem Mentor im Namen des Teams zur Besprechung technischer Lösungen",
-      "GitHub-Verwaltung: Überprüfung und Code-Reviews aller Teammitglieder, Sicherstellung der Code-Qualität und Einhaltung der Projektstandards."
+      "Frontend- & Backend-Entwicklung: Entwicklung von <b>5 Einzel-</b> und <b>3 Teamprojekten</b> mit <b>JavaScript</b>, <b>React</b>, <b>Node.js</b> und <b>MongoDB</b>.",
+      "Agile Arbeitsweise | Teamführung: Übernahme der Rollen <b>Team Lead</b> und <b>Scrum Master</b> mit Verantwortung für die Koordination von Entwicklungsteams mit <b>bis zu 14 Mitgliedern</b>, Aufgabenverteilung und Sprintorganisation.",
+      "Code-Qualität | Versionsverwaltung: Durchführung von <b>Code Reviews</b> sowie Sicherstellung einheitlicher Entwicklungsstandards und Versionsverwaltung mit <b>GitHub</b>.",
+      "Technologieeinsatz | <b>Codeoptimierung</b>: Einarbeitung in neue Frameworks und Bibliotheken sowie kontinuierliche Optimierung und Weiterentwicklung bestehender Anwendungen."
     ]
   }
 ]

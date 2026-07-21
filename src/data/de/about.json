@@ -1,13 +1,13 @@
 [
   {
     "name": "Alona Kuznietsova",
-    "position": "Software Engineer",
-    "technologies": "React / Next.js | TypeScript | Linux | PostgreSQL",
-    "description": "Software Engineer mit Schwerpunkt auf moderner Webentwicklung und praktischer Erfahrung in Fullstack-Projekten. Entwicklung von skalierbaren Anwendungen mit React, Next.js, TypeScript, PostgreSQL und Prisma sowie Erfahrung mit Linux, Docker und der Automatisierung von Entwicklungs- und Dokumentationsprozessen (CI/CD)",
+    "position": "Full-Stack Software Engineer",
+    "technologies": "React | Next.js | TypeScript | Node.js | PostgreSQL",
+    "description": "Software Engineer mit Schwerpunkt React, Next.js und TypeScript sowie Erfahrung in Frontend- und Full-Stack-Projekten. Entwicklung skalierbarer Webanwendungen mit PostgreSQL, Prisma und Node.js. Erfahrung in agilen Scrum-Teams sowie mit CI/CD, Docker und technischer Dokumentation.",
     "link": "./index.html",
     "linkTitle": "Zur_EN-Version_wechseln",
     "lang": "EN",
-    "pdf": "./Lebenslauf_Software_Engineer_Kuznietsova.pdf",
+    "pdf": "./Lebenslauf_Software_Engineer_Kuznietsova_old.pdf",
     "pdfTitle": "Pdf-file_Lebenslauf_Software_Engineer_Kuznietsova_herunterladen"
   }
 ]
