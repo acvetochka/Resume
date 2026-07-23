@@ -14,7 +14,17 @@
       "Continuously improved the scalability, maintainability, and reusability of the application architecture.",
       "Independently delivered technical solutions while ensuring the quality, reliability, and stability of the developed components."
     ],
-    "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "VitePress",
+      "Swagger",
+      "GitHub Actions"
+    ]
   },
   {
     "position": "Frontend Developer",
@@ -32,6 +42,7 @@
     "reference": [
       "https://smile-bar.vercel.app",
       "https://github.com/SoftRyzen-internship/smile_bar"
-    ]
+    ],
+    "technologies": ["React", "Next.js", "Tailwind CSS", "Figma", "Trello"]
   }
 ]

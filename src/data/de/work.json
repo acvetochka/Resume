@@ -1,33 +1,45 @@
 [
   {
-    "position": "FullStack Entwicklerin (Projektarbeit)",
+    "position": "FullStack Entwicklerin",
     "date": "06/2025 - heute",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Entwicklung und Optimierung skalierbarer Frontend- und Backend-Komponenten mit <b>React</b>, <b>Next.js</b>, <b>TypeScript</b>, <b>PostgreSQL</b> und <b>Prisma</b> für eine internationale Non-Profit-Plattform.",
-      "Konzeption und Implementierung der Schnittstellen zwischen Frontend und Backend zur Sicherstellung einer konsistenten Datenstruktur und stabilen Datenkommunikation.",
-      "Aufbau und kontinuierliche Pflege einer technischen Projektdokumentation (Architektur, API, Datenflüsse) mit <b>VitePress</b> zur Verbesserung der Wartbarkeit und Wissensweitergabe im Team.",
-      "Automatisierung der <b>API-Dokumentation</b> durch Einrichtung von <b>CI/CD</b>-Workflows mit <b>GitHub Actions</b> und <b>Swagger</b> zur Reduzierung manueller Prozesse und Erhöhung der Entwicklungseffizienz.",
-      "Entwicklung von <b>Automatisierungsskripten</b> für wiederkehrende Aufgaben (z. B. Komponenten- und Icon-Exports) zur Optimierung des Entwicklungsprozesses.",
-      "Aktive Zusammenarbeit mit Frontend-, Backend- und Design-Teams bei der Entwicklung eines <b>MVP</b> sowie Teilnahme an <b>Sprint Planning</b>, <b>Refinements</b> und <b>Code Reviews</b>.",
-      "Kontinuierliche Verbesserung der Skalierbarkeit, Wartbarkeit und Wiederverwendbarkeit der Anwendungsarchitektur.",
-      "Selbstständige Umsetzung technischer Lösungen sowie Verantwortung für die Qualität und Stabilität der entwickelten Komponenten."
+      "Entwickelte und optimierte skalierbare Frontend- und Backend-Komponenten für eine internationale Non-Profit-Plattform und stellte eine stabile sowie wartbare Anwendungsarchitektur sicher.",
+      "Konzipierte und implementierte Schnittstellen zwischen Frontend und Backend, um eine konsistente Datenstruktur und zuverlässige Datenkommunikation sicherzustellen.",
+      "Erstellte und pflegte die technische Projektdokumentation und erleichterte dadurch Wartung sowie Wissensaustausch im Team.",
+      "Automatisierte die API-Dokumentation und wiederkehrende Entwicklungsaufgaben, wodurch manuelle Prozesse reduziert wurden.",
+      "Arbeitete eng mit Frontend-, Backend- und Design-Teams bei der Entwicklung eines MVP zusammen und beteiligte sich aktiv an Sprint Planning, Refinements und Code Reviews.",
+      "Entwickelte eigenständig technische Lösungen und stellte Qualität sowie Stabilität der entwickelten Komponenten sicher."
     ],
-    "technologies": "React, Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, VitePress, Swagger, GitHub Actions"
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "VitePress",
+      "Swagger",
+      "GitHub Actions"
+    ]
   },
   {
-    "position": "Frontend Entwicklerin (Projektarbeit)",
+    "position": "Frontend Entwicklerin",
     "company": "SoftRyzen",
     "place": "Kiew, Ukraine",
     "date": "11/2023 - 12/2023",
     "duties": [
-      "Entwicklung interaktiver Benutzeroberflächen für die Website eines kommerziellen Kunden (SmileBar) mit <b>React</b>, <b>Next.js</b> und <b>Tailwind CSS</b> sowie Sicherstellung einer intuitiven Nutzerführung.",
-      "Implementierung dynamischer <b>Tab-Komponenten</b> für die Bereiche „Vorteile“ und „FAQ“ zur Verbesserung der Benutzerfreundlichkeit und Interaktivität.",
-      "Anpassung der <b>Tailwind CSS</b>-Konfiguration sowie Entwicklung wiederverwendbarer <b>UI-Komponenten</b> und Animationen zur Gewährleistung eines konsistenten Designs.",
-      "Analyse und Behebung von <b>Cross-Browser-Kompatibilitätsproblemen</b> zur Sicherstellung einer stabilen Darstellung auf unterschiedlichen Browsern und Endgeräten.",
-      "Zusammenarbeit mit Entwicklern und Designern in einem <b>Scrum-Team</b> unter Nutzung von <b>Figma</b> und <b>Trello</b> zur termingerechten Umsetzung der Projektziele.",
-      "Selbstständige Umsetzung der übertragenen Aufgaben unter Einhaltung der Qualitätsstandards und Projektvorgaben."
-    ]
+      "Entwickelte interaktive Benutzeroberflächen für die Website eines kommerziellen Kunden und sorgte für eine intuitive Benutzerführung.",
+      "Implementierte dynamische Tab-Komponenten für die Bereiche „Vorteile“ und „FAQ“ und verbesserte dadurch die Interaktivität der Website.",
+      "Entwickelte wiederverwendbare UI-Komponenten, passte die Tailwind-Konfiguration an und stellte ein konsistentes Design sicher.",
+      "Analysierte und behob Cross-Browser-Kompatibilitätsprobleme, um eine stabile Darstellung auf unterschiedlichen Browsern und Endgeräten zu gewährleisten.",
+      "Arbeitete eng mit Entwicklern und Designern im Scrum-Team zusammen und trug zur termingerechten Umsetzung der Projektziele bei."
+    ],
+    "reference": {
+      "website": "https://smile-bar.vercel.app",
+      "github": "https://github.com/SoftRyzen-internship/smile_bar"
+    },
+    "technologies": ["React", "Next.js", "Tailwind CSS", "Figma", "Trello"]
   }
 ]
