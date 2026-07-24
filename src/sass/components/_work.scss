@@ -105,3 +105,35 @@
   line-height: 24px;
   color: #595959;
 }
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  font-size: 14px;
+  color: #545454;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.technology-item {
+  // display: inline;
+
+  &:not(:last-child)::after {
+    content: '•';
+    margin: 0 0.7rem;
+    color: #777;
+  }
+}
+
+.reference-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.reference-link {
+  font-size: 14px;
+}
