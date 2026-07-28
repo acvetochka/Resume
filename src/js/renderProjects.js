@@ -1,18 +1,22 @@
-import projectsEn from '../data/projects.json';
-import projectsDe from '../data/de/projects.json';
+// import projectsEn from '../data/projects.json';
+// import projectsDe from '../data/de/projects.json';
 // import gitIcon from 'url:../img/icons.svg';
+
+import { getData } from "../utils/getData";
 
 const projectList = document.querySelector('.projects-list');
 const moreProjectList = document.querySelector('.more-projects-list');
 
-const currentURL = window.location.href;
-let projects = projectsEn;
+const projects = getData('projects');
 
-if (currentURL.includes('de.html')) {
-  projects = projectsDe;
-} else {
-  projects = projectsEn;
-}
+// const currentURL = window.location.href;
+// let projects = projectsEn;
+
+// if (currentURL.includes('de.html')) {
+//   projects = projectsDe;
+// } else {
+//   projects = projectsEn;
+// }
 
 function render(arr, projects) {
   const markup = arr

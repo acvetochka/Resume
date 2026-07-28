@@ -1,18 +1,10 @@
-import about from '../data/about.json';
-import aboutDe from '../data/de/about.json';
 import photo from 'url:../img/alonaKuz.jpg';
+import { getData } from '../utils/getData';
 
-const aboutSection = document.querySelector('.about');
 const aboutContainer = document.querySelector('.about-container');
-const currentURL = window.location.href;
-let aboutData = about;
 
 function renderAbout() {
-  if (currentURL.includes('de.html')) {
-    aboutData = aboutDe;
-  } else {
-    aboutData = about;
-  }
+  const aboutData = getData('about');
 
   const markup = aboutData
     .map(

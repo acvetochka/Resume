@@ -1,16 +1,9 @@
-import workEn from '../data/work.json';
-import workDe from '../data/de/work.json';
+import { getData } from '../utils/getData'
 
 const companyList = document.querySelector('.company-list');
-const currentURL = window.location.href;
-let work = workEn;
 
 function renderWorkExperience() {
-  if (currentURL.includes('de.html')) {
-    work = workDe;
-  } else {
-    work = workEn;
-  }
+  const work = getData('work');
 
   const markup = work
     .map(
@@ -30,22 +23,21 @@ function renderWorkExperience() {
             <p class="company">${company}<span class="line"> | </span>${place}</p>
             <ul class="technologies-list">
             ${technologies
-              .map(skill => `<li class="technology-item">${skill}</li>`)
-              .join('')}
+          .map(skill => `<li class="technology-item">${skill}</li>`)
+          .join('')}
             </ul>
             <ul class="work-list">
             ${duties
-              .map(duty => `<li class="work-list-item">${duty}</li>`)
-              .join('')}
+          .map(duty => `<li class="work-list-item">${duty}</li>`)
+          .join('')}
             </ul>
-            ${
-              (reference &&
-                `<div class="reference-container"><p class="text">Reference: </p>
+            ${(reference &&
+          `<div class="reference-container"><p class="text">Reference: </p>
                <a href=${reference.website} target="_blank" class="project-link reference-link">Website</a> |
               <a href=${reference.github} target="_blank" class="project-link reference-link">GitHub</a>
               </div>`) ||
-              ''
-            }
+        ''
+        }
           </li>`
     )
     .join('');

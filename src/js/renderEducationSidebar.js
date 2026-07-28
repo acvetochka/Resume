@@ -1,16 +1,9 @@
-import eduEn from '../data/education.json';
-import eduDe from '../data/de/education.json';
+import { getData } from "../utils/getData";
 
 const eduList = document.querySelector('.education-list-sidebar');
-const currentURL = window.location.href;
-let edu = eduEn;
 
 function renderEducation() {
-  if (currentURL.includes('de.html')) {
-    edu = eduDe;
-  } else {
-    edu = eduEn;
-  }
+  const edu = getData('edu');
 
   const markup = edu
     .map(({ uni, date, location, spec, degree }) => {

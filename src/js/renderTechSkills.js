@@ -1,18 +1,10 @@
-import techSkillsEn from '../data/techSkills.json';
-import techSkillsDe from '../data/de/techSkills.json';
+import { getData } from "../utils/getData";
 
 const techSkillsList = document.querySelector('.tech-skills-list');
 
-const currentURL = window.location.href;
-let techSkills = techSkillsEn;
-
-if (currentURL.includes('de.html')) {
-  techSkills = techSkillsDe;
-} else {
-  techSkills = techSkillsEn;
-}
-
 function renderTechSkills() {
+  const techSkills = getData('techSkills');
+
   const markup = techSkills
     .map(techSkill => {
       const { name, skills } = techSkill;
@@ -21,10 +13,10 @@ function renderTechSkills() {
           <p class="tech-skills-name">${name}</p>
           <ul class="tech-skills-category-list">
           ${skills
-            .map(skill => {
-              return `<li class="tech-skills-item">${skill}</li>`;
-            })
-            .join('')}
+          .map(skill => {
+            return `<li class="tech-skills-item">${skill}</li>`;
+          })
+          .join('')}
           </ul>
         </li>`;
     })

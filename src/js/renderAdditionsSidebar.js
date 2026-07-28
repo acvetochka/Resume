@@ -1,18 +1,11 @@
-import addDe from '../data/de/addition.json';
-import addEn from '../data/addition.json';
+import { getData } from "../utils/getData";
 
 const additionList = document.querySelector('.addition-list-sidebar');
-const currentURL = window.location.href;
-let add = addEn;
 
 function renderAdditionSidebar() {
-  if (currentURL.includes('de.html')) {
-    add = addDe;
-  } else {
-    add = addEn;
-  }
+  const cert = getData('cert');
 
-  const markup = add
+  const markup = cert
     .map(({ href, date, degree }) => {
       const linkDegree = degree.split(' ').join('_');
 

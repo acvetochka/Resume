@@ -1,16 +1,10 @@
-import langEn from '../data/languages.json';
-import langDe from '../data/de/languages.json';
+import { getData } from "../utils/getData";
 
 const langList = document.querySelector('.languages-list');
-const currentURL = window.location.href;
-let lang = langEn;
 
-if (currentURL.includes('de.html')) {
-  lang = langDe;
-} else {
-  lang = langEn;
-}
 function renderLanguages() {
+  const lang = getData('lang');
+
   const markup = lang
     .map(
       ({ title, level, cefr, grade }) =>
