@@ -13,8 +13,10 @@ if (currentURL.includes('de.html')) {
 function renderLanguages() {
   const markup = lang
     .map(
-      ({ title, level, cefr }) =>
-        `<li class="languages-item"><span class="languages-text">${title}: ${level} | ${cefr}</span></li>`
+      ({ title, level, cefr, grade }) =>
+        `<li class="languages-item"><span class="languages-text">
+      ${title}:  
+      ${grade === "native" ? `${level}` : `${cefr}`}</span ></li > `
     )
     .join('');
 

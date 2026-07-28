@@ -1,22 +1,21 @@
 [
   {
-    "title": "Deutsch",
-    "level": "Mittelstufe",
-    "cefr": "B2 (C1 in Vorbereitung)"
-  },
-  {
     "title": "Englisch",
     "level": "Mittelstufe",
     "cefr": "B1"
   },
   {
-    "title": "Ukrainisch",
-    "level": "Muttersprache",
-    "cefr": "C2",
-    "grade": "native"
+    "title": "Deutsch",
+    "level": "Mittelstufe",
+    "cefr": "B2 <br/> (C1 in Vorbereitung)"
   },
   {
-    "title": "Russisch",
+    "title": "Ukrainisch",
+    "level": "Muttersprache",
+    "cefr": "C2"
+  },
+  {
+    "title": "Rusisch",
     "level": "Verhandlungssicher",
     "cefr": "C2"
   }

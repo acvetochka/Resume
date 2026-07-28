@@ -1,0 +1,27 @@
+[
+  {
+    "position": "Linux & Network Administration Course",
+    "date": "01/2026 - 05/2026",
+    "company": "PortaOne Education Center",
+    "place": "Remote",
+    "duties": [
+      "Linux Administration & Automation: Hands-on administration of <b>Linux</b> systems, user and permission management, <b>Bash</b> scripting, automation of administrative tasks, and virtual machine setup using <b>Oracle VirtualBox</b>.",
+      "Networking: Configuration of <b>IP networks</b>, routing, <b>NAT</b>, <b>iptables</b> firewall, <b>FTP</b> servers, network traffic analysis, and troubleshooting.",
+      "Server Administration: Installation and configuration of <b>Apache</b>, <b>HTTPS/SSL</b>, virtual hosts, and <b>LAMP</b> environments.",
+      "Databases: Installation and administration of <b>MySQL</b>, user and permission management, database backups, and basic replication setup.",
+      "Troubleshooting & DevOps Fundamentals: Analysis and resolution of system and network issues, with foundational knowledge of <b>Docker</b>, <b>Kubernetes</b>, and <b>Ansible</b> gained through workshops."
+    ]
+  },
+  {
+    "position": "Full-Stack Web Developer Training Program",
+    "company": "IT-School GoIT",
+    "place": "Kyiv, Ukraine (remote)",
+    "date": "11/2022 - 10/2023",
+    "duties": [
+      "Frontend & Backend Development: Practical experience developing <b>5 individual</b> and <b>3 team projects</b> using <b>JavaScript</b>, <b>React</b>, <b>Node.js</b>, and <b>MongoDB</b>.",
+      "Agile Development & Team Leadership: Practical experience serving as <b>Team Lead</b> and <b>Scrum Master</b>, coordinating development teams of <b>up to 14 members</b>, including task distribution and sprint organization.",
+      "Code Quality & Version Control: Practical experience conducting <b>Code Reviews</b>, maintaining consistent coding standards, and managing version control with <b>GitHub</b>.",
+      "Technology Adoption & Code Optimization: Experience learning and applying new frameworks and libraries while continuously improving and optimizing existing applications."
+    ]
+  }
+]

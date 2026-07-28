@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Portfolio",
+    "src": "https://kuznietsova.org",
+    "github": "https://github.com/acvetochka/portfolio",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Styled Components",
+      "EmailJS",
+      "MailboxLayer API",
+      "Yup",
+      "Vercel",
+      "Git",
+      "GitHub"
+    ],
+    "description": [
+      "Entwicklung einer responsiven Portfolio-Website mit <b>Next.js</b>, <b>React</b> und <b>TypeScript</b> zur professionellen Präsentation von Projekten und technischen Fähigkeiten.",
+      "Entwicklung wiederverwendbarer <b>React-Komponenten</b> sowie Umsetzung moderner Animationen und eines konsistenten UI-Designs mit <b>Styled Components</b>.",
+      "Entwicklung eines Kontaktformulars mit mehrstufiger Validierung, Spam-Prüfung, E-Mail-Verifizierung sowie automatisiertem Nachrichtenversand über externe <b>REST APIs</b>.",
+      "Sicherstellung der <b>Cross-Browser-Kompatibilität</b> sowie Optimierung der Performance und Ladezeiten für verschiedene Browser und Endgeräte.",
+      "Deployment und kontinuierliche Wartung der Anwendung auf <b>Vercel</b> einschließlich Konfiguration automatisierter Bereitstellungsprozesse.",
+      "Erzielung einer <b>Lighthouse-Bewertung von 100/100</b> in den Kategorien Performance, Accessibility, Best Practices und SEO."
+    ],
+    "date": ["10/2024 - heute"]
+  },
+  {
+    "title": "Car Rental",
+    "src": "https://acvetochka.github.io/car-rental",
+    "github": "https://github.com/acvetochka/car-rental",
+    "technologies": [
+      "React",
+      "Redux Toolkit",
+      "React Router",
+      "Axios",
+      "Emotion Styles",
+      "Framer Motion",
+      "GitHub Actions",
+      "GitHub Pages"
+    ],
+    "description": [
+      "Entwicklung einer responsiven Webanwendung zur Fahrzeugsuche und -reservierung mit <b>React</b> unter Verwendung einer <b>komponentenbasierten Architektur</b>.",
+      "Verwaltung des Anwendungszustands mit <b>Redux Toolkit</b> sowie Integration einer <b>REST API</b> über <b>Axios</b> zur dynamischen Darstellung und Filterung von Fahrzeugdaten.",
+      "Implementierung interaktiver Such- und Filterfunktionen, einer Favoritenverwaltung mit <b>Local Storage</b> sowie einer Detailansicht in einem Modal.",
+      "Umsetzung eines responsiven Layouts sowie moderner Animationen mit <b>Emotion</b> und <b>Framer Motion</b> für eine konsistente Benutzererfahrung auf unterschiedlichen Endgeräten.",
+      "Einrichtung eines automatisierten <b>CI/CD</b>-Workflows mit <b>GitHub Actions</b> zur Bereitstellung der Anwendung auf <b>GitHub Pages</b>."
+    ],
+    "date": ["10/2023 - 11/2023"]
+  },
+  {
+    "title": "Goose Track",
+    "src": "https://nazarmural.github.io/goose-track-project/",
+    "github": "https://github.com/acvetochka/goose-track-project",
+    "technologies": [
+      "React",
+      "Redux Toolkit",
+      "React Router",
+      "Axios",
+      "REST API",
+      "Trello",
+      "Git",
+      "GitHub"
+    ],
+    "text": [
+      "Full-Stack Teamprojekt",
+      "Rolle: Frontend Team Lead, Scrum Master, Entwickler."
+    ],
+    "description": [
+      "Entwicklung einer responsiven Webanwendung mit <b>React</b> zur Verwaltung persönlicher Termine und Aufgaben einschließlich <b>Google-Authentifizierung</b> im Rahmen eines Full-Stack-Teamprojekts.",
+      "Entwicklung zentraler Funktionen des Monatskalenders einschließlich Benutzeroberfläche, Interaktionslogik und Zustandsverwaltung mit <b>Redux Toolkit</b> sowie enge Zusammenarbeit mit dem Backend-Team bei der Integration und Fehlerbehebung der <b>REST API</b>.",
+      "Leitung eines Frontend-Teams mit <b>9 Entwicklern</b>, Durchführung von <b>Code Reviews</b> sowie Sicherstellung einheitlicher Entwicklungsstandards.",
+      "Übernahme der Rolle des <b>Scrum Masters</b>, Organisation des Entwicklungsprozesses mit <b>Trello</b> sowie Moderation <b>agiler Meetings</b> und Koordination der Teamarbeit."
+    ],
+    "date": ["09/2023 - 10/2023"]
+  },
+  {
+    "title": "Phonebook",
+    "src": "https://acvetochka.github.io/Phonebook/",
+    "github": "https://github.com/acvetochka/Phonebook",
+    "technologies": [
+      "React",
+      "Redux Toolkit",
+      "Axios",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST API",
+      "DigitalOcean"
+    ],
+    "description": [
+      "Entwicklung einer responsiven Webanwendung zur Verwaltung persönlicher Kontakte mit <b>React</b> und <b>Redux Toolkit</b> sowie einer intuitiven Benutzeroberfläche.",
+      "Entwicklung einer <b>REST API</b> mit <b>Node.js</b>, <b>Express</b> und <b>MongoDB</b> zur Authentifizierung von Benutzern sowie Verwaltung und Speicherung von Kontaktdaten.",
+      "Anbindung des Frontends an die <b>REST API</b> mit <b>Axios</b> sowie Verwaltung des Anwendungszustands mit <b>Redux Toolkit</b>.",
+      "Implementierung von <b>CRUD</b>-Funktionen zum Erstellen, Bearbeiten, Löschen und Filtern von Kontakten sowie eines responsiven Designs für verschiedene Endgeräte.",
+      "Deployment des Backends auf einem <b>DigitalOcean</b>-Server einschließlich Konfiguration der Serverumgebung und Bereitstellung der Anwendung."
+    ],
+    "date": ["07/2023 - heute"]
+  }
+]

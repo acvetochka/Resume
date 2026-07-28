@@ -34,20 +34,21 @@ function render(arr, projects) {
             ${date.map(item => `<p >${item}</p>`).join('')}
             </div>
             </div>
-            ${
-              text &&
-              text
-                .map(item => `<p class="project-text text">${item}</p>`)
-                .join('')
-            }
+            <ul class="technologies-list">
+            ${technologies
+            .map(skill => `<li class="technology-item">${skill}</li>`)
+            .join('')}
+            </ul>
+            ${text &&
+          text
+            .map(item => `<p class="project-text text">${item}</p>`)
+            .join('')
+          }
             <ul class="work-list">
             ${description
-              .map(item => `<li class="work-list-item">${item}</li>`)
-              .join('')}
+            .map(item => `<li class="work-list-item">${item}</li>`)
+            .join('')}
             </ul>
-            <p class="project-bracket"> Technologies: ${technologies
-              .map(item => `${item}`)
-              .join(', ')}  </p>
           </li>`;
       }
     )
@@ -75,39 +76,3 @@ function renderButton() {
     // buttonHidden.style.display = 'block';
   }
 }
-
-// function renderButtonHidden() {
-//   const buttonHidden = () => {
-//     return `<li><button class="button-hidden">Hidden</button></li>`;
-//   };
-
-//   moreProjectList.insertAdjacentHTML('afterend', buttonHidden());
-//   const button = document.querySelector('.button-hidden');
-
-//   button.addEventListener('click', handleClick);
-
-//   function handleClick() {
-//     // button.style.display = 'none';
-//     moreProjectList.style.display = 'none';
-//     button.style.display = 'none';
-//   }
-// }
-
-// function renderProjects() {
-//   if (currentURL.includes('de.html')) {
-//     projects = projectsDe;
-//   } else {
-//     projects = projectsEn;
-//   }
-
-//   // const firstProjects = projects.slice(0, 3);
-//   // const additionProjects = projects.slice(3);
-
-//   // render(firstProjects, projectList);
-//   // // renderButtonHidden();
-//   // renderButton();
-//   // render(additionProjects, moreProjectList);
-//   render(projects, projectList)
-// }
-
-// renderProjects();
