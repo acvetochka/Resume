@@ -1,6 +1,9 @@
 import aboutEn from '../data/about.json';
 import aboutDe from '../data/de/about.json';
 
+import contactsEn from '../data/contacts.json';
+import contactsDe from '../data/de/contacts.json';
+
 import workEn from '../data/work.json';
 import workDe from '../data/de/work.json';
 
@@ -28,6 +31,7 @@ import softSkillsDe from '../data/de/softSkills.json';
 export const data = {
   en: {
     about: aboutEn,
+    contacts: contactsEn,
     work: workEn,
     projects: projectsEn,
     internship: internshipEn,
@@ -40,6 +44,7 @@ export const data = {
 
   de: {
     about: aboutDe,
+    contacts: contactsDe,
     work: workDe,
     projects: projectsDe,
     internship: internshipDe,

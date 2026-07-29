@@ -1,9 +1,9 @@
-import contacts from '../data/contacts.json';
-// import icons from 'url:../img/icons.svg';
+import { getData } from "../utils/getData";
 
 const contactsList = document.querySelector('.contacts-list');
 
 function renderContacts() {
+  const contacts = getData('contacts');
   const markup = contacts
     .map(({ name, href, text, target, title }) => {
       return `
