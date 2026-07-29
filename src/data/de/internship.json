@@ -5,11 +5,26 @@
     "company": "PortaOne Education Center",
     "place": "Remote",
     "duties": [
-      "Linux-Administration & Automatisierung: Praktische Administration von <b>Linux</b>-Systemen, Benutzer- und Rechteverwaltung, <b>Bash</b>-Scripting, Automatisierung administrativer Aufgaben sowie Einrichtung virtueller Maschinen mit <b>Oracle VirtualBox</b>.",
-      "Netzwerktechnik: Konfiguration von <b>IP-Netzwerken</b>, Routing, <b>NAT</b>, <b>iptables</b>-Firewall, <b>FTP</b>-Servern sowie Analyse des Netzwerkverkehrs und Fehlerbehebung.",
-      "Serveradministration: Einrichtung und Konfiguration von <b>Apache</b>, <b>HTTPS/SSL</b>, virtuellen Hosts sowie <b>LAMP</b>-Umgebungen.",
-      "Datenbanken: Installation und Administration von <b>MySQL</b>, Konfiguration von Benutzern und Berechtigungen, Erstellung von Backups sowie Einrichtung grundlegender Replikation.",
-      "Troubleshooting & DevOps-Grundlagen: Analyse und Behebung von System- und Netzwerkproblemen sowie grundlegende Kenntnisse in <b>Docker</b>, <b>Kubernetes</b> und <b>Ansible</b> aus Workshops."
+      "Praktische Administration von Linux-Systemen einschließlich Bash-Automatisierung und Virtualisierung.",
+      "Praktische Konfiguration von Netzwerken, Webservern und MySQL-Datenbanken.",
+      "Analyse und Behebung von System- und Netzwerkproblemen sowie praktische Grundlagen in Docker, Kubernetes und Ansible"
+    ],
+    "technologies": [
+      "Linux",
+      "Bash",
+      "Oracle VirtualBox",
+      "TCP/IP",
+      "Routing",
+      "NAT",
+      "iptables",
+      "FTP",
+      "Apache",
+      "HTTPS/SSL",
+      "LAMP",
+      "MySQL",
+      "Docker",
+      "Kubernetes",
+      "Ansible"
     ]
   },
   {
@@ -18,10 +33,23 @@
     "place": "Kiew, Ukraine (remote)",
     "date": "11/2022 - 10/2023",
     "duties": [
-      "Frontend- & Backend-Entwicklung: Entwicklung von <b>5 Einzel-</b> und <b>3 Teamprojekten</b> mit <b>JavaScript</b>, <b>React</b>, <b>Node.js</b> und <b>MongoDB</b>.",
-      "Agile Arbeitsweise | Teamführung: Übernahme der Rollen <b>Team Lead</b> und <b>Scrum Master</b> mit Verantwortung für die Koordination von Entwicklungsteams mit <b>bis zu 14 Mitgliedern</b>, Aufgabenverteilung und Sprintorganisation.",
-      "Code-Qualität | Versionsverwaltung: Durchführung von <b>Code Reviews</b> sowie Sicherstellung einheitlicher Entwicklungsstandards und Versionsverwaltung mit <b>GitHub</b>.",
-      "Technologieeinsatz | <b>Codeoptimierung</b>: Einarbeitung in neue Frameworks und Bibliotheken sowie kontinuierliche Optimierung und Weiterentwicklung bestehender Anwendungen."
+      "Entwickelte im Rahmen praxisorientierter Projekte 5 Einzel- und 3 Teamprojekte im Bereich Frontend- und Full-Stack-Entwicklung.",
+      "Übernahm die Rollen Team Lead und Scrum Master, koordinierte Entwicklungsteams mit bis zu 14 Mitgliedern und organisierte Aufgabenverteilung sowie Sprintplanung.",
+      "Führte Code Reviews durch, arbeitete mit GitHub und stellte einheitliche Entwicklungsstandards im Team sicher."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "BEM",
+      "JavaScript",
+      "React",
+      "Redux Toolkit",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Git",
+      "GitHub"
     ]
   }
 ]

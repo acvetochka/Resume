@@ -1,11 +1,11 @@
 .internship-list {
   list-style: none;
   position: relative;
-  margin-left: 20px;
+  // margin-left: 20px;
 }
 
 .internship-list::before {
-  content: '';
+  // content: '';
   width: 1px;
   background: gray;
   position: absolute;
@@ -15,10 +15,10 @@
 }
 
 .internship-item {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    border-bottom: 1px dotted lightgray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  border-bottom: 1px dotted lightgray;
 }
 
 .internship-item:last-child {
@@ -26,7 +26,7 @@
 }
 
 .internship-item::before {
-  content: '';
+  // content: '';
   width: 10px;
   border-radius: 50px;
   border: 1px solid gray;
@@ -64,23 +64,23 @@
   }
 }
 
-.line {
-  font-size: 12px;
-  line-height: 15px;
-  color: #000000;
-}
+// .line {
+//   font-size: 12px;
+//   line-height: 15px;
+//   color: #000000;
+// }
 
-.work-list {
-    padding: 0;
-    margin-left: 15px;
-}
+// .work-list {
+//   padding: 0;
+//   margin-left: 20px;
+// }
 
-.work-list-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    list-style-type: disc;
-    text-align: justify;
-}
+// .work-list-item {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 24px;
+//   color: #595959;
+//   list-style-type: disc;
+//   text-align: justify;
+// }
