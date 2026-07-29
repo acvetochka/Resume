@@ -33,17 +33,6 @@
   color: gray;
 }
 
-// .projects-list::before,
-// .more-projects-list::before {
-//   content: '';
-//   width: 1px;
-//   background: gray;
-//   position: absolute;
-//   height: calc(100% - 10px);
-//   left: -20px;
-//   top: 5px;
-// }
-
 .project-item {
   font-size: 14px;
   line-height: 1.5;
@@ -53,18 +42,6 @@
   position: relative;
   border-bottom: 1px dotted lightgray;
 }
-
-// .project-item::before {
-//   content: '';
-//   width: 10px;
-//   border-radius: 50px;
-//   border: 1px solid gray;
-//   background: white;
-//   position: absolute;
-//   height: 10px;
-//   left: -25px;
-//   top: 5px;
-// }
 
 .project {
   font-weight: 700;
