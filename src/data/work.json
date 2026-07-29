@@ -1,18 +1,16 @@
 [
   {
-    "position": "Full-Stack Developer",
+    "position": "Full-Stack Software Engineer",
     "date": "06/2025 - Present",
     "company": "DoGood Impact Inc.",
     "place": "USA (Remote)",
     "duties": [
-      "Developed and optimized scalable frontend and backend components using <b>React</b>, <b>Next.js, TypeScript, PostgreSQL</b>, and <b>Prisma</b> for an international non-profit platform.",
-      "Designed and implemented interfaces between frontend and backend to ensure consistent data structures and reliable data communication.",
-      "Created and maintained technical project documentation (architecture, API, data flows) using <b>VitePress</b>, improving maintainability and knowledge sharing across the team.",
-      "Automated <b>API documentation</b> by implementing <b>CI/CD</b> workflows with <b>GitHub Actions</b> and <b>Swagger</b>, reducing manual effort and increasing development efficiency.",
-      "Developed <b>automation scripts</b> for recurring tasks (e.g., component and icon exports) to streamline the development workflow.",
-      "Collaborated closely with frontend, backend, and design teams on the development of an <b>MVP</b>, participating in <b>Sprint Planning</b>, <b>Refinement sessions</b>, and <b>Code Reviews</b>.",
-      "Continuously improved the scalability, maintainability, and reusability of the application architecture.",
-      "Independently delivered technical solutions while ensuring the quality, reliability, and stability of the developed components."
+      "Developed and optimized scalable frontend and backend components for an international nonprofit platform, ensuring a stable and maintainable application architecture.",
+      "Designed and implemented interfaces between frontend and backend services to provide consistent data structures and reliable communication.",
+      "Created and maintained technical project documentation, improving maintainability and knowledge sharing across the team.",
+      "Automated API documentation and repetitive development workflows, reducing manual effort and increasing efficiency.",
+      "Collaborated closely with frontend, backend and design teams throughout MVP development, actively participating in sprint planning, backlog refinement and code reviews.",
+      "Delivered technical solutions independently while ensuring the quality, reliability and maintainability of implemented features."
     ],
     "technologies": [
       "React",
@@ -32,12 +30,11 @@
     "place": "Kyiv, Ukraine (remote)",
     "date": "11/2023 - 12/2023",
     "duties": [
-      "Developed interactive user interfaces for the website of a commercial client (SmileBar) using <b>React</b>, <b>Next.js</b>, and <b>Tailwind CSS</b>, ensuring an intuitive user experience.",
-      "Implemented dynamic <b>tab components</b> for the Benefits and FAQ sections to improve usability and interactivity.",
-      "Customized the <b>Tailwind CSS</b> configuration and developed reusable <b>UI components</b> and animations to ensure a consistent design system.",
-      "Analyzed and resolved <b>cross-browser compatibility</b> issues to ensure consistent behavior across different browsers and devices.",
-      "Collaborated with developers and designers in an <b>Agile Scrum</b> team using <b>Figma</b> and <b>Trello</b> to deliver project milestones on schedule.",
-      "Independently delivered assigned frontend tasks while maintaining high code quality and meeting project requirements."
+      "Developed interactive user interfaces for a commercial client, delivering an intuitive and userfriendly experience.",
+      "Implemented dynamic tab components for the \"Benefits\" and \"FAQ\" sections, improving website interactivity.",
+      "Built reusable UI components, customized the Tailwind configuration and ensured a consistent design system.",
+      "Analyzed and resolved cross-browser compatibility issues to provide a consistent experience across modern browsers and devices.",
+      "Collaborated with developers and designers in an Agile Scrum team to deliver project milestones on schedule."
     ],
     "reference": [
       "https://smile-bar.vercel.app",
