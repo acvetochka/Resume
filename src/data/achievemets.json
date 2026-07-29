@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Team Leadership",
+    "description": "Led development teams of up to 14 members, coordinated sprint planning, and conducted code reviews."
+  },
+  {
+    "title": "Software Quality",
+    "description": "Developed a portfolio website that achieved a 100/100 Lighthouse score for Performance, Accessibility, Best Practices, and SEO."
+  },
+  {
+    "title": "Deployment & Infrastructure",
+    "description": "Independently deployed and administered full-stack applications on DigitalOcean, including Linux server provisioning, configuration, and application deployment."
+  },
+  {
+    "title": "Documentation & Architecture",
+    "description": "Designed the technical documentation architecture and automated the generation of backend Swagger documentation using GitHub Actions."
+  }
+]

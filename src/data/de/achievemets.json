@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Teamleitung",
+    "description": "Leitung von Entwicklungsteams mit bis zu 14 Mitgliedern, Code Reviews und Sprintkoordination."
+  },
+  {
+    "title": "Softwarequalität",
+    "description": "Portfolio mit Lighthouse 100/100 in Performance, Accessibility, Best Practices und SEO"
+  },
+  {
+    "title": "Deployment & Infrastruktur",
+    "description": "Eigenständige Bereitstellung und Administration von Full-StackAnwendungen auf einem DigitalOceanServer einschließlich Serverkonfiguration."
+  },
+  {
+    "title": "Dokumentation & Architektur",
+    "description": "Konzipierte und entwickelte die technische Projektdokumentation für das gesamte Entwicklungsteam und automatisierte deren Bereitstellung mit GitHub Actions und Swagger."
+  }
+]

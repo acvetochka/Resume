@@ -1,6 +1,7 @@
 import './js/renderAbout';
 import './js/renderProjects';
 import './js/renderWorkExperience';
+import './js/renderAchievements';
 // import './js/renderFurtherEducation';
 import './js/renderInternship';
 import './js/renderTechSkills';

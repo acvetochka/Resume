@@ -1,0 +1,29 @@
+// .achievements {
+//   h2 {
+//     margin-bottom: 40px;
+//   }
+// }
+
+.achievements-list {
+  list-style: none;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 600px) {
+  .achievements-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 3rem; /* row-gap column-gap */
+  }
+}
+
+.achievement-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
+}
