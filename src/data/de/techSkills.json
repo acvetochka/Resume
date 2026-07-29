@@ -1,52 +1,50 @@
 [
   {
-    "name": "Programmiersprachen",
-    "skills": ["JavaScript", "TypeScript", "Python"]
-  },
-  {
     "name": "Frontend",
     "skills": [
       "HTML5",
-      "CSS3/SASS",
-      "React",
       "Redux",
+      "CSS3/SASS",
       "Redux Toolkit",
+      "JavaScript",
       "Zustand",
+      "TypeScript",
+      "Axios",
+      "React",
+      "A11y",
       "Next.js",
-      "Vue.js",
-      "Adaptive design",
-      "A11y"
+      "Responsive design",
+      "Vue.js"
     ]
   },
   {
-    "name": "Backend & Datenbanken",
+    "name": "Backend & Infrastructure",
     "skills": [
       "Node.js",
-      "MongoDB",
-      "Express.js",
-      "REST API",
-      "PostgreSQL",
-      "Prisma",
-      "MySQL"
-    ]
-  },
-  {
-    "name": "DevOps & Tool",
-    "skills": [
       "Linux",
+      "Express.js",
       "Docker",
+      "REST API",
       "CI/CD",
+      "PostgreSQL",
+      "GIT/Github",
+      "MySQL",
       "GitHub Actions",
-      "DigitalOcean",
-      "SSH"
+      "MongoDB",
+      "SSH",
+      "Prisma",
+      "DigitalOcean"
     ]
   },
   {
-    "name": "API & Documentation",
-    "skills": ["JSON/YAML", "Markdown", "Swagger (OpenAPI)", "VitePress"]
-  },
-  {
-    "name": "Weitere Tools & Technologien",
-    "skills": ["GIT/Github", "Axios", "Webpack", "Parcel"]
+    "name": "Automation & Documentation",
+    "skills": [
+      "Python",
+      "Markdown",
+      "Bash scripting",
+      "JSON/YAML",
+      "Swagger",
+      "VitePress"
+    ]
   }
 ]

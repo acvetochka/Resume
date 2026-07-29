@@ -100,7 +100,6 @@
   // color: #595959;
   color: #323b4c;
   font-size: 14px;
-
 }
 
 // .tech-skills-list li {
@@ -111,7 +110,7 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: square;
-  justify-content: space-between;
+  // justify-content: space-between;
   // margin-left: 18px;
   margin-bottom: 8px;
   font-size: 14px;
@@ -120,6 +119,7 @@
   & li {
     width: 43%;
     margin-left: 15px;
+    text-wrap: nowrap;
   }
 }
 
